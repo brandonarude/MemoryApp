@@ -4,8 +4,10 @@ import {
   TouchableOpacity,
   Text,
   View,
+  Alert,
 } from 'react-native'
 import {findDate} from './src/Components/Atoms/findDate.js'
+import {incrementDayCounter} from './src/Components/Atoms/incrementDayCounter.js'
 
 function RetrievePassage(props){
   return(
@@ -21,9 +23,11 @@ class Hello extends Component {
   render() {
     let thing = 5000000;
     let fullDate = findDate();
+    let newDay = incrementDayCounter(fullDate);
     return (
       <View>
-        <RetrievePassage day={fullDate[1]} />
+
+        <RetrievePassage day={newDay} />
       </View>
 
     )
