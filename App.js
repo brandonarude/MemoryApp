@@ -16,6 +16,7 @@ class Hello extends Component {
         Hello, World.
         </Text>
       </View>
+      
     )
   }
 }
