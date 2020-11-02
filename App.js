@@ -17,18 +17,16 @@ constructor(props){
   super(props);
   this.state = {
     date: "",
+    saved: ""
   };
 
-  let dataToSave = "Importing Save File";
+  let dataToSave = "Test Again";
 
   save(dataToSave);
 }
 
 componentDidMount() {
-
-
-
-  const load = async () => {
+  {/*const load = async () => {
     try {
       let thing = await AsyncStorage.getItem("MyName");
       if(thing!== null){
@@ -39,10 +37,11 @@ componentDidMount() {
     } catch {
       alert("Something went wrong with loading the data");
     }
-  }
+  }*/}
 
 
-    load();
+    let loadedDate = retrieveStoredDate();
+    loadedDate.then(loadedDate => this.setState({date: loadedDate}));
 }
 
 render(){
@@ -61,6 +60,8 @@ const styles = StyleSheet.create({
   container: {
     flex:1,
     padding: 24,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   title: {
     fontSize: 30,
