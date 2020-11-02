@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import React, { useState, useEffect, Component } from 'react'
 import {
   StyleSheet,
@@ -11,6 +12,7 @@ import {incrementDayCounter} from './src/Components/Atoms/incrementDayCounter.js
 import {retrieveStoredDate} from './src/Components/Atoms/retrieveStoredDate.js'
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {save} from './src/Components/Atoms/saveAsyncData.js'
+import {LinearGradient} from 'expo-linear-gradient';
 
 class Hello extends Component {
 constructor(props){
@@ -26,31 +28,17 @@ constructor(props){
 }
 
 componentDidMount() {
-  {/*const load = async () => {
-    try {
-      let thing = await AsyncStorage.getItem("MyName");
-      if(thing!== null){
-        this.setState({date: thing});
-      } else {
-        this.setState({date: "Something's gone wrong"});
-      }
-    } catch {
-      alert("Something went wrong with loading the data");
-    }
-  }*/}
-
-
     let loadedDate = retrieveStoredDate();
     loadedDate.then(loadedDate => this.setState({date: loadedDate}));
 }
 
 render(){
     return(
-      <View style={styles.container}>
+      <LinearGradient start={[.6,0]} colors={['#d500ff', '#6306aa', '#340979']} style={styles.container}>
       <Text style={styles.title}>
       {this.state.date}
       </Text>
-      </View>
+      </LinearGradient>
     )
   }
 
@@ -62,6 +50,8 @@ const styles = StyleSheet.create({
     padding: 24,
     alignItems: 'center',
     justifyContent: 'center',
+    margin:20,
+    borderRadius: 5,
   },
   title: {
     fontSize: 30,
