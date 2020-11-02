@@ -18,16 +18,21 @@ constructor(props){
     date: "",
   };
 
-}
+  let dataToSave = "Trying out a variable";
 
-componentDidMount() {
-  const save = async () => {
+  const save = async (dataToSave) => {
     try{
-      await AsyncStorage.setItem("MyName", "this is a test!");
+      await AsyncStorage.setItem("MyName", dataToSave);
     } catch {
       alert("Something has gone wrong with saving the data.");
     }
   }
+  save(dataToSave);
+}
+
+componentDidMount() {
+
+
 
   const load = async () => {
     try {
@@ -42,8 +47,8 @@ componentDidMount() {
     }
   }
 
-  save();
-  load();
+
+    load();
 }
 
 render(){
