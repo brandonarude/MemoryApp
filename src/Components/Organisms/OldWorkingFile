@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import React, { useState, useEffect, Component } from 'react'
 import {
   StyleSheet,
@@ -10,120 +11,51 @@ import {findDate} from './src/Components/Atoms/findDate.js'
 import {incrementDayCounter} from './src/Components/Atoms/incrementDayCounter.js'
 import {retrieveStoredDate} from './src/Components/Atoms/retrieveStoredDate.js'
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
-function RetrievePassage(props){
-  return(
-    <Text>
-      {props.day}
-    </Text>
-  );
-}
-
-
-
-{/*export default function App() {
-
-  const [name, setName] = useState();
-
-  const load = async () =>{
-    try {
-      let value = await AsyncStorage.getItem("MyName");
-      if(value !== null) {
-        return value;
-      }
-    } catch {
-      alert(err);
-    }
-  }
-
-  const save = async () => {
-    try{
-      await AsyncStorage.setItem("MyName", "2020");
-
-    } catch {
-      alert(err)
-    }
-  }
-  useEffect(() => {
-    save()
-  })
-
-  setName(useEffect(()=> {
-    load();
-  }));
-
-
-  return (
-    <View>
-      <Text>
-      {  name }
-      </Text>
-    </View>
-
-  )
-
-}*/}
+import {save} from './src/Components/Atoms/saveAsyncData.js'
+import {LinearGradient} from 'expo-linear-gradient';
 
 class Hello extends Component {
 constructor(props){
   super(props);
-  var thing = 10000;
   this.state = {
-    day: "",
-    answer: ""
+    date: "",
+    saved: ""
   };
 
+  let dataToSave = "Test Again";
+
+  save(dataToSave);
 }
 
-componentDidMount(){
-  try{
-    return retrieveStoredDate().then(
-      alert("Here!")
-    );
-
-  } catch {
-    alert("something's gone wrong");
-  }
+componentDidMount() {
+    let loadedDate = retrieveStoredDate();
+    loadedDate.then(loadedDate => this.setState({date: loadedDate}));
 }
 
-  render() {
-    {/*const load = async () =>{
-      try {
-        let value = await AsyncStorage.getItem("MyName");
-        if(value !== null) {
-          this.setState({day: value});
-        }
-      } catch {
-        alert(err);
-      }
-    }
-
-    const save = async () => {
-      try{
-        await AsyncStorage.setItem("MyName", "Hey?");
-
-      } catch {
-        alert(err)
-      }
-    }
-    save();
-    load();
-    */}
-
-
-    let fullDate = findDate();
-    let newDay = incrementDayCounter(fullDate);
-    return (
-      <View>
-
-        <RetrievePassage day={this.state.day} />
-      </View>
-
+render(){
+    return(
+      <LinearGradient start={[.6,0]} colors={['#d500ff', '#6306aa', '#340979']} style={styles.container}>
+      <Text style={styles.title}>
+      {this.state.date}
+      </Text>
+      </LinearGradient>
     )
-
   }
+
 }
 
-
+const styles = StyleSheet.create({
+  container: {
+    flex:1,
+    padding: 24,
+    alignItems: 'center',
+    justifyContent: 'center',
+    margin:20,
+    borderRadius: 5,
+  },
+  title: {
+    fontSize: 30,
+  }
+});
 
 export default Hello;
