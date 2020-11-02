@@ -10,6 +10,7 @@ import {findDate} from './src/Components/Atoms/findDate.js'
 import {incrementDayCounter} from './src/Components/Atoms/incrementDayCounter.js'
 import {retrieveStoredDate} from './src/Components/Atoms/retrieveStoredDate.js'
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {save} from './src/Components/Atoms/saveAsyncData.js'
 
 class Hello extends Component {
 constructor(props){
@@ -18,15 +19,8 @@ constructor(props){
     date: "",
   };
 
-  let dataToSave = "Trying out a variable";
+  let dataToSave = "Importing Save File";
 
-  const save = async (dataToSave) => {
-    try{
-      await AsyncStorage.setItem("MyName", dataToSave);
-    } catch {
-      alert("Something has gone wrong with saving the data.");
-    }
-  }
   save(dataToSave);
 }
 
