@@ -4,108 +4,68 @@ import {
   TouchableOpacity,
   Text,
   View,
-  Alert,
-  AsyncStorage
+  Alert
 } from 'react-native'
 import {findDate} from './src/Components/Atoms/findDate.js'
 import {incrementDayCounter} from './src/Components/Atoms/incrementDayCounter.js'
 import {retrieveStoredDate} from './src/Components/Atoms/retrieveStoredDate.js'
-//import AsyncStorage from '@react-native-async-storage/async-storage';
-
-function RetrievePassage(props){
-  return(
-    <Text>
-      {props.day}
-    </Text>
-  );
-}
-
-
-{/*export default function App() {
-
-  const [name, setName] = useState();
-
-  const load = async () =>{
-    try {
-      let value = await AsyncStorage.getItem("MyName");
-      if(value !== null) {
-        return value;
-      }
-    } catch {
-      alert(err);
-    }
-  }
-
-  const save = async () => {
-    try{
-      await AsyncStorage.setItem("MyName", "2020");
-
-    } catch {
-      alert(err)
-    }
-  }
-  useEffect(() => {
-    save()
-  })
-
-  setName(useEffect(()=> {
-    load();
-  }));
-
-
-  return (
-    <View>
-      <Text>
-      {  name }
-      </Text>
-    </View>
-
-  )
-
-}*/}
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 class Hello extends Component {
 constructor(props){
   super(props);
-  var thing = 10000;
   this.state = {
-    day: ""
+    date: "",
   };
 
-
-
-
 }
 
-
-  render() {
-    const load = async () =>{
-      try {
-        let value = await AsyncStorage.getItem("MyName");
-        if(value !== null) {
-          this.setState({day: value});
-        }
-      } catch {
-        alert(err);
-      }
+componentDidMount() {
+  const save = async () => {
+    try{
+      await AsyncStorage.setItem("MyName", "this is a test!");
+    } catch {
+      alert("Something has gone wrong with saving the data.");
     }
-
-    
-    load();
-
-    let fullDate = findDate();
-    let newDay = incrementDayCounter(fullDate);
-    return (
-      <View>
-
-        <RetrievePassage day={this.state.day} />
-      </View>
-
-    )
-
   }
+
+  const load = async () => {
+    try {
+      let thing = await AsyncStorage.getItem("MyName");
+      if(thing!== null){
+        this.setState({date: thing});
+      } else {
+        this.setState({date: "Something's gone wrong"});
+      }
+    } catch {
+      alert("Something went wrong with loading the data");
+    }
+  }
+
+  save();
+  load();
 }
 
+render(){
+    return(
+      <View style={styles.container}>
+      <Text style={styles.title}>
+      {this.state.date}
+      </Text>
+      </View>
+    )
+  }
 
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex:1,
+    padding: 24,
+  },
+  title: {
+    fontSize: 30,
+  }
+});
 
 export default Hello;

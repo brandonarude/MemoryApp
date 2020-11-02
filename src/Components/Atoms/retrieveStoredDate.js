@@ -1,17 +1,32 @@
-import {findDate} from "./findDate.js"
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {useEffect, useState} from 'react';
 
 export async function retrieveStoredDate() {
-return "Hello";
-    try {
-      const value = await AsyncStorage.getItem('@storage_Key')
-      if(value !== null) {
-        return "Hello";
-      } else {
-        return "Hello";
-      }
-    } catch(e) {
 
+    const load = async () =>{
+      try {
+        let value = await AsyncStorage.getItem("MyName");
+        if(value !== null) {
+          alert("here1");
+          return value;
+        }
+      } catch {
+        alert("err");
+      }
     }
-    return "Hello";
-}
+
+    const save = async () => {
+      try{
+        await AsyncStorage.setItem("MyName", "2020");
+        alert("here");
+      } catch {
+        alert("err")
+      }
+    }
+       save()
+      let name =  load();
+
+return name;
+
+
+  }
