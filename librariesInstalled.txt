@@ -13,3 +13,7 @@ import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 Tab Navigator
 npm install @react-navigation/bottom-tabs
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+React Drawer
+npm install @react-navigation/drawer
+import { createDrawerNavigator } from '@react-navigation/drawer';
