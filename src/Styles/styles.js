@@ -2,6 +2,15 @@ import React from "react";
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#fff',
+    width: '100%',
+    height: '100%'
+  },
+  //Style for botton tab navigation
   bottonTabNavigation: {
       backgroundColor: 'transparent',
       position: 'absolute',
@@ -21,6 +30,18 @@ const styles = StyleSheet.create({
       width: "50%",
       left: "25%"
   },
+
+  //Styles for Hamburger Button container + button to open drawer
+  drawerHamburgerContainer: {
+    position: "absolute",
+    top: 30,
+    left: 12,
+  },
+  drawerHamburgerImage: {
+    height: 35,
+    width: 35,
+    resizeMode: 'stretch',
+  }
 })
 
 export default styles
