@@ -1,9 +1,16 @@
 import * as React from 'react';
 import { useState, Component } from 'react';
-import { Button, View, Text, TextInput, Easing } from 'react-native';
+import { Button, View, Text, TextInput, Easing, Image } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator, TransitionPresets, CardStyleInterpolators } from '@react-navigation/stack';
 import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import styles from './src/Styles/styles.js';
+
+const images = {
+  tabImageSelected: require('./src/Assets/Images/tabIconSelected.png'),
+  tabImageUnselected: require('./src/Assets/Images/tabIconUnselected.png')
+}
 
 class HomeScreen extends Component {
 
@@ -28,11 +35,13 @@ class HomeScreen extends Component {
     return (
       <GestureRecognizer
         onSwipeLeft={() => this.props.navigation.navigate('Details')}
-        onSwipeRight={() => this.props.navigation.navigate('Details')}
         config={config}
         style={{
           flex: 1,
-          backgroundColor: this.state.backgroundColor
+          alignItems: 'center', justifyContent: 'center',
+          backgroundColor: '#fff',
+          width: '100%',
+          height: '100%'
         }}
         >
         <Text>{this.state.myText}</Text>
@@ -42,22 +51,82 @@ class HomeScreen extends Component {
   }
 }
 
-function Details({ navigation, route }) {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>
-        Hello there!
-      </Text>
-    </View>
-  );
+class Details extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+      navigation: props.navigation,
+    }
+    let thing = './src/Assets/Images/tabIconSelected.png';
+
+  }
+
+  render(){
+    const config = {
+      velocityThreshold: 0.3,
+      directionalOffsetThreshold: 80
+    };
+
+
+
+    return (
+
+
+
+      <GestureRecognizer
+      style={{ flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#fff',
+        width: '100%',
+        height: '100%' }}
+      onSwipeRight={() => this.props.navigation.navigate('Home')}
+      config={config}
+      >
+        <Text>
+          Hello there!
+        </Text>
+      </GestureRecognizer>
+    );
+  }
+
 }
+
+const Tab = createBottomTabNavigator();
+
+const dailyReadingTabNavigator = () => (
+  <Tab.Navigator
+  screenOptions={({ route }) => ({
+          tabBarIcon: ({ focused }) => {
+            let iconName = './src/Assets/Images/tabIconSelected.svg';
+
+            if (route.name === 'Home') {
+              iconName = focused
+                ? images.tabImageSelected
+                : images.tabImageUnselected
+            } else if (route.name === 'Details') {
+              iconName = focused
+                ? images.tabImageSelected
+                : images.tabImageUnselected
+            }
+            return <Image source={iconName} style={{ height: 15, width: 15, resizeMode: 'stretch'}} />;
+          },
+        })}
+        tabBarOptions={{
+          activeTintColor: 'tomato',
+          inactiveTintColor: 'gray',
+          showLabel: false,
+          style: styles.bottonTabNavigation,
+        }}>
+    <Tab.Screen name="Home" component={HomeScreen} />
+    <Tab.Screen name="Details" component={Details} />
+  </Tab.Navigator>
+);
 
 const Stack = createStackNavigator();
 
 
 function App() {
-
-
 
   return (
     <NavigationContainer>
@@ -65,18 +134,16 @@ function App() {
       headerMode="float"
       screenOptions={{
         cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
+        headerShown: false,
       }}
       >
       <Stack.Screen
         name="Home"
-        component={HomeScreen}
+        component={dailyReadingTabNavigator}
       />
       <Stack.Screen
         name="Details"
-        component={Details}
-        options={{
-
-        }}
+        component={dailyReadingTabNavigator}
       />
     </Stack.Navigator>
     </NavigationContainer>

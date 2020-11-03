@@ -9,3 +9,7 @@ import 'react-native-gesture-handler'; (This needs to go at the top)
 react-native-swipe-gestures
 npm i -S react-native-swipe-gestures
 import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
+
+Tab Navigator
+npm install @react-navigation/bottom-tabs
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
