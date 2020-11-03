@@ -1,0 +1,73 @@
+Context for things like language
+
+InitialRouteName in stack.navigator to set proper screen when someone logs into the app
+
+Whether or not to show the header
+screenOptions={{headerShown: false}}
+
+Handle gestures for progressing for different languages
+
+Screen Transitions between regular pages
+CardStyleInterpolators
+cardStyleInterpolator.CardStyleInterpolators.forFadeFromBottonAndroid
+
+Screen Transitions between daily reading
+CardStyleInterpolators
+cardStyleInterpolator.CardStyleInterpolators.horizonalIOS
+
+Should always be able to swipe to get back a page
+
+Screens:
+
+Language Selection
+  Enabled
+    English
+    Hindi
+  Disabled
+    Farsi
+    Telagu
+    Mirathra
+    Nepali
+    Punjabi
+    Tamil
+    Orria
+    Kannada
+    Arabic
+
+Daily Reading screens - Shared NavigationContainer
+  Daily Passage
+    Verse
+    Reference
+  Truth Proclamation
+    Truths for yourself
+    Truths for others
+  Daily Prayer
+    Prayer
+  *The fifth Voice
+    Pick an encouragement to send to someone today
+
+Memorization Checklist
+
+Settings Screen
+  Language Selection
+
+Covenant to Memorize Scripture
+  Covenant
+
+About - Discrete Pages
+  The Five Voices
+    list of five Voices
+    Proverbs Passage
+    Additional text
+  Meaning of Key words
+    Text
+  Translations used
+    Text relevant to selected language
+  Power of God's word in us
+    Text
+
+Cabinet containing links to:
+  Daily reading
+  Settings
+  About (Drop down to access the discrete pages listed above)
+  Covenant

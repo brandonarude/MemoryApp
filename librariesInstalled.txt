@@ -5,3 +5,7 @@ React Navigation
 npm install @react-navigation/native @react-navigation/stack
 expo install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
 import 'react-native-gesture-handler'; (This needs to go at the top)
+
+react-native-swipe-gestures
+npm i -S react-native-swipe-gestures
+import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
