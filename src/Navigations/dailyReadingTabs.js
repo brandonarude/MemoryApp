@@ -9,6 +9,9 @@ import DailyEncouragement from './Screens/dailyEncouragement.js';
 import styles from '../Styles/styles.js';
 import images from '../Assets/Images/imageLibrary.js'
 
+//  Renders main page with daily memorization, prayer,
+//  five voices, and encouragements
+
 const Tab = createBottomTabNavigator();
 
 export default function DailyReadingTabs() {
@@ -38,8 +41,6 @@ export default function DailyReadingTabs() {
             },
           })}
           tabBarOptions={{
-            activeTintColor: 'tomato',
-            inactiveTintColor: 'gray',
             showLabel: false,
             style: styles.bottonTabNavigation,
           }}>

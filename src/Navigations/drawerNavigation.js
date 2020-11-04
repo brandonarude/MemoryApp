@@ -8,7 +8,7 @@ const Drawer = createDrawerNavigator();
 export default function AppDrawer() {
   return (
       <Drawer.Navigator>
-        <Drawer.Screen name="Home" component={DailyReadingTabs} />
+        <Drawer.Screen name="Today's Reading" component={DailyReadingTabs} />
       </Drawer.Navigator>
   );
 }
