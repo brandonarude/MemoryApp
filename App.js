@@ -9,47 +9,9 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import styles from './src/Styles/styles.js';
 import DailyEncouragement from './src/Navigations/Screens/dailyEncouragement.js';
 import DailyReadingTabs from './src/Navigations/dailyReadingTabs.js'
-
-const images = {
-  tabImageSelected: require('./src/Assets/Images/tabIconSelected.png'),
-  tabImageUnselected: require('./src/Assets/Images/tabIconUnselected.png'),
-  hamburgerButtonImage: require('./src/Assets/Images/drawerHamburgerButton.png')
-}
-
-
-
-class About extends Component {
-  constructor(props){
-    super(props)
-  }
-
-  render(){
-    return (
-      <View style={styles.container}>
-        <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => this.props.navigation.openDrawer()}>
-          <Image source={images.hamburgerButtonImage} style={styles.drawerHamburgerImage}/>
-        </TouchableOpacity>
-        <Text>
-          Hello!
-        </Text>
-      </View>
-    )
-  }
-}
-
-const Drawer = createDrawerNavigator();
-
-function AppDrawer() {
-  return (
-      <Drawer.Navigator>
-        <Drawer.Screen name="Home" component={DailyReadingTabs} />
-        <Drawer.Screen name="About" component={About} />
-      </Drawer.Navigator>
-  );
-}
+import AppDrawer from './src/Navigations/drawerNavigation.js'
 
 const Stack = createStackNavigator();
-
 
 function App() {
 

@@ -9,7 +9,6 @@ export default function AppDrawer() {
   return (
       <Drawer.Navigator>
         <Drawer.Screen name="Home" component={DailyReadingTabs} />
-        <Drawer.Screen name="About" component={About} />
       </Drawer.Navigator>
   );
 }
