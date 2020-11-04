@@ -10,9 +10,10 @@ import FiveVoicesInfo from './Screens/fiveVoicesInfo.js';
 import Covenant from './Screens/covenant.js';
 import LocalizeDrawerTitles from '../Localization/drawerTranslations.js';
 
-let Drawer = createDrawerNavigator();
-
+//Provides Localized Titles for Drawer Pages
 let titles = LocalizeDrawerTitles();
+
+let Drawer = createDrawerNavigator();
 
 export default function AppDrawer() {
   return (

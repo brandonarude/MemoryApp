@@ -1,6 +1,6 @@
 //Provides localization support for drawer titles
 export default function LocalizeDrawerTitles() {
-  let lang = "Hin";
+  let lang = "Eng";
   var translatedText;
   switch(lang) {
     case 'Eng':
