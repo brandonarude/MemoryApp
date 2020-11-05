@@ -11,13 +11,10 @@ import Covenant from './Screens/covenant.js';
 import { LanguageContext } from '../Components/Atoms/languageContext.js';
 import LocalizeDrawerTitles from '../Localization/drawerTranslations.js';
 
-
-//Provides Localized Titles for Drawer Pages
-//let titles = LocalizeDrawerTitles(LanguageContext.selectedLanguage);
-
-//Instantiates and Populates Drawer
+//Instantiates Drawer
 let Drawer = createDrawerNavigator();
 
+//  Populates Drawer and localizes Titles based on Language Context
 export default function AppDrawer() {
 const langContext = React.useContext(LanguageContext);
 let title = LocalizeDrawerTitles(langContext.lang)

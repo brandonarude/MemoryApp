@@ -1,28 +1,21 @@
 import React, { Component, useState } from "react";
 
+//  Creates Language Context
 export const LanguageContext = React.createContext({
   lang: 'Eng',
 });
 
-// Note: You could also use hooks to provide state and convert this into a functional component.
+// Created Provider function for LanguageContext
 export default function LanguageContextProvider({children}) {
-  const provider = {
-    lang: 'Eng',
-  };
+  const [lang, setLang] = useState('Eng');
 
-  /*changeLang = (lang) => {
-  this.setState(prevState => {
-    switch(lang) {
-      case 'Eng':
-        return 'Eng';
-        break;
-      case 'Hin':
-        return 'Hin';
-        break;
-      default:
-        return 'Eng';
-      }
-    });
-  };*/
+  const provider = {
+    lang,
+    changeLang: selected => {
+      const selectedLang = selected ? selected : 'Eng'
+      setLang(selected);
+    }
+
+  };
     return <LanguageContext.Provider value={provider}>{children}</LanguageContext.Provider>;
 }
