@@ -1,6 +1,5 @@
 //Provides localization support for drawer titles
-export default function LocalizeDrawerTitles() {
-  let lang = "Eng";
+export default function LocalizeDrawerTitles(lang) {
   var translatedText;
   switch(lang) {
     case 'Eng':
@@ -25,6 +24,7 @@ export default function LocalizeDrawerTitles() {
         translationsUsedTitle: "उपयोग किए गए अनुवाद"
       }
       break;
+      default: 'Eng'
   }
   return translatedText;
 }

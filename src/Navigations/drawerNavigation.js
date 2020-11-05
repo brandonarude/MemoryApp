@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Component } from 'react';
+import { Component, useContext } from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import DailyReadingTabs from './dailyReadingTabs';
 import LanguageSelection from './Screens/languageSelect.js';
@@ -8,30 +8,36 @@ import TranslationsUsed from './Screens/translationsUsed.js';
 import KeyWords from './Screens/keyWordDescription.js';
 import FiveVoicesInfo from './Screens/fiveVoicesInfo.js';
 import Covenant from './Screens/covenant.js';
+import { LanguageContext } from '../Components/Atoms/languageContext.js';
 import LocalizeDrawerTitles from '../Localization/drawerTranslations.js';
 
-//Provides Localized Titles for Drawer Pages
-let titles = LocalizeDrawerTitles();
 
+//Provides Localized Titles for Drawer Pages
+//let titles = LocalizeDrawerTitles(LanguageContext.selectedLanguage);
+
+//Instantiates and Populates Drawer
 let Drawer = createDrawerNavigator();
 
 export default function AppDrawer() {
+const langContext = React.useContext(LanguageContext);
+let title = LocalizeDrawerTitles(langContext.lang)
+
   return (
       <Drawer.Navigator>
         <Drawer.Screen name="Today's Reading" component={DailyReadingTabs}
-          options={{title: titles.dailyReadingTitle}} />
+          options={{title:  title.dailyReadingTitle}} />
         <Drawer.Screen name="Language Selection" component={LanguageSelection}
-          options={{title: titles.languageSelectionTitle}} />
+          options={{title:  title.languageSelectionTitle}} />
         <Drawer.Screen name="Power of God's Word" component={PowerOfGodsWord}
-          options={{title: titles.powerOfGodsWordTitle}} />
+          options={{title:  title.powerOfGodsWordTitle}} />
         <Drawer.Screen name="What are the Five Voices?" component={FiveVoicesInfo}
-          options={{title: titles.fiveVoicesInfoTitle}} />
+          options={{title:  title.fiveVoicesInfoTitle}} />
         <Drawer.Screen name="Memory Covenant" component={Covenant}
-          options={{title: titles.covenantTitle}} />
+          options={{title:  title.covenantTitle}} />
         <Drawer.Screen name="Glossary" component={KeyWords}
-          options={{title: titles.keyWordInfoTitle}} />
+          options={{title:  title.keyWordInfoTitle}} />
         <Drawer.Screen name="Translations Used" component={TranslationsUsed}
-          options={{title: titles.translationsUsedTitle}} />
+          options={{title:  title.translationsUsedTitle}} />
       </Drawer.Navigator>
   );
 }
