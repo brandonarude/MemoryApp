@@ -1,4 +1,5 @@
 import React, { Component, useState } from "react";
+import { AsyncStorage, Alert } from 'react-native';
 
 //  Creates Language Context
 export const LanguageContext = React.createContext({
@@ -14,6 +15,11 @@ export default function LanguageContextProvider({children}) {
     changeLang: selected => {
       const selectedLang = selected ? selected : 'Eng'
       setLang(selected);
+      try {
+        AsyncStorage.setItem("MyLang",selected)
+      } catch {
+        alert("Something went wrong saving the language");
+      }
     }
 
   };
