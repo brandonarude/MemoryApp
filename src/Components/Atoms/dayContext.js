@@ -1,6 +1,6 @@
 import React, { Component, useState } from "react";
 import { AsyncStorage, Alert } from 'react-native';
-import RetrieveStoredDate from './retrieveStoredData.js';
+import RetrieveStoredData from './retrieveStoredData.js';
 import FindDate from './findDate.js';
 import SaveAsyncData from './saveAsyncData.js';
 
@@ -24,35 +24,46 @@ export const DayContext = React.createContext({
 // Created Provider function for dayContext
 export default function DayContextProvider({children}) {
 
-  // Retrieve and format current date
-  const unformattedCurrentDate = FindDate();
-  const currentDate = unformattedCurrentDate[0] + unformattedCurrentDate[1] + unformattedCurrentDate[2]
-
   //  Instantiate dayIndex Context State
   const [dayIndex, setDayIndex] = useState('1');
 
   // Load Date of last use
-  const storedDate = RetrieveStoredData("MyStoredDate");
+  let storedDate = RetrieveStoredData("MyStoredDate");
 
   //  After Date of last use is loaded, figure out if the current day is different
   //  If so, increment the day index and save both.
-  storedDate.then( (storedDate) => {
-    storedDateIndex = RetrieveStoredData("MyStoredDayIndex");
+ storedDate.then( (storedDate) => {
+    let storedDateIndex = RetrieveStoredData("MyStoredDayIndex");
     storedDateIndex.then( (storedDateIndex) => {
+      // Retrieve and format current date
+      const unformattedCurrentDate = FindDate();
+      let currentDate = unformattedCurrentDate[0].toString() +
+                          unformattedCurrentDate[1].toString() +
+                          unformattedCurrentDate[2].toString();
+
         if(storedDateIndex === "") {
           storedDateIndex = "1";
         }
+
         if(currentDate != storedDate){
-          storedDateIndex = storedDateIndex + 1;
+          storedDateIndex = Number(storedDateIndex) + 1;
+
+          if(storedDateIndex >= 32){
+            storedDateIndex = 1;
+          }
+
+          SaveAsyncData("MyStoredDate", currentDate);
+          SaveAsyncData("MyStoredDayIndex", storedDateIndex.toString());
           setDayIndex(storedDateIndex);
-          saveAsyncData("MyStoredDate", currentDate);
-          saveAsyncData("MyStoredDayIndex");
+
         }
+
     });
   });
+
 
   const provider = {
     dayIndex,
   };
-    return <DayContext.Provider value={provider}>{children}</LanguageContext.Provider>;
+    return <DayContext.Provider value={provider}>{children}</DayContext.Provider>;
 }

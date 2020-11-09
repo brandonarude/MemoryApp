@@ -8,12 +8,15 @@ import gestureRecognizerConfig from '../../Configs/gestureRecognizerConfig.js';
 import images from '../../Assets/Images/imageLibrary.js';
 import { LanguageContext } from '../../Components/Atoms/languageContext.js';
 import LocalizeText from '../../Localization/localizeText.js'
+import { DayContext } from '../../Components/Atoms/dayContext.js';
 
 //Exports Daily Passage for the Tab Navigation dailyReadingTabs from
 ///Navigations/dailyReadingTabs.js
 export default function DailyPassage({navigation}) {
   const langContext = React.useContext(LanguageContext);
   let content = LocalizeText(langContext.lang, "day1")
+  const dayContext = React.useContext(DayContext);
+  let dayIndex = dayContext.dayIndex;
 
   return (
 
@@ -27,6 +30,7 @@ export default function DailyPassage({navigation}) {
     </TouchableOpacity>
       <Text>
         { content.passage }
+        {dayIndex}
       </Text>
     </GestureRecognizer>
   )
