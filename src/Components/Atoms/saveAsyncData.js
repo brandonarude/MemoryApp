@@ -1,11 +1,9 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-export async function save(dataToSave) {
+export default async function SaveAsyncData(dataName, dataToSave) {
   try{
-    await AsyncStorage.setItem("MyName", dataToSave);
+    await AsyncStorage.setItem(dataName, dataToSave);
   } catch {
     alert("Something has gone wrong with saving the data.");
   }
 }
-
-export default save;

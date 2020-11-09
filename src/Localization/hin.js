@@ -3,11 +3,11 @@
 
 import {Alert} from 'react-native';
 
-export default function LocalizeDrawerTitles(page) {
-  var translatedText;
+export default function ReturnHindiText(page) {
+  var content;
   switch(page){
     case "drawer":
-      translatedText = {
+      content = {
         dailyReadingTitle: "आज का पढ़ना",
         languageSelectionTitle: "भाषा चयन",
         powerOfGodsWordTitle: "परमेश्वर के वचन की शक्ति",
@@ -18,10 +18,10 @@ export default function LocalizeDrawerTitles(page) {
       }
       break;
     default:
-      translatedText = "";
+      content = "";
       alert("No Translations found for this page.");
       break;
   }
 
-  return translatedText;
+  return content;
 }

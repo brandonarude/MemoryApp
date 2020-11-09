@@ -1,4 +1,4 @@
-export function findDate(){
+export function FindDate(){
   var newDate = new Date();
   let fullDate = [];
   fullDate[0] = newDate.getDate();
