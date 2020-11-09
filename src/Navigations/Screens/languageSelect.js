@@ -11,11 +11,6 @@ import { LanguageContext } from '../../Components/Atoms/languageContext.js';
 export default function LanguageSelection({navigation}) {
   const langContext = useContext(LanguageContext);
 
-  function changeToHindi() {
-    console.log('Clicked!');
-    langContext.changeLang('Hin');
-  }
-
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => navigation.openDrawer()}>
