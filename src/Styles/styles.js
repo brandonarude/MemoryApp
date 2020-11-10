@@ -11,14 +11,34 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.background,
+    backgroundColor: '#fff',
     width: '100%',
     height: '100%',
   },
 
-  passageText: {
+  justifyAndAlign:{
+    flexGrow: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  scrollView:{
+    flex: 1,
+    backgroundColor: colors.background,
+    height: '100%',
+    width: '100%',
+    zIndex: 2,
+    padding: 40,
+    marginBottom: 40,
+  },
+
+  baseText: {
     color: '#121212',
     fontFamily: 'Roboto-Light',
+    maxWidth: '100%',
+    lineHeight: 35,
+    fontSize: 25,
+    width: '100%',
   },
 
 
@@ -48,6 +68,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 30,
     left: 12,
+    zIndex: 3,
   },
   drawerHamburgerImage: {
     height: 35,

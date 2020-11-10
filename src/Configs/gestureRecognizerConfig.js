@@ -1,4 +1,4 @@
 const gestureConfig = {
   velocityThreshold: 0.3,
-  directionalOffsetThreshold: 80
+  directionalOffsetThreshold: 5
 };

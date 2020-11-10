@@ -77,8 +77,8 @@ export default function ReturnEnglishText(page) {
       break;
     case "day8":
       content = {
-        passage: "For no matter how many promises God has made, they are &quot;Yes&quot; " +
-        "in Christ. And so through Him the &quot;Amen&quot; is spoken by us to the glory of God.",
+        passage: "For no matter how many promises God has made, they are Yes " +
+        "in Christ. And so through Him the Amen is spoken by us to the glory of God.",
         reference: "2 Corinthians 1:20",
         translation: "NIV",
         theme: "Using God's Word",

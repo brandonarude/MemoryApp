@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useContext } from 'react';
-import {  View, Text, Easing, Image,TouchableOpacity } from 'react-native';
+import {  View, Text, Easing, Image,TouchableOpacity, ScrollView } from 'react-native';
 import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 import { useState, Component } from 'react';
 import styles from '../../Styles/styles.js';
@@ -28,12 +28,14 @@ export default function DailyPassage({navigation}) {
     <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => navigation.openDrawer()}>
       <Image source={images.hamburgerButtonImage} style={styles.drawerHamburgerImage}/>
     </TouchableOpacity>
-      <Text style={styles.passageText}>
-        { content.passage }
-      </Text>
-      <Text>
-        {content.reference}, {content.translation}
-      </Text>
+    <ScrollView style={styles.scrollView} contentContainerStyle={styles.justifyAndAlign}>
+        <Text style={styles.baseText}>
+          { content.passage }
+        </Text>
+        <Text style={[styles.baseText, { width: '100%', textAlign: 'right', fontSize: 20 }]}>
+          {content.reference}, {content.translation}
+        </Text>
+      </ScrollView>
     </GestureRecognizer>
   )
 }

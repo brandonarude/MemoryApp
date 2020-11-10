@@ -44,7 +44,7 @@ export default function DayContextProvider({children}) {
         if(storedDateIndex === "") {
           storedDateIndex = "1";
         }
-        
+        currentDate = '01123'
         if(currentDate != storedDate){
           storedDateIndex = Number(storedDateIndex) + 1;
 
