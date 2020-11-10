@@ -1,15 +1,27 @@
 import React from "react";
 import { StyleSheet } from "react-native";
 
+const colors = {
+  background: '#fff',
+  textColor: '#202020',
+}
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#fff',
+    backgroundColor: colors.background,
     width: '100%',
-    height: '100%'
+    height: '100%',
   },
+
+  passageText: {
+    color: '#121212',
+    fontFamily: 'Roboto-Light',
+  },
+
+
   //Style for botton tab navigation
   bottonTabNavigation: {
       backgroundColor: 'transparent',

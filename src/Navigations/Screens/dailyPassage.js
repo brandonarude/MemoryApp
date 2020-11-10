@@ -14,10 +14,8 @@ import { DayContext } from '../../Components/Atoms/dayContext.js';
 ///Navigations/dailyReadingTabs.js
 export default function DailyPassage({navigation}) {
   const langContext = React.useContext(LanguageContext);
-
   const dayContext = React.useContext(DayContext);
   let dayIndex = dayContext.dayIndex;
-
   let content = LocalizeText(langContext.lang, "day" + dayIndex);
 
   return (
@@ -30,9 +28,11 @@ export default function DailyPassage({navigation}) {
     <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => navigation.openDrawer()}>
       <Image source={images.hamburgerButtonImage} style={styles.drawerHamburgerImage}/>
     </TouchableOpacity>
-      <Text>
+      <Text style={styles.passageText}>
         { content.passage }
-        {dayIndex}
+      </Text>
+      <Text>
+        {content.reference}, {content.translation}
       </Text>
     </GestureRecognizer>
   )
