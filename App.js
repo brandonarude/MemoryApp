@@ -6,6 +6,7 @@ import LanguageContextProvider from './src/Components/Atoms/languageContext.js';
 import AppDrawer from './src/Navigations/drawerNavigation.js';
 import { useFonts, Inter_900Black } from '@expo-google-fonts/inter';
 import { AppLoading } from 'expo';
+import styles from './src/Styles/styles.js';
 
 
 //Render Screens for App
@@ -14,7 +15,7 @@ const Stack = createStackNavigator();
 function App() {
 
   let [fontsLoaded] = useFonts({
-    'Roboto-Black': require('./assets/Fonts/Roboto-Black.ttf'),
+    'Roboto-Regular': require('./assets/Fonts/Roboto-Regular.ttf'),
     'Roboto-Light': require('./assets/Fonts/Roboto-Light.ttf'),
   });
 

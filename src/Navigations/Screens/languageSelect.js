@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useContext } from 'react';
-import { View, Text, Image, TouchableOpacity, Button, Alert } from 'react-native';
+import { View, Text, Image, TouchableOpacity, Button, Alert, ScrollView } from 'react-native';
 import { Component } from 'react';
 import styles from '../../Styles/styles.js';
 import images from '../../Assets/Images/imageLibrary.js';
@@ -16,8 +16,20 @@ export default function LanguageSelection({navigation}) {
       <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => navigation.openDrawer()}>
         <Image source={images.hamburgerButtonImage} style={styles.drawerHamburgerImage}/>
       </TouchableOpacity>
-      <Button title='English' onPress={()=>langContext.changeLang('Eng')} />
-      <Button title='हिन्दी' onPress={() => langContext.changeLang('Hin')} />
+      <ScrollView style={[styles.scrollView]} contentContainerStyle={styles.justifyAndAlign}>
+        <TouchableOpacity onPress={()=>langContext.changeLang('Eng')}
+                style={styles.button}>
+                <Text style={styles.buttonText}>
+                Language: English
+                </Text>
+                </TouchableOpacity>
+        <TouchableOpacity onPress={() => langContext.changeLang('Hin')}
+                style={styles.button}>
+                <Text style={styles.buttonText}>
+                भाषा: हिन्दी
+                </Text>
+                </TouchableOpacity>
+      </ScrollView>
 
     </View>
   )

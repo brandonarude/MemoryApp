@@ -2,24 +2,52 @@ import React from "react";
 import { StyleSheet } from "react-native";
 
 const colors = {
-  background: '#fff',
+  background: '#FfE8E1',
   textColor: '#202020',
+  buttonColors: {
+    backgroundColor: '#18AB73',
+  }
+}
+
+const fontSizes = {
+    smallFont: 20,
+    mediumFont: 25,
+    largeFont: 30,
+}
+
+const fontFamilies = {
+    baseFont: 'Roboto-Light',
+    boldFont: 'Roboto-Regular',
 }
 
 const styles = StyleSheet.create({
+  button: {
+    width: '80%',
+    backgroundColor: colors.buttonColors.backgroundColor,
+    borderRadius: 50,
+    height: 50,
+    margin: 25,
+    justifyContent: 'center',
+  },
+
+  buttonText: {
+    color: 'white',
+    textAlign: 'center',
+    fontSize: fontSizes.smallFont,
+    fontFamily: fontFamilies.boldFont,
+  },
+
   container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#fff',
+    backgroundColor: colors.background,
     width: '100%',
     height: '100%',
   },
 
-  justifyAndAlign:{
-    flexGrow: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+  navigationContainerColor: {
+    backgroundColor: colors.background,
   },
 
   scrollView:{
@@ -32,19 +60,25 @@ const styles = StyleSheet.create({
     marginBottom: 40,
   },
 
+  justifyAndAlign:{
+    flexGrow: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
   baseText: {
     color: '#121212',
     fontFamily: 'Roboto-Light',
     maxWidth: '100%',
     lineHeight: 35,
-    fontSize: 25,
+    fontSize: fontSizes.mediumFont,
     width: '100%',
   },
 
 
   //Style for botton tab navigation
   bottonTabNavigation: {
-      backgroundColor: 'transparent',
+      backgroundColor: colors.background,
       position: 'absolute',
       left: 0,
       bottom: 0,
