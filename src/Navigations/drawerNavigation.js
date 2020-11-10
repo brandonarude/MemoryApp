@@ -20,7 +20,7 @@ const langContext = React.useContext(LanguageContext);
 let title = LocalizeText(langContext.lang, "drawer")
 
   return (
-      <Drawer.Navigator>
+      <Drawer.Navigator initialRouteName="Today's Reading">
         <Drawer.Screen name="Today's Reading" component={DailyReadingTabs}
           options={{title:  title.dailyReadingTitle}} />
         <Drawer.Screen name="Language Selection" component={LanguageSelection}

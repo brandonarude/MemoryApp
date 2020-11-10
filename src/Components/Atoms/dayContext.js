@@ -25,7 +25,7 @@ export const DayContext = React.createContext({
 export default function DayContextProvider({children}) {
 
   //  Instantiate dayIndex Context State
-  const [dayIndex, setDayIndex] = useState('1');
+  const [dayIndex, setDayIndex] = useState('');
 
   // Load Date of last use
   let storedDate = RetrieveStoredData("MyStoredDate");
@@ -44,7 +44,7 @@ export default function DayContextProvider({children}) {
         if(storedDateIndex === "") {
           storedDateIndex = "1";
         }
-
+        
         if(currentDate != storedDate){
           storedDateIndex = Number(storedDateIndex) + 1;
 
@@ -56,6 +56,8 @@ export default function DayContextProvider({children}) {
           SaveAsyncData("MyStoredDayIndex", storedDateIndex.toString());
           setDayIndex(storedDateIndex);
 
+        } else if(dayIndex == "") {
+          setDayIndex(storedDateIndex);
         }
 
     });

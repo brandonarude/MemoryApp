@@ -14,9 +14,11 @@ import { DayContext } from '../../Components/Atoms/dayContext.js';
 ///Navigations/dailyReadingTabs.js
 export default function DailyPassage({navigation}) {
   const langContext = React.useContext(LanguageContext);
-  let content = LocalizeText(langContext.lang, "day1")
+
   const dayContext = React.useContext(DayContext);
   let dayIndex = dayContext.dayIndex;
+
+  let content = LocalizeText(langContext.lang, "day" + dayIndex);
 
   return (
 
