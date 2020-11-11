@@ -19,13 +19,13 @@ export default function LanguageSelection({navigation}) {
       <ScrollView style={[styles.scrollView]} contentContainerStyle={styles.justifyAndAlign}>
         <TouchableOpacity onPress={()=>langContext.changeLang('Eng')}
                 style={styles.button}>
-                <Text style={styles.buttonText}>
+                <Text style={[styles.buttonText, styles.buttonTextFontEng]}>
                 Language: English
                 </Text>
                 </TouchableOpacity>
         <TouchableOpacity onPress={() => langContext.changeLang('Hin')}
                 style={styles.button}>
-                <Text style={styles.buttonText}>
+                <Text style={[styles.buttonText, styles.buttonTextFontHin]}>
                 भाषा: हिन्दी
                 </Text>
                 </TouchableOpacity>

@@ -17,6 +17,7 @@ function App() {
   let [fontsLoaded] = useFonts({
     'Roboto-Regular': require('./assets/Fonts/Roboto-Regular.ttf'),
     'Roboto-Light': require('./assets/Fonts/Roboto-Light.ttf'),
+    'Hind-Light': require('./assets/Fonts/Hind-Light.ttf')
   });
 
   if (!fontsLoaded) {

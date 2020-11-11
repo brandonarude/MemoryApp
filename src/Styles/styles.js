@@ -1,5 +1,11 @@
 import React from "react";
-import { StyleSheet } from "react-native";
+import { StyleSheet, useContext } from "react-native";
+import LanguageContext from "../Components/Atoms/languageContext.js";
+
+function languageFonts() {
+  const langContext = React.useContext(LanguageContext);
+  return langContext;
+}
 
 const colors = {
   background: '#FAF7EE',
@@ -19,6 +25,7 @@ const fontSizes = {
 const fontFamilies = {
     baseFont: 'Roboto-Light',
     boldFont: 'Roboto-Regular',
+    hindiFont: 'Hind-Light',
 }
 
 const styles = StyleSheet.create({
@@ -35,7 +42,14 @@ const styles = StyleSheet.create({
     color: colors.buttonColors.color,
     textAlign: 'center',
     fontSize: fontSizes.smallFont,
+  },
+
+  buttonTextFontEng:{
     fontFamily: fontFamilies.boldFont,
+  },
+
+  buttonTextFontHin:{
+    fontFamily: fontFamilies.hindiFont,
   },
 
   container: {
@@ -69,11 +83,18 @@ const styles = StyleSheet.create({
 
   baseText: {
     color: '#121212',
-    fontFamily: 'Roboto-Light',
     maxWidth: '100%',
     lineHeight: 35,
     fontSize: fontSizes.mediumFont,
     width: '100%',
+  },
+
+  baseTextFontEng: {
+    fontFamily: fontFamilies.baseFont,
+  },
+
+  baseTextFontHin: {
+    fontFamily: fontFamilies.hindiFont,
   },
 
 

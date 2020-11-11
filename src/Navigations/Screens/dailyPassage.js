@@ -18,6 +18,7 @@ export default function DailyPassage({navigation}) {
   const dayContext = React.useContext(DayContext);
   let dayIndex = dayContext.dayIndex;
   let content = LocalizeText(langContext.lang, "day" + dayIndex);
+  let font
 
   //  Directs User to Language Selection if this is their first time.
   const returned = RetrieveStoredData("MyVisited");
@@ -40,10 +41,10 @@ export default function DailyPassage({navigation}) {
       <Image source={images.hamburgerButtonImage} style={styles.drawerHamburgerImage}/>
     </TouchableOpacity>
     <ScrollView style={styles.scrollView} contentContainerStyle={styles.justifyAndAlign}>
-        <Text style={styles.baseText}>
+        <Text style={[styles.baseText, langContext.fontLight()]}>
           { content.passage }
         </Text>
-        <Text style={[styles.baseText, { width: '100%', textAlign: 'right', fontSize: 20 }]}>
+        <Text style={[styles.baseText, langContext.fontLight(), { width: '100%', textAlign: 'right', fontSize: 20 }]}>
           {content.reference}, {content.translation}
         </Text>
       </ScrollView>

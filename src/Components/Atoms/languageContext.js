@@ -3,6 +3,7 @@ import { AsyncStorage, Alert } from 'react-native';
 import LocalizeText from '../../Localization/localizeText.js';
 import RetrieveStoredData from './retrieveStoredData';
 import SaveAsyncData from './saveAsyncData.js';
+import styles from '../../Styles/styles.js'
 
 //  Creates Language Context
 export const LanguageContext = React.createContext({
@@ -40,6 +41,18 @@ export default function LanguageContextProvider({children}) {
         setLang(selected);
       } catch {
         alert("Something went wrong saving the language");
+      }
+    },
+    fontLight(){
+      switch(lang) {
+        case "Eng":
+          return styles.baseTextFontEng;
+          break;
+        case "Hin":
+          return styles.baseTextFontHin;
+          break;
+        default:
+          font = styles.baseTextFontEng;
       }
     }
 
