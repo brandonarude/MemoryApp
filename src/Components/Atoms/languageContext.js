@@ -1,5 +1,6 @@
 import React, { Component, useState } from "react";
 import { AsyncStorage, Alert } from 'react-native';
+import LocalizeText from '../../Localization/localizeText.js';
 
 //  Creates Language Context
 export const LanguageContext = React.createContext({
@@ -10,13 +11,16 @@ export const LanguageContext = React.createContext({
 export default function LanguageContextProvider({children}) {
   const [lang, setLang] = useState('Eng');
 
+
   const provider = {
     lang,
     changeLang: selected => {
       const selectedLang = selected ? selected : 'Eng'
-      setLang(selected);
       try {
-        AsyncStorage.setItem("MyLang",selected)
+        AsyncStorage.setItem("MyLang",selected);
+        let text = LocalizeText(selected, "languageSelection");
+        alert(text.alert);
+        setLang(selected);
       } catch {
         alert("Something went wrong saving the language");
       }

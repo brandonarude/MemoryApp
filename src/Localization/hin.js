@@ -313,6 +313,11 @@ export default function ReturnHindiText(page) {
         translationsUsedTitle: "उपयोग किए गए अनुवाद"
       }
       break;
+    case "languageSelection":
+      content = {
+        alert: "Language Updated to Hindi!"
+      }
+      break;
     default:
       content = "No Translations found for this page.";
       break;

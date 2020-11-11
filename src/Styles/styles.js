@@ -2,10 +2,11 @@ import React from "react";
 import { StyleSheet } from "react-native";
 
 const colors = {
-  background: '#FfE8E1',
+  background: '#FAF7EE',
   textColor: '#202020',
   buttonColors: {
-    backgroundColor: '#18AB73',
+    backgroundColor: '#157E56',
+    color: '#FAF7EE',
   }
 }
 
@@ -31,7 +32,7 @@ const styles = StyleSheet.create({
   },
 
   buttonText: {
-    color: 'white',
+    color: colors.buttonColors.color,
     textAlign: 'center',
     fontSize: fontSizes.smallFont,
     fontFamily: fontFamilies.boldFont,

@@ -313,7 +313,11 @@ export default function ReturnEnglishText(page) {
         translationsUsedTitle: "Translations Used"
       }
       break;
-
+    case "languageSelection":
+      content = {
+        alert: "Language Updated to English!"
+      }
+      break;
     default:
       content = "No Translations found for this page.";
       break;
