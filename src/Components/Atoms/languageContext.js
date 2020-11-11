@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import { AsyncStorage, Alert } from 'react-native';
 import LocalizeText from '../../Localization/localizeText.js';
 import RetrieveStoredData from './retrieveStoredData';
+import SaveAsyncData from './saveAsyncData.js';
 
 //  Creates Language Context
 export const LanguageContext = React.createContext({
@@ -15,6 +16,10 @@ export default function LanguageContextProvider({children}) {
   let storedLang = RetrieveStoredData("MyLang");
   storedLang.then( (storedLang) => {
          if(lang === "unset") {
+           // Indicates that the user has used the app before.
+           SaveAsyncData("MyVisited", "true");
+           //
+
            if(storedLang){
              setLang(storedLang);
            } else {

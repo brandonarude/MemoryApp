@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Component, useContext } from 'react';
+import { Component, useContext, useState } from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import DailyReadingTabs from './dailyReadingTabs';
 import LanguageSelection from './Screens/languageSelect.js';
@@ -11,6 +11,7 @@ import Covenant from './Screens/covenant.js';
 import { LanguageContext } from '../Components/Atoms/languageContext.js';
 import LocalizeText from '../Localization/localizeText.js';
 
+
 //Instantiates Drawer
 let Drawer = createDrawerNavigator();
 
@@ -18,6 +19,7 @@ let Drawer = createDrawerNavigator();
 export default function AppDrawer() {
 const langContext = React.useContext(LanguageContext);
 let title = LocalizeText(langContext.lang, "drawer")
+
 
   return (
       <Drawer.Navigator initialRouteName="Today's Reading"

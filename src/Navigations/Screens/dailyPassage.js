@@ -9,6 +9,7 @@ import images from '../../Assets/Images/imageLibrary.js';
 import { LanguageContext } from '../../Components/Atoms/languageContext.js';
 import LocalizeText from '../../Localization/localizeText.js'
 import { DayContext } from '../../Components/Atoms/dayContext.js';
+import RetrieveStoredData from '../../Components/Atoms/retrieveStoredData.js';
 
 //Exports Daily Passage for the Tab Navigation dailyReadingTabs from
 ///Navigations/dailyReadingTabs.js
@@ -17,6 +18,16 @@ export default function DailyPassage({navigation}) {
   const dayContext = React.useContext(DayContext);
   let dayIndex = dayContext.dayIndex;
   let content = LocalizeText(langContext.lang, "day" + dayIndex);
+
+  //  Directs User to Language Selection if this is their first time.
+  const returned = RetrieveStoredData("MyVisited");
+  returned.then((returned) => {
+    if(returned != "true"){
+      navigation.navigate("Language Selection");
+    }
+  });
+  //
+
 
   return (
 
