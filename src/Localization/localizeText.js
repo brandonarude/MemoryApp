@@ -8,6 +8,10 @@ import ReturnHindiText from "./hin.js"
 export default function LocalizeText(lang, page) {
   var translatedText;
   switch(lang) {
+
+    case 'unset':
+      translatedText = ReturnEnglishText(page);
+      break;
     case 'Eng':
       translatedText = ReturnEnglishText(page);
       break;

@@ -1,6 +1,7 @@
 import React, { Component, useState } from "react";
 import { AsyncStorage, Alert } from 'react-native';
 import LocalizeText from '../../Localization/localizeText.js';
+import RetrieveStoredData from './retrieveStoredData';
 
 //  Creates Language Context
 export const LanguageContext = React.createContext({
@@ -9,7 +10,18 @@ export const LanguageContext = React.createContext({
 
 // Created Provider function for LanguageContext
 export default function LanguageContextProvider({children}) {
-  const [lang, setLang] = useState('Eng');
+  const [lang, setLang] = useState("unset");
+
+  let storedLang = RetrieveStoredData("MyLang");
+  storedLang.then( (storedLang) => {
+         if(lang === "unset") {
+           if(storedLang){
+             setLang(storedLang);
+           } else {
+             setLang("Eng");
+           }
+         }
+   });
 
 
   const provider = {
