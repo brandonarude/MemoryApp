@@ -1,14 +1,27 @@
 import * as React from 'react';
-import {  View, Text, Easing, Image,TouchableOpacity } from 'react-native';
+import { useContext } from 'react';
+import {  View, Text, Easing, Image,TouchableOpacity, ScrollView } from 'react-native';
 import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 import { useState, Component } from 'react';
 import styles from '../../Styles/styles.js';
 import gestureRecognizerConfig from '../../Configs/gestureRecognizerConfig.js';
 import images from '../../Assets/Images/imageLibrary.js';
+import { LanguageContext } from '../../Components/Atoms/languageContext.js';
+import LocalizeText from '../../Localization/localizeText.js'
+import { DayContext } from '../../Components/Atoms/dayContext.js';
+import RetrieveStoredData from '../../Components/Atoms/retrieveStoredData.js';
+
 
 //Exports Daily Encouragements for the Tab Navigation dailyReadingTabs from
 ///Navigations/dailyReadingTabs.js
 export default function DailyEncouragement({navigation}) {
+
+  const langContext = React.useContext(LanguageContext);
+  const dayContext = React.useContext(DayContext);
+  let dayIndex = dayContext.dayIndex;
+  let content = LocalizeText(langContext.lang, "day" + dayIndex);
+  let font;
+
   return (
     <GestureRecognizer
     style={ styles.container }
@@ -18,9 +31,14 @@ export default function DailyEncouragement({navigation}) {
     <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => navigation.openDrawer()}>
       <Image source={images.hamburgerButtonImage} style={styles.drawerHamburgerImage}/>
     </TouchableOpacity>
-      <Text>
-        Daily Encouragement Goes Here.
+    <ScrollView style={styles.scrollView} contentContainerStyle={styles.justifyAndAlign}>
+      <Text style={[styles.baseText, langContext.fontLight()]}>
+        { content.iAmTitle }
       </Text>
+      <Text>
+        {content.iAmTitle}
+      </Text>
+    </ScrollView>
     </GestureRecognizer>
   )
 }

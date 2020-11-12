@@ -18,7 +18,7 @@ export default function DailyPassage({navigation}) {
   const dayContext = React.useContext(DayContext);
   let dayIndex = dayContext.dayIndex;
   let content = LocalizeText(langContext.lang, "day" + dayIndex);
-  let font
+  let font;
 
   //  Directs User to Language Selection if this is their first time.
   const returned = RetrieveStoredData("MyVisited");
