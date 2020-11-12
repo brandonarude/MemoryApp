@@ -37,7 +37,7 @@ export default function LanguageContextProvider({children}) {
       try {
         AsyncStorage.setItem("MyLang",selected);
         let text = LocalizeText(selected, "languageSelection");
-        alert(text.alert);
+        Alert.alert("", text.alert);
         setLang(selected);
       } catch {
         alert("Something went wrong saving the language");
