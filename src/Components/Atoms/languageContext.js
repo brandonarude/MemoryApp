@@ -54,6 +54,18 @@ export default function LanguageContextProvider({children}) {
         default:
           font = styles.baseTextFontEng;
       }
+    },
+    fontBold(){
+      switch(lang) {
+        case "Eng":
+          return styles.boldTextFontEng;
+          break;
+        case "Hin":
+          return styles.boldTextFontHin;
+          break;
+        default:
+          font = styles.boldTextFontEng;
+      }
     }
 
   };

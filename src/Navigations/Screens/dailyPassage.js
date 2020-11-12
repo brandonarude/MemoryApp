@@ -40,11 +40,11 @@ export default function DailyPassage({navigation}) {
     <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => navigation.openDrawer()}>
       <Image source={images.hamburgerButtonImage} style={styles.drawerHamburgerImage}/>
     </TouchableOpacity>
-    <ScrollView style={styles.scrollView} contentContainerStyle={styles.justifyAndAlign}>
-        <Text style={[styles.baseText, langContext.fontLight()]}>
+    <ScrollView style={styles.scrollView} contentContainerStyle={[styles.justifyAndAlign, styles.scrollViewPadding]}>
+        <Text style={[styles.passageText, langContext.fontLight()]}>
           { content.passage }
         </Text>
-        <Text style={[styles.baseText, langContext.fontLight(), { width: '100%', textAlign: 'right', fontSize: 20 }]}>
+        <Text style={[styles.baseText, langContext.fontLight(), { width: '100%', textAlign: 'right' }]}>
           {content.reference}, {content.translation}
         </Text>
       </ScrollView>

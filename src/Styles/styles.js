@@ -10,14 +10,21 @@ function languageFonts() {
 const colors = {
   background: '#FAF7EE',
   textColor: '#202020',
+  accentColor: '#157E56',
   buttonColors: {
     backgroundColor: '#157E56',
     color: '#FAF7EE',
   }
 }
 
+const standardMargins = {
+    smallMargin: 10,
+    mediumMargin: 20,
+    largeMargin: 40,
+}
+
 const fontSizes = {
-    smallFont: 20,
+    smallFont: 18,
     mediumFont: 25,
     largeFont: 30,
 }
@@ -26,9 +33,13 @@ const fontFamilies = {
     baseFont: 'Roboto-Light',
     boldFont: 'Roboto-Regular',
     hindiFont: 'Hind-Light',
+    HindiBoldFont: 'Hind-Bold',
+
 }
 
 const styles = StyleSheet.create({
+
+  //Button Styles
   button: {
     width: '80%',
     backgroundColor: colors.buttonColors.backgroundColor,
@@ -52,6 +63,8 @@ const styles = StyleSheet.create({
     fontFamily: fontFamilies.hindiFont,
   },
 
+
+// Container Styles
   container: {
     flex: 1,
     alignItems: 'center',
@@ -61,18 +74,24 @@ const styles = StyleSheet.create({
     height: '100%',
   },
 
+
   navigationContainerColor: {
     backgroundColor: colors.background,
   },
 
   scrollView:{
-    flex: 1,
     backgroundColor: colors.background,
     height: '100%',
     width: '100%',
     zIndex: 2,
-    padding: 40,
-    marginBottom: 40,
+  },
+
+  //This specific style needs to be applied to contentContainerStyle of Scrollview
+  scrollViewPadding: {
+    paddingLeft: 40,
+    paddingRight: 40,
+    paddingTop: 40,
+    paddingBottom: 20,
   },
 
   justifyAndAlign:{
@@ -81,8 +100,30 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 
+// Horizontal Bar Styles
+  horizontalBar: {
+    borderBottomColor: colors.accentColor,
+    borderBottomWidth: 1,
+    width: '80%',
+    marginTop: standardMargins.smallMargin,
+    marginBottom: standardMargins.mediumMargin,
+  },
+
+// Text Styles
   baseText: {
-    color: '#121212',
+    color: colors.textColor,
+    maxWidth: '100%',
+    lineHeight: 35,
+    fontSize: fontSizes.smallFont,
+    width: '100%',
+  },
+
+  baseTextMargin: {
+    marginBottom: standardMargins.mediumMargin,
+  },
+
+  passageText: {
+    color: colors.textColor,
     maxWidth: '100%',
     lineHeight: 35,
     fontSize: fontSizes.mediumFont,
@@ -97,10 +138,18 @@ const styles = StyleSheet.create({
     fontFamily: fontFamilies.hindiFont,
   },
 
+  boldTextFontEng: {
+    fontFamily: fontFamilies.boldFont,
+  },
+
+  boldTextFontHin: {
+    fontFamily: fontFamilies.hindiBoldFont,
+  },
+
 
   //Style for botton tab navigation
   bottonTabNavigation: {
-      backgroundColor: colors.background,
+      backgroundColor: 'transparent',
       position: 'absolute',
       left: 0,
       bottom: 0,

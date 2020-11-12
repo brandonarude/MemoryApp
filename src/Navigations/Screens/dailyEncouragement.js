@@ -21,6 +21,15 @@ export default function DailyEncouragement({navigation}) {
   let dayIndex = dayContext.dayIndex;
   let content = LocalizeText(langContext.lang, "day" + dayIndex);
   let font;
+  let conditionalFinalEncouragement = undefined;
+
+  if(content.para8) {
+    conditionalFinalEncouragement =
+    <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
+          {content.para8};
+    </Text>
+  }
+
 
   return (
     <GestureRecognizer
@@ -31,13 +40,33 @@ export default function DailyEncouragement({navigation}) {
     <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => navigation.openDrawer()}>
       <Image source={images.hamburgerButtonImage} style={styles.drawerHamburgerImage}/>
     </TouchableOpacity>
-    <ScrollView style={styles.scrollView} contentContainerStyle={styles.justifyAndAlign}>
-      <Text style={[styles.baseText, langContext.fontLight()]}>
+    <ScrollView style={styles.scrollView} contentContainerStyle={[styles.justifyAndAlign, styles.scrollViewPadding]}>
+      <Text style={[styles.passageText, langContext.fontBold(),{textAlign: 'center'}]}>
         { content.iAmTitle }
       </Text>
-      <Text>
-        {content.iAmTitle}
+      <View style={styles.horizontalBar} />
+      <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
+        {content.para1}
       </Text>
+      <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
+        {content.para2}
+      </Text>
+      <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
+        {content.para3}
+      </Text>
+      <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
+        {content.para4}
+      </Text>
+      <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
+        {content.para5}
+      </Text>
+      <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
+        {content.para6}
+      </Text>
+      <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
+        {content.para7}
+      </Text>
+      {conditionalFinalEncouragement}
     </ScrollView>
     </GestureRecognizer>
   )
