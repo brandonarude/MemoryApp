@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   scrollViewPadding: {
     paddingLeft: 40,
     paddingRight: 40,
-    paddingTop: 40,
+    paddingTop: 60,
     paddingBottom: 20,
   },
 
