@@ -8,7 +8,6 @@ import gestureRecognizerConfig from '../../Configs/gestureRecognizerConfig.js';
 import images from '../../Assets/Images/imageLibrary.js';
 import { LanguageContext } from '../../Components/Atoms/languageContext.js';
 import LocalizeText from '../../Localization/localizeText.js'
-import { DayContext } from '../../Components/Atoms/dayContext.js';
 import RetrieveStoredData from '../../Components/Atoms/retrieveStoredData.js';
 
 
