@@ -3,6 +3,7 @@ import { Component } from 'react';
 import PassageContextProvider from '../Components/Atoms/passageContext.js';
 import { Image } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import PassageSelector from './Screens/passageSelector.js'
 import SelectedPassage from './Screens/selectedPassage.js';
 import SelectedPrayer from './Screens/selectedPrayer.js';
 import SelectedVoices from './Screens/selectedVoices.js';
