@@ -807,7 +807,7 @@ export default function ReturnEnglishText(page) {
       break;
     case "keyWords":
       content = {
-        title: "The meanings of Key Words",
+        title: "The Meanings of Key Words",
         para1: "Grace, mercy, and peace will be with us, from God the Father and from Jesus Christ the Father’s " +
         "Son, in truth and love. 2 John 1:3",
         para2: "GRACE: Charis - Without merit, we experience the fullness of God as He leans in to favor us, He gives " +
