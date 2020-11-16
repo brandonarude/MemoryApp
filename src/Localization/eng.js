@@ -39,7 +39,13 @@ export default function ReturnEnglishText(page) {
         para5: "You have been chosen by God and are His special possession.",
         para6: "Your life and words reveal how good and amazing God is",
         para7: "You are a priest of the King and are equipped to glorify Him.",
-        para8: ""
+        para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you for choosing me, for rescuing me from my darkness and " +
+        "bringing me into your light and truth. It is amazing that You gave me a special " +
+        "job-as a priest of the king. I am already blessed because You called me into " +
+        "your community and have been preparing me for larger Kingdom purposes. " +
+        "Thank you that you have chosen me to point to your awesomeness.",
       }
       break;
     case "day2":
@@ -57,7 +63,13 @@ export default function ReturnEnglishText(page) {
         para5: "You have been chosen by God to reach out to others.",
         para6: "Your life and words show the world what God is like.",
         para7: "Your life reminds others that God never gives up on us!",
-        para8: "Your words and counsel draw people back to God’s love."
+        para8: "Your words and counsel draw people back to God’s love.",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you for equipping me and sending me to represent You to a " +
+        "broken world. Help me to feel deeply for those who are separated from You " +
+        "and each other. Give me your words of forgiveness, hope, unity and freedom. " +
+        "Help me be courageous to bring healing into the fractured relationships of " +
+        "God and men. May they recognize You when they see me.",
       }
       break;
     case "day3":
@@ -77,6 +89,11 @@ export default function ReturnEnglishText(page) {
         para6: "You life and words of faith bring healing to the brokenhearted.",
         para7: "Your words set prisoners free and shed light on the darkness of satan’s lies",
         para8: "Your words offer liberty to those in bondage – hope to those who are hurting.",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you for the power of the Holy Spirit on me and in me. May the " +
+        "power of your words spoken through me bring hope and freedom to those who are " +
+        "hurting and have become prisoners of sin. Help me to discern the roots of " +
+        "sin that I might help others step into the freedom of your light and truth.",
       }
       break;
     case "day4":
@@ -97,6 +114,13 @@ export default function ReturnEnglishText(page) {
         para6: "Your words remind others to love and obey God.",
         para7: "You have a heart for the lost and vision for the nations",
         para8: "God is always with you – in the present in His presence.",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you that you chose us to help build the kingdom one person at a " +
+        "time. Let the seriousness of heaven and hell motivate me to share the gospel. " +
+        "Give me eyes to see the lost, give me a heart to love them and make time for " +
+        "them. Help me not be ashamed of the death and resurrection of Christ. " +
+        "Choose me, use me! Thank you, Father, that you have placed the seeds of " +
+        "eternal life in us. Help me to plant and water in the lives of others for an eternal harvest.",
       }
       break;
     case "day5":
@@ -116,6 +140,11 @@ export default function ReturnEnglishText(page) {
         para6: "You faithfully give your life away to others.",
         para7: "Because you have been teachable, you are a leader among men",
         para8: "Your life promotes faithfulness to God and others.",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you for sending people into our lives to help us grow in Christ. " +
+        "As You have leaned into me to give Yourself away to me, help me to lean into " +
+        "others and give my life away to them. Show me how to teach them to do the same. " +
+        "Help me to be faithful that I might teach others to be faithful to the next generation of believers.",
       }
       break;
     case "day6":
@@ -135,6 +164,11 @@ export default function ReturnEnglishText(page) {
         para6: "You motivate others to walk in obedience. You guide others into His truth.",
         para7: "You know what’s right, what’s not right, how to get right and how to stay right",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you that You have breathed life into my soul and spirit. Thank " +
+        "you for the gift of the living Word that helps me to know what is right, what " +
+        "is not right, how to get right, and how to stay right. Thank you that your " +
+        "Word trains me to walk in righteousness, equipping and enabling me to do good works for You.",
       }
       break;
     case "day7":
@@ -153,6 +187,11 @@ export default function ReturnEnglishText(page) {
         para6: "You have been a faithful steward of God’s Word with no regrets.",
         para7: "You bring honor to God and yourself by how you use His Word",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Help my faith be authentic and dependable. May I be approved by You " +
+        "with no need to be ashamed as I learn to carefully handle your Word. Help me " +
+        "always use your Word in such a way that it accomplishes what You have  " +
+        "assigned it to do through the Holy Spirit.",
       }
       break;
     case "day8":
@@ -171,6 +210,11 @@ export default function ReturnEnglishText(page) {
         para6: "Your life is evidence of God’s promises working in and through you",
         para7: "Your confidence in Christ’s promises brings glory to the Father",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you that You have given me the inheritance of all your promises through " +
+        "Christ. Thank you for the authority those promises give me for each day’s " +
+        "living. Give me the confidence to take authority and walk in the power of " +
+        "those promises that the Father might be glorified.",
       }
       break;
     case "day9":
@@ -190,6 +234,11 @@ export default function ReturnEnglishText(page) {
         para6: "You have done a good job of preparing yourself to defend the truths of God.",
         para7: "You are always considerate while helping others understand spiritual things",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Dear God, help me choose a disciplined life that I might bring honor " +
+        "to You by defending the faith You have given me. Help me be a considerate and " +
+        "patient teacher to those seeking You as I explain to them your holiness, " +
+        "your love and the hope You have placed in my heart.",
       }
       break;
     case "day10":
@@ -208,6 +257,12 @@ export default function ReturnEnglishText(page) {
         para6: "You share God’s truth with others no matter their background.",
         para7: "You understand that God’s word has the power of eternal life in it",
         para8: "You represent God with boldness and power",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you that You have entrusted me with the words of eternal life. " +
+        "I am grateful that You have chosen me to lead others to You. Help me to love " +
+        "others more than I fear their rejection because it is all about eternity. " +
+        "Give me eyes and ears to recognize those who are seeking to know You and " +
+        "speak with boldness and the power of your word.",
       }
       break;
     case "day11":
@@ -227,6 +282,12 @@ export default function ReturnEnglishText(page) {
         para6: "Your words demonstrate the power of the Holy Spirit speaking through you.",
         para7: "Your reliance on the Lord for understanding helps others to trust in Him",
         para8: "The way you live and speak encourages others to depend on God rather than men.",
+        prayerTitle: "Today's Prayer",
+        prayer: "Dear Father, help me not depend on my own ideas or wisdom but prepare " +
+        "myself to respond to those in need by using your truth alone. Help me " +
+        "to humbly surrender to the power of your Spirit. Make me sensitive to your " +
+        "Spirit to encourage repentance, obedience and transformation in others. " +
+        "May my words be your Word through the Holy Spirit.",
       }
       break;
     case "day12":
@@ -246,6 +307,12 @@ export default function ReturnEnglishText(page) {
         para6: "Your mind is set free by His Spirit and you can have the mind of Christ.",
         para7: "God’s Spirit is helping you to walk in new levels of understanding and power",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you for sharing your righteousness and holiness with me so I " +
+        "can put aside my old sinful self. It is beyond all that I could ask or " +
+        "think that You have made me a new person inside. You said you have even given " +
+        "me a new spirit and mind and have chosen to make me like yourself in " +
+        "holiness. Thank you for the extravagance of your gifts to me.",
       }
       break;
     case "day13":
@@ -264,6 +331,12 @@ export default function ReturnEnglishText(page) {
         para6: "Your transformation in Christ has led you to live without compromise",
         para7: "Your life proves that living God’s way is good, pleasing and perfect",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you for providing a way to set me free from the world and its " +
+        "destructive influences. Thank you for providing a way to have the mind of " +
+        "Christ. I have tested your principles of life in contrast to the world and " +
+        "found them both true and good. With your help, I will resist conformity " +
+        "and choose to think and live differently.",
       }
       break;
     case "day14":
@@ -283,6 +356,12 @@ export default function ReturnEnglishText(page) {
         para6: "Your spirit of kindness helps others embrace what is truly valuable.",
         para7: "Your words and actions bring deep respect for the majesty of God",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Lord, please give me courage to change my thinking and take my thoughts " +
+        "captive as I stand against a lazy, compromising mind. Help me to dwell on " +
+        "things that are equal to who I am in Christ. Help me to choose the discipline " +
+        "to wash my mind with your Word so I can begin to think and speak your thoughts. " +
+        "Help my mind choose the light and not the dark things .",
       }
       break;
     case "day15":
@@ -302,6 +381,12 @@ export default function ReturnEnglishText(page) {
         para6: "Your dependency on the Spirit has equipped you to serve and walk in power.",
         para7: "Because you have surrendered to His Spirit, you experience peace and rest",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you for giving me the power to say no to the temptations of my " +
+        "flesh. Help me not use my flesh to create an identity for myself. Help me to " +
+        "use your Word to renew my mind and replace the thoughts of fleshly desires with " +
+        "the life and peace of obedience. Let me surrender to the promptings of the " +
+        "Spirit. Empower my ability to choose righteousness.",
       }
       break;
     case "day16":
@@ -321,6 +406,12 @@ export default function ReturnEnglishText(page) {
         para6: "You have the ability to see past the outward appearance into a person’s heart.",
         para7: "You are doing a great job of letting the new life of God in you take over",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you that in Christ there is more to our identities than just our " +
+        "bodies. Thank you that you have put to death our broken and sinful past on " +
+        "the cross with Jesus. Help me to understand what it means to be a new creation " +
+        "and embrace the new person that I have become inside. Thank you that I can " +
+        "walk in newness of life each day and I do not need to let my past control me.",
       }
       break;
     case "day17":
@@ -339,6 +430,12 @@ export default function ReturnEnglishText(page) {
         para6: "God’s promises and power has granted you to be like Him and live like Him.",
         para7: "Because you know Him, God has granted you a life that brings Him glory",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you that You have given me everything I need to live a life of " +
+        "godliness. As I have gotten to know You, I realize your gifts have been " +
+        "complete and perfect for all my needs. Your willingness to allow me " +
+        "to share your glory and perfection is truly generous and more than I deserve " +
+        "or could have ever imagined.",
       }
       break;
     case "day18":
@@ -357,6 +454,11 @@ export default function ReturnEnglishText(page) {
         para6: "God is going to take your ideas and prayers and make eternal things happen.",
         para7: "You are chosen to do great things that will point to and glorify God",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "I praise you for calling me away from ordinary living and equipping " +
+        "me with the power to do great things for you. Help me to think big, pray big" +
+        "and by faith declare big things for your kingdom. Choose me and use me in " +
+        "powerful ways as I yield to the Holy Spirit that is working in me.",
       }
       break;
     case "day19":
@@ -376,6 +478,12 @@ export default function ReturnEnglishText(page) {
         para6: "Depending on the power of God that is in you has made you strong and fruitful",
         para7: "By choosing to abide in Him, you have connected to the true source of godliness",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you that when I am weak, You are strong,. I know that depending " +
+        "on you assures my fruitfulness. Help me understand and accept my weaknesses " +
+        "so that You can be all that You are through me. Help me to understand how to "+
+        "abide in You that I might tap into the true source of godliness. " +
+        "Protect me from the temptation of doing things in my own strength.",
       }
       break;
     case "day20":
@@ -393,13 +501,20 @@ export default function ReturnEnglishText(page) {
         para6: "Your choice to abide and remain in Him has made you an effective warrior",
         para7: "Abiding in God’s love has given you power and victory over your circumstances",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "I am so grateful that your love for me and your presence in my life " +
+        "ensures that I will be an overcomer. Help me to always depend on you and not " +
+        "myself that I might walk in your power and do great things for your kingdom. " +
+        "Thank you that you have may it possible for me to be one with the your Spirit " +
+        "and a warrior who will finish the race in victory.",
       }
       break;
     case "day21":
       content = {
-        passage: "But we have this treasure in jars of clay to show that this all-surpassing " +
-        "power is from God and not from us.",
-        reference: "2 Corinthians 4:7",
+        passage: "Or do you not know that your body is a temple of the Holy Spirit " +
+        "within you, whom you have from God? You are not your own, 20 for you were " +
+        "bought with a price. So glorify God in your body.",
+        reference: "I Corinthians 6:19-20",
         translation: "ESV",
         theme: "Abiding in His Power",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -411,14 +526,22 @@ export default function ReturnEnglishText(page) {
         para6: "You have been purchased by the blood of His son to glorify God.",
         para7: "Since you belong to God, He will be a good steward of your life",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Understanding that you have purchased me by the blood " +
+        "of Christ and chose to live inside me as if I was your temple goes " +
+        "above and beyond all that I could have ever imagined. I know that you " +
+        "purchased me to bring you glory and help people understand what a person " +
+        "is like when they have become your special possession and live inside" +
+        "of them. I praise you for adopting me as your child, I know you will take " +
+        "care of what you own.",
       }
       break;
     case "day22":
       content = {
-        passage: "Or do you not know that your body is a temple of the Holy Spirit within " +
-        "you, whom you have from God? You are not your own, for you were bought with a price. So " +
-        "glorify God in your body.",
-        reference: "I Corinthians 6:19-20",
+        passage: "I have been crucified with Christ. It is no longer I who live, " +
+        "but Christ who lives in me. And the life I now live in the flesh I live " +
+        "by faith in the Son of God, who loved me and gave Himself for me.",
+        reference: "Galatians 2:20",
         translation: "ESV",
         theme: "Abiding in His Power",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -430,16 +553,22 @@ export default function ReturnEnglishText(page) {
         para6: "In His death, God has given you His life and the old you is completely gone.",
         para7: "You have died with Christ and now you bask in the love of His sacrifice for you",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "I know that if I want to live a new life, I first must die to the old " +
+        "one. It is so wonderful that you had a plan to set me completely free from " +
+        "my old sinful nature and replaced it with the life of your son. Thank you " +
+        "for giving me the faith to embrace the work of the cross, and dying with " +
+        "Christ give me resurrection life. I praise you for your work of love that " +
+        "sets me free from my flesh.",
       }
       break;
     case "day23":
       content = {
-        passage: "For though we walk in the flesh, we do not war according to the flesh," +
-        "for the weapons of our warfare are not of the flesh, but divinely powerful for the destruction of"+
-        "fortresses. We are destroying speculations and every lofty thing raised up against the"+
-        "knowledge of God, and we are taking every thought captive to the obedience of Christ,",
-        reference: "2 Corinthians 10:3-5",
-        translation: "NASB",
+        passage: "Do nothing out of selfish ambition or empty pride, but in " +
+        "humility consider others more important than yourselves. Each of you " +
+        "should look not only to your own interests, but also to the interests of others.",
+        reference: "Philippians 2:3-4",
+        translation: "BSV",
         theme: "Spiritual Warfare",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
         para1: "I am humble and ready to give myself away to others",
@@ -450,13 +579,21 @@ export default function ReturnEnglishText(page) {
         para6: "You are a humble servant always considering others’ needs before your own.",
         para7: "Your willingness to be treated like a servant is evidence that you truly are one",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Dear God, today’s prayer is crucial if I am to live like Christ did. " +
+        "I am requesting that you help me with things often too difficult for me. " +
+        "I know I need to be humble, to think of others as more important than myself, " +
+        "to serve with out being noticed, to place others needs above my own. Please " +
+        "transform my mind to choose sacrificial love so I willfully give away and " +
+        "pour out my life for others. I choose to be your servant to others.",
       }
       break;
     case "day24":
       content = {
-        passage: "For God has not given us the spirit of fear; but of power, and of love, and of a sound mind.",
-        reference: "2 Timothy 1:7",
-        translation: "KJV",
+        passage: "He comforts us in all our affliction, so that we may be able to comfort " +
+        "those who are in any kind of affliction, through the comfort we ourselves receive from God.",
+        reference: "2 Corinthians 1:4",
+        translation: "HCSB",
         theme: "Spiritual Warfare",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
         para1: "I am a regular recipient of God's care and comfort",
@@ -467,16 +604,24 @@ export default function ReturnEnglishText(page) {
         para6: "Your reliance on God during your trials shows you understand His love for you.",
         para7: "God has prepared you to empathize with others’ doubts, fears and brokenness",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "I do not choose suffering but I know that you have been equipping me " +
+        "to support and comfort others through my own difficulties. Help me to have " +
+        "eyes to see and discipline to listen to other’s suffering speak hope into " +
+        "their doubts, fears and brokenness as you lead me. May the strength and faith " +
+        "you have built into my life be a gift of peace and hope to others during their " +
+        "challenging times. Help me be the mouth, ears and feet of Jesus",
       }
       break;
     case "day25":
       content = {
-        passage: "For our struggle is not against flesh and blood, but against the rulers," +
-        "against the powers, against the world forces of this darkness, against the spiritual forces of" +
-        "wickedness in the heavenly places. Therefore, take up the full armor of God, so that you will" +
-        "be able to resist in the evil day, and having done everything, to stand firm.",
-        reference: "Ephesians 6:12-13",
-        translation: "NASB",
+        passage: "For we are his workmanship, created in Christ Jesus for good works, " +
+        "which God prepared beforehand, that we should walk in them.",
+        passage2: "it is God who works in you, both to will and to work for his good pleasure.",
+        reference: "Ephesians 2:10",
+        reference2: "Philippians 2:13",
+        translation: "ESV",
+        translation2: "ESV",
         theme: "Spiritual Warfare",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
         para1: "I am an example of God changing a life to do His will",
@@ -487,14 +632,20 @@ export default function ReturnEnglishText(page) {
         para6: "You have been created and fully equipped to do great things for God.",
         para7: "Your desire to do good things for God reveals how much He rules in your heart",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "I am excited for the things you are building into my life so I can " +
+        "serve you. Thank you for giving me the desire and Holy Spirit power to do good " +
+        "things for you. Please continue to mold and shape me and give me a humble heart " +
+        "to fulfill your purpose in my life. Thank you that you not only gave me the " +
+        "gift of faith but you also help me to want to serve your kingdom.",
       }
       break;
     case "day26":
       content = {
-        passage: "Through Him then let us continually offer up a sacrifice of praise to God, that is, " +
-        "the fruit of lips that acknowledge His name.",
-        reference: "Hebrews 13:15",
-        translation: "ESV",
+        passage: "Do not let any unwholesome talk come out of your mouths, but only what is " +
+        "helpful for building others up according to their needs, that it may benefit those who listen.",
+        reference: "Ephesians 4:29",
+        translation: "NIV",
         theme: "Spiritual Warfare",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
         para1: "My words reveal who is in charge of my mind & heart",
@@ -505,14 +656,22 @@ export default function ReturnEnglishText(page) {
         para6: "Your words are evidence that Jesus lives in you and you are under the Spirit’s control.",
         para7: "Your words bring light into the darkness, hope into despair, peace into chaos",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "We understand that only You have the Words of life and You breathed "+
+        "that life into me. Now may the breath of my words be life giving to others. " +
+        "Thank you that by your word I can think your thoughts and declare your truths. " +
+        "Help my words represent a heart transformed by your love. May my words be " +
+        "filled with wisdom &amp; kindness and bring hope and healing. Help my speech " +
+        "always be under the control and guidance of the Holy Spirit.",
       }
       break;
     case "day27":
       content = {
-        passage: "Truly, truly, I say to you, unless a grain of wheat falls into the earth and dies, it " +
-        "remains alone; but if it dies, it bears much fruit.",
+        passage: "Through Jesus, therefore, let us continually offer to God a sacrifice " +
+        "of praise, the fruit of lips that confess His name. And do not neglect to do " +
+        "good and to share with others, for with such sacrifices God is pleased.",
         reference: "John 12:24",
-        translation: "ESV",
+        translation: "BSB ",
         theme: "Life of a Servant",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
         para1: "I live to worship Him, reveal Him and serve Him",
@@ -523,14 +682,22 @@ export default function ReturnEnglishText(page) {
         para6: "You understand that the best way to serve God is to give your life to others.",
         para7: "Your willingness to serve others is a form of true praise and respect for God",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "I choose to worship you with my mouth, my mind and my heart. " +
+        "I choose to declare your name where ever you send me. I pray you will help " +
+        "me encourage others and find your approval by my words and actions. Help me " +
+        "not be selfish but sacrificial. Change my heart so that I live in such a way " +
+        "that you are lifted up. May you increase and may I decrease.",
       }
       break;
     case "day28":
       content = {
-        passage: "For even the Son of Man came not to be served but to serve, and to " +
-        "give his life as a ransom for many.",
-        reference: "Mark 10:45",
-        translation: "NIV",
+        passage: "For our struggle is not against flesh and blood, but against the " +
+        "rulers, against the powers, against the world forces of this darkness, against " +
+        "the spiritual forces of wickedness in the heavenly places. Therefore, take up " +
+        "the full armor of God, so that you will be able to resist in the evil day, and having done everything, to stand firm.",
+        reference: "Ephesians 6:12-13",
+        translation: "NASB",
         theme: "Life of a Servant",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
         para1: "I am a warrior battling wickedness and darkness",
@@ -541,14 +708,23 @@ export default function ReturnEnglishText(page) {
         para6: "You are able to resist, stand firm, take authority and effectively fight for dominion.",
         para7: "You are able to discern where the real battles in people’s lives are fought",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Help me Lord for I am in a battle for my life and I must recognize " +
+        "and resist the lies of my enemy. Help me use the armor of faith, your Word " +
+        "and the power of the Holy Spirit that to withstand the onslaught of temptations " +
+        "and deceptions that are part of my daily experience. Knowing how" +
+        "easy it is to sin, please help me to discipline myself to plan for righteousness.",
       }
       break;
     case "day29":
       content = {
-        passage: "For we are his workmanship, created in Christ Jesus for good works, which God " +
-        "prepared beforehand, that we should walk in them.",
-        reference: "Ephesians 2:10",
-        translation: "ESV",
+        passage: "For though we walk in the flesh, we do not war according to the flesh, " +
+        "for the weapons of our warfare are not of the flesh, but divinely powerful for " +
+        "the destruction of fortresses. 5 We are destroying speculations and every lofty " +
+        "thing raised up against the knowledge of God, and we are taking every thought " +
+        "captive to the obedience of Christ,",
+        reference: "2 Corinthians 10:3-5",
+        translation: "NASB",
         theme: "Life of a Servant",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
         para1: "I am a warrior who fights against the darkness",
@@ -559,14 +735,20 @@ export default function ReturnEnglishText(page) {
         para6: "Your words are weapons of truth dismantling the opposition of the deceived.",
         para7: "You are a warrior fighting against darkness with the knowledge of God",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Father in heaven, remind me to not fight spiritual battles " +
+        "in my flesh but instead exercise the power of the Holy Spirit within me. " +
+        "Give me the courage to fight as a warrior against foolishness thinking " +
+        "with the authority of your Word. Remind me that I have the power to choose " +
+        "what I think, say and do. Help me to stand against those who stand against you.",
       }
       break;
     case "day30":
       content = {
-        passage: "Do not let any unwholesome talk come out of your mouths, but only what is " +
-        "helpful for building others up according to their needs, that it may benefit those who listen.",
-        reference: "Ephesians 4:29",
-        translation: "NIV",
+        passage: "For God has not given us the spirit of fear; but of power, and of " +
+        "love, and of a sound mind.",
+        reference: "2 Timothy 1:7",
+        translation: "NKJV",
         theme: "Life of a Servant",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
         para1: "I am filled with His power and love at all times",
@@ -577,15 +759,23 @@ export default function ReturnEnglishText(page) {
         para6: "You are filled with His power and He pours out His love through your life.",
         para7: "You have said no to the dark deeds of the flesh by walking in His power and love",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you for all the wonderful gifts you have given me to help me " +
+        "live a victorious life over fear, anxiety and depression. You have poured " +
+        "out your live in my heart, you have given me the power of the Holy Spirit " +
+        "and most importantly, I can have the mind of Christ. Remind me that faith is " +
+        "the strength of my heart and fear is the power of satan over my mind, will " +
+        "and emotions. Help me to remember that the flesh brings death but dependency " +
+        "on the Spirit brings life and peace.",
       }
       break;
     case "day31":
       content = {
-        passage: "Do nothing out of selfish ambition or empty pride, but in humility consider " +
-        "others more important than yourselves. Each of you should look not only to your own interests, " +
-        "but also to the interests of others",
-        reference: "Philippians 2:3-4",
-        translation: "BSB",
+        passage: "For the word of God is alive and active. Sharper than any " +
+        "double-edged sword, it penetrates even to dividing soul and spirit, "
+        +"joints and marrow; it judges the thoughts and attitudes of the heart.",
+        reference: "Hebrews 4:12",
+        translation: "NIV",
         theme: "Life of a Servant",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
         para1: "I am being transformed by the truth of His word",
@@ -596,6 +786,12 @@ export default function ReturnEnglishText(page) {
         para6: "Your thoughts and intentions have been transformed by the Word of God.",
         para7: "You are a warrior; both skillful and competent in using God’s powerful words",
         para8: "",
+        prayerTitle: "Today's Prayer",
+        prayer: "Thank you that You have given us a tool to truly know the deepest parts " +
+        "of ourselves. Your truth is everlasting and powerful enough to open eyes and " +
+        "change resistant hearts. Thank you that the Word can cut deep into my heart " +
+        "with a light that pierces even the most stubborn darkness. Because your Word " +
+        "is alive, we can speak truths that help people change from the inside out for all eternity.",
       }
       break;
     case "drawer":
