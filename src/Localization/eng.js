@@ -829,6 +829,49 @@ export default function ReturnEnglishText(page) {
         alert: "Language Updated to English!"
       }
       break;
+    case "passageSelection":
+      content = {
+        passageSelectionTitle: "Select a Passage",
+        theme1: "Kingdom Living",
+        theme2: "Using God's Word",
+        theme3: "Witnessing",
+        theme4: "Renewing Our Minds",
+        theme5: "Abiding in His Power",
+        theme6: "Life of a Servant",
+        theme7: "Spiritual Warfare",
+        verse1: "1 Peter 2:9",
+        verse2: "2 Corinthians 5:20",
+        verse3: "Isaiah 61:1",
+        verse4: "Matthew 28:18-20",
+        verse5: "2 Timothy 2:1-2",
+        verse6: "2 Timothy 3:16-17",
+        verse7: "2 Timothy 2:15",
+        verse8: "2 Corinthians 1:20",
+        verse9: "1 Peter 3:15",
+        verse10: "Romans 1:16",
+        verse11: "1 Corinthians 2:4-5",
+        verse12: "Ephesians 4:22-24",
+        verse13: "Romans 12:2",
+        verse14: "Philippians 4:8",
+        verse15: "Romans 8:5-6",
+        verse16: "2 Corinthians 5:16-17",
+        verse17: "2 Peter 1:3-4",
+        verse18: "Ephesians 3:20",
+        verse19: "John 15:4-5",
+        verse20: "Philippians 4:13",
+        verse21: "1 Corinthians 6:19-20",
+        verse22: "Galatians 2:20",
+        verse23: "Philippians 2:3-4",
+        verse24: "2 Corinthians 1:4",
+        verse25: "Ephesians 2:10 and \n Philippians 2:13",
+        verse26: "Ephesians 4:29",
+        verse27: "Hebrews 13:15-16",
+        verse28: "Ephesians 6:12-13",
+        verse29: "2 Corinthians 10:3-5",
+        verse30: "2 Timothy 1:7",
+        verse31: "Hebrews 4:12"
+      }
+      break;
     case "powerOfGodsWord":
       content = {
         title: "THE POWER OF GOD’S WORD IN US",
