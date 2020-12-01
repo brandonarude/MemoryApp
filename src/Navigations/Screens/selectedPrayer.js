@@ -25,8 +25,8 @@ export default function SelectedPrayer({navigation}) {
   return (
     <GestureRecognizer
     style={ styles.container }
-    onSwipeLeft={() => navigation.navigate('Daily Voices')}
-    onSwipeRight={() => navigation.navigate('Daily Passage')}
+    onSwipeLeft={() => navigation.navigate('Selected Encouragement')}
+    onSwipeRight={() => navigation.navigate('Selected Passage')}
     config={gestureRecognizerConfig}
     >
     <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => navigation.openDrawer()}>

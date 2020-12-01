@@ -25,7 +25,8 @@ export default function SelectedPassage({navigation}) {
 
     <GestureRecognizer
     style={ styles.container }
-    onSwipeLeft={() => navigation.navigate('Daily Prayer')}
+    onSwipeRight={() => navigation.navigate('Passage Selection')}
+    onSwipeLeft={() => navigation.navigate('Selected Prayer')}
     config={gestureRecognizerConfig}
     >
     <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => navigation.openDrawer()}>

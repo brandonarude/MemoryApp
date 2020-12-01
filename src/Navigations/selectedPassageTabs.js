@@ -18,24 +18,28 @@ const Tab = createBottomTabNavigator();
 
 export default function SelectedReadingTabs() {
   return(
-    <DayContextProvider>
+    <PassageContextProvider>
       <Tab.Navigator
       screenOptions={({ route }) => ({
               tabBarIcon: ({ focused }) => {
                 let iconName = './src/Assets/Images/tabIconSelected.svg';
-                if (route.name === 'Daily Passage') {
+                if (route.name === 'Passage Selection') {
                   iconName = focused
                     ? images.tabImageSelected
                     : images.tabImageUnselected
-                } else if (route.name === 'Daily Prayer') {
+                } else if (route.name === 'Selected Passage') {
                   iconName = focused
                     ? images.tabImageSelected
                     : images.tabImageUnselected
-                } else if (route.name === 'Daily Voices') {
+                } else if (route.name === 'Selected Prayer') {
                   iconName = focused
                     ? images.tabImageSelected
                     : images.tabImageUnselected
-                } else if (route.name === 'Daily Encouragement') {
+                } else if (route.name === 'Selected Voices') {
+                  iconName = focused
+                    ? images.tabImageSelected
+                    : images.tabImageUnselected
+                } else if (route.name === 'Selected Encouragement') {
                   iconName = focused
                     ? images.tabImageSelected
                     : images.tabImageUnselected
@@ -47,13 +51,11 @@ export default function SelectedReadingTabs() {
               showLabel: false,
               style: styles.bottonTabNavigation,
             }}>
-            //TODO add PassageSelector.js
-        <Tab.Screen name="Passage Selected" component={PassageSelector} />
+        <Tab.Screen name="Passage Selection" component={PassageSelector} />
         <Tab.Screen name="Selected Passage" component={SelectedPassage} />
         <Tab.Screen name="Selected Prayer" component={SelectedPrayer} />
-        <Tab.Screen name="Selected Voices" component={SelectedVoices} />
         <Tab.Screen name="Selected Encouragement" component={SelectedEncouragement} />
       </Tab.Navigator>
-    </DayContextProvider>
+    </PassageContextProvider>
   )
 }

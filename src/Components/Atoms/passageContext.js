@@ -5,8 +5,8 @@ import FindDate from './findDate.js';
 import SaveAsyncData from './saveAsyncData.js';
 
 //  Creates Day Context
-export const DayContext = React.createContext({
-  dayIndex: '1',
+export const PassageContext = React.createContext({
+  selectedIndex: '1',
 });
 
 //  CurrentDate
@@ -21,18 +21,18 @@ export const DayContext = React.createContext({
 //  return dateIndex
 
 
-// Created Provider function for dayContext
-export default function DayContextProvider({children}) {
+// Created Provider function for PassageContext
+export default function PassageContextProvider({children}) {
 
-  //  Instantiate dayIndex Context State
+  //  Instantiate selectedIndex Context State
   const [selectedIndex, setSelectedIndex] = useState('');
 
   const provider = {
     selectedIndex,
-    changeLang: selected => {
+    changeSelected: selected => {
       const selectedPassage = selected ? selected : '1'
       setSelectedIndex(selected);
     }
   };
-    return <DayContext.Provider value={provider}>{children}</DayContext.Provider>;
+    return <PassageContext.Provider value={provider}>{children}</PassageContext.Provider>;
 }

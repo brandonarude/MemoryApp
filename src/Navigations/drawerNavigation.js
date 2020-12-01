@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Component, useContext, useState } from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import DailyReadingTabs from './dailyReadingTabs';
+import SelectedReadingTabs from './selectedPassageTabs';
 import LanguageSelection from './Screens/languageSelect.js';
 import PowerOfGodsWord from './Screens/powerOfGodsWord.js';
 import TranslationsUsed from './Screens/translationsUsed.js';
@@ -28,6 +29,8 @@ let title = LocalizeText(langContext.lang, "drawer")
                         }}>
         <Drawer.Screen name="Today's Reading" component={DailyReadingTabs}
           options={{title:  title.dailyReadingTitle}} />
+        <Drawer.Screen name="Select a Reading" component={SelectedReadingTabs}
+          options={{title:  title.selectdReadingTitle}} />
         <Drawer.Screen name="Language Selection" component={LanguageSelection}
           options={{title:  title.languageSelectionTitle}} />
         <Drawer.Screen name="Power of God's Word" component={PowerOfGodsWord}

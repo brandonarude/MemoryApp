@@ -20,11 +20,19 @@ export default function SelectedEncouragement({navigation}) {
   let passageIndex = passageContext.selectedIndex;
   let content = LocalizeText(langContext.lang, "day" + passageIndex);
   let font;
+  let conditionalFinalEncouragement = undefined;
+
+  if(content.para8) {
+    conditionalFinalEncouragement =
+    <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
+          {content.para8};
+    </Text>
+  }
 
   return (
     <GestureRecognizer
     style={ styles.container }
-    onSwipeRight={() => navigation.navigate('Daily Voices')}
+    onSwipeRight={() => navigation.navigate('Selected Prayer')}
     config={gestureRecognizerConfig}
     >
     <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => navigation.openDrawer()}>

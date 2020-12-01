@@ -797,6 +797,7 @@ export default function ReturnEnglishText(page) {
     case "drawer":
       content = {
         dailyReadingTitle: "Today's Reading!",
+        selectedReadingTitle: "Select a Passage",
         languageSelectionTitle: "Language Selection",
         powerOfGodsWordTitle: "Power of God's Word",
         fiveVoicesInfoTitle: 'What are the Five Voices?',
