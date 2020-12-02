@@ -13,6 +13,7 @@ const colors = {
   accentColor: '#157E56',
   buttonColors: {
     backgroundColor: '#157E56',
+    disabled: '#ADADAD',
     color: '#FAF7EE',
   }
 }
@@ -43,6 +44,15 @@ const styles = StyleSheet.create({
   button: {
     width: '80%',
     backgroundColor: colors.buttonColors.backgroundColor,
+    borderRadius: 50,
+    height: 50,
+    margin: 25,
+    justifyContent: 'center',
+  },
+
+  buttonDisabled: {
+    width: '80%',
+    backgroundColor: colors.buttonColors.disabled,
     borderRadius: 50,
     height: 50,
     margin: 25,
