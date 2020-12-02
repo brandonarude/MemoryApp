@@ -34,7 +34,7 @@ export default function PassageSelection({navigation}) {
         <TouchableOpacity onPress={()=>{selectedPassage.changeSelected('1');
                                         navigation.navigate('Selected Passage') }}
                 style={styles.button}>
-                <Text style={[styles.buttonText]}>
+                <Text style={[styles.buttonText, langContext.fontLight()]}>
                 {content.verse1}
                 </Text>
         </TouchableOpacity>
