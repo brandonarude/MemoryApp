@@ -19,6 +19,19 @@ export default function SelectedPassage({navigation}) {
   let passageIndex = passageContext.selectedIndex;
   let content = LocalizeText(langContext.lang, "day" + passageIndex);
   let font;
+  let conditionalSecondPassage = undefined;
+  let conditionalSecondReference = undefined;
+
+  if(content.passage2 && content.reference2) {
+    conditionalSecondPassage =
+      <Text style={[styles.passageText, langContext.fontLight()]}>
+          { content.passage2 }
+        </Text>;
+      conditionalSecondReference =
+        <Text style={[styles.baseText, langContext.fontLight(), { width: '100%', textAlign: 'right' }]}>
+          {content.reference2}, {content.translation2}
+        </Text>;
+  }
 
 
   return (
@@ -36,9 +49,11 @@ export default function SelectedPassage({navigation}) {
         <Text style={[styles.passageText, langContext.fontLight()]}>
           { content.passage }
         </Text>
-        <Text style={[styles.baseText, langContext.fontLight(), { width: '100%', textAlign: 'right' }]}>
+        <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight(), { width: '100%', textAlign: 'right' }]}>
           {content.reference}, {content.translation}
         </Text>
+        { conditionalSecondPassage }
+        { conditionalSecondReference }
       </ScrollView>
     </GestureRecognizer>
   )

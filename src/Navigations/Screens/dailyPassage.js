@@ -60,7 +60,7 @@ export default function DailyPassage({navigation}) {
         <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight(), { width: '100%', textAlign: 'right' }]}>
           {content.reference}, {content.translation}
         </Text>
-        { conditionalSecondPassage}
+        { conditionalSecondPassage }
         { conditionalSecondReference }
       </ScrollView>
     </GestureRecognizer>
