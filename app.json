@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "Identity Scripture Memory",
-    "slug": "IdentityScriptureMemory",
-    "version": "1.0.0",
+    "name": "Identity Scripture Memorization",
+    "slug": "IdentityScriptureMemorization",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,7 +23,7 @@
       "favicon": "./assets/favicon.png"
     },
     "android": {
-      "package": "com.yourcompany.yourappname",
+      "package": "com.yourcompany.IdentityScriptureMemorization",
       "versionCode": 1
     }
   }

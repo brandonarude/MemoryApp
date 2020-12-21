@@ -3,7 +3,7 @@
 
 import {Alert} from 'react-native';
 
-export default function ReturnHindiText(page) {
+export default function ReturnMarathiText(page) {
   var content;
   switch(page){
     case "covenant": {
