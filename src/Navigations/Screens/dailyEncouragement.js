@@ -34,7 +34,7 @@ export default function DailyEncouragement({navigation}) {
   return (
     <GestureRecognizer
     style={ styles.container }
-    onSwipeRight={() => navigation.navigate('Daily Voices')}
+    onSwipeRight={() => navigation.navigate('Daily Prayer')}
     config={gestureRecognizerConfig}
     >
     <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => navigation.openDrawer()}>

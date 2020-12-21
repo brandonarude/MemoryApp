@@ -25,7 +25,7 @@ export default function DailyPrayer({navigation}) {
   return (
     <GestureRecognizer
     style={ styles.container }
-    onSwipeLeft={() => navigation.navigate('Daily Voices')}
+    onSwipeLeft={() => navigation.navigate('Daily Encouragement')}
     onSwipeRight={() => navigation.navigate('Daily Passage')}
     config={gestureRecognizerConfig}
     >

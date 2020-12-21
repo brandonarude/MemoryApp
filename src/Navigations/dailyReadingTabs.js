@@ -30,10 +30,6 @@ export default function DailyReadingTabs() {
                   iconName = focused
                     ? images.tabImageSelected
                     : images.tabImageUnselected
-                } else if (route.name === 'Daily Voices') {
-                  iconName = focused
-                    ? images.tabImageSelected
-                    : images.tabImageUnselected
                 } else if (route.name === 'Daily Encouragement') {
                   iconName = focused
                     ? images.tabImageSelected
