@@ -1,0 +1,11 @@
+Steps to add additional languages.
+1. Copy eng.js and rename file to first three letters of language + ".js" (eng.js, hin.js, etc.)
+2. Add translated text to this new file
+3. In languageContext.js, add options font options for the new languages
+4. Add import and new case in localizeText.js
+5. Create additional button in languageSelect.js
+
+Currently added languages:
+English
+Hindi (Waiting on translations)
+Marathi (Need to finalize in code)

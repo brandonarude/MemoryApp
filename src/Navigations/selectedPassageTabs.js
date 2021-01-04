@@ -6,7 +6,6 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import PassageSelector from './Screens/passageSelector.js'
 import SelectedPassage from './Screens/selectedPassage.js';
 import SelectedPrayer from './Screens/selectedPrayer.js';
-import SelectedVoices from './Screens/selectedVoices.js';
 import SelectedEncouragement from './Screens/selectedEncouragement.js';
 import styles from '../Styles/styles.js';
 import images from '../Assets/Images/imageLibrary.js'

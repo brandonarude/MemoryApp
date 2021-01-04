@@ -15,11 +15,13 @@ import RetrieveStoredData from '../../Components/Atoms/retrieveStoredData.js';
 //Exports Selected Encouragements for the Tab Navigation selectedPassageTabs from
 ///Navigations/selectedPassageTabs.js
 export default function SelectedEncouragement({navigation}) {
+  //localize content based on set language and passageIndex (ranges from day1 to day31)
   const langContext = React.useContext(LanguageContext);
   const passageContext = React.useContext(PassageContext);
   let passageIndex = passageContext.selectedIndex;
   let content = LocalizeText(langContext.lang, "day" + passageIndex);
-  let font;
+
+  // allows for optional 8th encouragement
   let conditionalFinalEncouragement = undefined;
 
   if(content.para8) {

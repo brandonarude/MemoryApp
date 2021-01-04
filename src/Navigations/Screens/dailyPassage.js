@@ -14,11 +14,14 @@ import RetrieveStoredData from '../../Components/Atoms/retrieveStoredData.js';
 //Exports Daily Passage for the Tab Navigation dailyReadingTabs from
 ///Navigations/dailyReadingTabs.js
 export default function DailyPassage({navigation}) {
+
+  //Localize content based on set language and dayIndex
   const langContext = React.useContext(LanguageContext);
   const dayContext = React.useContext(DayContext);
   let dayIndex = dayContext.dayIndex;
   let content = LocalizeText(langContext.lang, "day" + dayIndex);
-  let font;
+
+  //Allows for optional second passage
   let conditionalSecondPassage = undefined;
   let conditionalSecondReference = undefined;
 

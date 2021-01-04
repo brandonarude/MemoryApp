@@ -29,10 +29,10 @@ export default function LanguageSelection({navigation}) {
                 भाषा: हिन्दी {/* Language: Hindi */}
                 </Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.buttonDisabled}
-                disabled={true}>
+        <TouchableOpacity onPress={() => langContext.changeLang('Mar')}
+                style={styles.button}>
                 <Text style={[styles.buttonText, styles.buttonTextFontHin]}>
-                भाषा: मराठी {/* Language: Marathi */}
+                  भाषा: मराठीदी {/* Language: Marathi */}
                 </Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.buttonDisabled}

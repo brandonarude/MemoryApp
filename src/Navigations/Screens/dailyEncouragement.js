@@ -19,10 +19,12 @@ export default function DailyEncouragement({navigation}) {
   const langContext = React.useContext(LanguageContext);
   const dayContext = React.useContext(DayContext);
   let dayIndex = dayContext.dayIndex;
-  let content = LocalizeText(langContext.lang, "day" + dayIndex);
-  let font;
-  let conditionalFinalEncouragement = undefined;
 
+  //retrieve content based on a string that ranges from day1 to day31
+  let content = LocalizeText(langContext.lang, "day" + dayIndex);
+
+  //Allows for options 8th paragraph
+  let conditionalFinalEncouragement = undefined;
   if(content.para8) {
     conditionalFinalEncouragement =
     <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>

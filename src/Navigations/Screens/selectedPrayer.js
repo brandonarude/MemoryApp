@@ -16,6 +16,7 @@ import RetrieveStoredData from '../../Components/Atoms/retrieveStoredData.js';
 
 export default function SelectedPrayer({navigation}) {
 
+  //localize content based on set language and passageIndex (ranges from day1 to day31)
   const langContext = React.useContext(LanguageContext);
   const passageContext = React.useContext(PassageContext);
   let passageIndex = passageContext.selectedIndex;

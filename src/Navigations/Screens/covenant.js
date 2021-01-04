@@ -15,9 +15,9 @@ import RetrieveStoredData from '../../Components/Atoms/retrieveStoredData.js';
 ///Navigations/dailyReadingTabs.js
 export default function DailyEncouragement({navigation}) {
 
+  //Localize page to set language
   const langContext = React.useContext(LanguageContext);
   let content = LocalizeText(langContext.lang, "covenant");
-  let font;
 
 
   return (

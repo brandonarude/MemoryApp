@@ -16,11 +16,11 @@ import RetrieveStoredData from '../../Components/Atoms/retrieveStoredData.js';
 
 export default function DailyPrayer({navigation}) {
 
+  //localize content based on set language and dayIndex
   const langContext = React.useContext(LanguageContext);
   const dayContext = React.useContext(DayContext);
   let dayIndex = dayContext.dayIndex;
   let content = LocalizeText(langContext.lang, "day" + dayIndex);
-  let font;
 
   return (
     <GestureRecognizer

@@ -14,11 +14,13 @@ import RetrieveStoredData from '../../Components/Atoms/retrieveStoredData.js';
 //Exports Selected Passage for the Tab Navigation selectedPAssageTabs from
 ///Navigations/selectedPassageTabs.js
 export default function SelectedPassage({navigation}) {
+  //localize content based on set language and passageIndex (ranges from day1 to day 31)
   const langContext = React.useContext(LanguageContext);
   const passageContext = React.useContext(PassageContext);
   let passageIndex = passageContext.selectedIndex;
   let content = LocalizeText(langContext.lang, "day" + passageIndex);
-  let font;
+
+  //allows for optional second passage
   let conditionalSecondPassage = undefined;
   let conditionalSecondReference = undefined;
 
