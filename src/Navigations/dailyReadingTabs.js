@@ -44,7 +44,6 @@ export default function DailyReadingTabs() {
             }}>
         <Tab.Screen name="Daily Passage" component={DailyPassage} />
         <Tab.Screen name="Daily Prayer" component={DailyPrayer} />
-        <Tab.Screen name="Daily Voices" component={DailyVoices} />
         <Tab.Screen name="Daily Encouragement" component={DailyEncouragement} />
       </Tab.Navigator>
     </DayContextProvider>
