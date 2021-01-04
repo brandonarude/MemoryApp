@@ -33,6 +33,8 @@ export default function DayContextProvider({children}) {
   //  After Date of last use is loaded, figure out if the current day is different
   //  If so, increment the day index and save both.
  storedDate.then( (storedDate) => {
+
+   // storedDateIndex is the current passage, it will range from 1-31
     let storedDateIndex = RetrieveStoredData("MyStoredDayIndex");
     storedDateIndex.then( (storedDateIndex) => {
       // Retrieve and format current date
@@ -44,7 +46,7 @@ export default function DayContextProvider({children}) {
         if(storedDateIndex === "") {
           storedDateIndex = "1";
         }
-        
+
         if(currentDate != storedDate){
           storedDateIndex = Number(storedDateIndex) + 1;
 
@@ -52,6 +54,7 @@ export default function DayContextProvider({children}) {
             storedDateIndex = 1;
           }
 
+          //Saves date data to be used when user next opens the application
           SaveAsyncData("MyStoredDate", currentDate);
           SaveAsyncData("MyStoredDayIndex", storedDateIndex.toString());
           setDayIndex(storedDateIndex);

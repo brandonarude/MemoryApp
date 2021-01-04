@@ -14,6 +14,7 @@ const Stack = createStackNavigator();
 
 function App() {
 
+  // Load Fonts
   let [fontsLoaded] = useFonts({
     'Roboto-Regular': require('./assets/Fonts/Roboto-Regular.ttf'),
     'Roboto-Light': require('./assets/Fonts/Roboto-Light.ttf'),
@@ -25,6 +26,7 @@ function App() {
     return <AppLoading />;
   }
 
+  //Create App View
   return (
     <LanguageContextProvider>
       <NavigationContainer>

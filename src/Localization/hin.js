@@ -7,6 +7,7 @@ import {Alert} from 'react-native';
 export default function ReturnHindiText(page) {
   var content;
   switch(page){
+    // From page covenant.js
     case "covenant": {
       content = {
         title: "My Covenant To Memorize Scripture",
@@ -24,6 +25,7 @@ export default function ReturnHindiText(page) {
       }
     }
     break;
+    // For daily readings
     case "day1":
       content = {
         passage: "For you are a chosen people, a royal priesthood, a holy nation, " +
@@ -33,7 +35,7 @@ export default function ReturnHindiText(page) {
         translation: "NIV",
         theme: "Kingdom Living",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "eSa jktk dh lsok esa jktfd; ;ktd g qWa A",
+        para1: "I am a royal priest in the service of the King",
         para2: "I am of great value to God who owns me",
         para3: "I am assigned to declare God's greatness",
         para4: "I am chosen by God to walk in His light",
@@ -795,6 +797,7 @@ export default function ReturnHindiText(page) {
         "is alive, we can speak truths that help people change from the inside out for all eternity.",
       }
       break;
+    // For navigation titles in Drawer
     case "drawer":
       content = {
         dailyReadingTitle: "Today's Reading!",
@@ -807,6 +810,7 @@ export default function ReturnHindiText(page) {
         translationsUsedTitle: "Translations Used"
       }
       break;
+    // for page keyWordDescription.js
     case "keyWords":
       content = {
         title: "The Meanings of Key Words",
@@ -825,11 +829,13 @@ export default function ReturnHindiText(page) {
         para8: "RIGHTEOUSNESS: Dikaiosýnē - divine approval. Separated unto good works.",
       }
       break;
+    // For when a user selects a language in languageSelect.js
     case "languageSelection":
       content = {
         alert: "Language Updated to English!"
       }
       break;
+    // For page passageSelector.js
     case "passageSelection":
       content = {
         passageSelectionTitle: "Select a Passage",
@@ -873,6 +879,7 @@ export default function ReturnHindiText(page) {
         verse31: "Hebrews 4:12"
       }
       break;
+    // For page powerOfGodsWord.js
     case "powerOfGodsWord":
       content = {
         title: "THE POWER OF GOD’S WORD IN US",
@@ -907,6 +914,7 @@ export default function ReturnHindiText(page) {
         "eternal. (2 Cor. 4:18)",
       }
       break;
+    // For page translationsUsed.js
     case "translations":
       content = {
         title: "Translations",
@@ -928,6 +936,7 @@ export default function ReturnHindiText(page) {
         para12: "KJV- King James Version",
       }
       break;
+    //Default text in case of no translations
     default:
       content = "No Translations found for this page.";
       break;

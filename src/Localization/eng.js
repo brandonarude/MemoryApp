@@ -1,4 +1,4 @@
-//Provides localization support for English Language
+// Provides localization support for English Language
 //  Takes page as an argument to determine which text is necessary
 
 import {Alert} from 'react-native';
@@ -6,6 +6,7 @@ import {Alert} from 'react-native';
 export default function ReturnEnglishText(page) {
   var content;
   switch(page){
+    // From page covenant.js
     case "covenant": {
       content = {
         title: "My Covenant To Memorize Scripture",
@@ -23,6 +24,7 @@ export default function ReturnEnglishText(page) {
       }
     }
     break;
+    // For daily readings
     case "day1":
       content = {
         passage: "For you are a chosen people, a royal priesthood, a holy nation, " +
@@ -794,6 +796,7 @@ export default function ReturnEnglishText(page) {
         "is alive, we can speak truths that help people change from the inside out for all eternity.",
       }
       break;
+    // For navigation titles in Drawer
     case "drawer":
       content = {
         dailyReadingTitle: "Today's Reading!",
@@ -806,6 +809,7 @@ export default function ReturnEnglishText(page) {
         translationsUsedTitle: "Translations Used"
       }
       break;
+    // for page keyWordDescription.js
     case "keyWords":
       content = {
         title: "The Meanings of Key Words",
@@ -824,11 +828,13 @@ export default function ReturnEnglishText(page) {
         para8: "RIGHTEOUSNESS: Dikaiosýnē - divine approval. Separated unto good works.",
       }
       break;
+    // For when a user selects a language in languageSelect.js
     case "languageSelection":
       content = {
         alert: "Language Updated to English!"
       }
       break;
+    // For page passageSelector.js
     case "passageSelection":
       content = {
         passageSelectionTitle: "Select a Passage",
@@ -872,6 +878,7 @@ export default function ReturnEnglishText(page) {
         verse31: "Hebrews 4:12"
       }
       break;
+    // For page powerOfGodsWord.js
     case "powerOfGodsWord":
       content = {
         title: "THE POWER OF GOD’S WORD IN US",
@@ -906,6 +913,7 @@ export default function ReturnEnglishText(page) {
         "eternal. (2 Cor. 4:18)",
       }
       break;
+    // For page translationsUsed.js
     case "translations":
       content = {
         title: "Translations",
@@ -927,6 +935,7 @@ export default function ReturnEnglishText(page) {
         para12: "KJV- King James Version",
       }
       break;
+    //Default text in case of no translations
     default:
       content = "No Translations found for this page.";
       break;
