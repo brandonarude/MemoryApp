@@ -1,4 +1,5 @@
-//Provides localization support for English Language
+//Provides localization support for Hindi Language
+// Provided Translations were in Kruti Characters, so the unicode doesn't render properly
 //  Takes page as an argument to determine which text is necessary
 
 import {Alert} from 'react-native';
@@ -32,7 +33,7 @@ export default function ReturnHindiText(page) {
         translation: "NIV",
         theme: "Kingdom Living",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am a royal priest in the service of the King",
+        para1: "eSa jktk dh lsok esa jktfd; ;ktd g qWa A",
         para2: "I am of great value to God who owns me",
         para3: "I am assigned to declare God's greatness",
         para4: "I am chosen by God to walk in His light",
