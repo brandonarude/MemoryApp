@@ -34,10 +34,6 @@ export default function SelectedReadingTabs() {
                   iconName = focused
                     ? images.tabImageSelected
                     : images.tabImageUnselected
-                } else if (route.name === 'Selected Voices') {
-                  iconName = focused
-                    ? images.tabImageSelected
-                    : images.tabImageUnselected
                 } else if (route.name === 'Selected Encouragement') {
                   iconName = focused
                     ? images.tabImageSelected

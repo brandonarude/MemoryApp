@@ -15,15 +15,14 @@ import RetrieveStoredData from '../../Components/Atoms/retrieveStoredData.js';
 ///Navigations/dailyReadingTabs.js
 export default function DailyEncouragement({navigation}) {
 
+  //localize content based on set language
   const langContext = React.useContext(LanguageContext);
   let content = LocalizeText(langContext.lang, "translations");
-  let font;
 
 
   return (
     <GestureRecognizer
     style={ styles.container }
-    onSwipeRight={() => navigation.navigate('Daily Voices')}
     config={gestureRecognizerConfig}
     >
     <TouchableOpacity style={styles.drawerHamburgerContainer} onPress={() => navigation.openDrawer()}>

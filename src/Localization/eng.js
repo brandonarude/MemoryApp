@@ -935,6 +935,20 @@ export default function ReturnEnglishText(page) {
         para12: "KJV- King James Version",
       }
       break;
+      // for page fiveVoicesInfo.js
+      case "voices":
+        content = {
+          title: "5 Voices in Our Lives",
+          para1: "God's",
+          para2: "Satan's",
+          para3: "Other's",
+          para4: "Yourself",
+          para5: "Encouragement of Believers",
+          para6: "The power of death and life are in the tongue... Proverbs 18:21",
+          para7: "Who have you been listening to today?",
+          para8: "Faith comes by hearing and hearing by the Word of God,",
+        }
+        break;
     //Default text in case of no translations
     default:
       content = "No Translations found for this page.";
