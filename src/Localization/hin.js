@@ -118,18 +118,13 @@ export default function ReturnHindiText(page) {
         para7: "You are dedicated to advancing the kingdom by planting and watering",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you for sending people into our lives to help us grow in Christ. " +
-        "As You have leaned into me to give Yourself away to me, help me to lean into " +
-        "others and give my life away to them. Show me how to teach them to do the same. " +
-        "Help me to be faithful that I might teach others to be faithful to the next generation of believers.",
+        prayer: "हमारे जीवन में उन लोगों को भेजने के लिए धन्यवाद जो मसीह में हमें बढने में सहायता करतें है। जैसे आप हमारे जीवन में आये और अपने आपको हमारे लिए दे दिया मेरी सहायता कर की मैं भी दुसरों के जीवन की ओर देखुं और उनके लिए अपना जीवन दे दॅुं। मुझे दिखा के मैं कैसे उन्हे सिखाऊं की वे वैसा ही करें। मुझे विश्वासयोग्य बना ताकी मैं भी आनेवाली नयी पीडी के विश्वासीओं को विश्वासयोग्य रहना सिखा सकुं।",
       }
       break;
     case "day6":
       content = {
-        passage: "All Scripture is breathed out by God and profitable for teaching, for reproof, " +
-        "for correction, and for training in righteousness, that the man of God may be complete, equipped " +
-        "for every good work.",
-        reference: "2 Timothy 3:16-17",
+        passage: "संपुर्ण पवित्रशास्त्र परमेश्वर की प्रेरणा से रचा गया है और उपदेश, और समझाने, और सुधारने, और धार्मिकता की शिक्षा के लिए लाभदायक है ताकि परमेश्वर का जन सिध्द बनें, और हर एक भले काम के लिए तत्पर हो जाऐं।",
+        reference: "2 तीमुथियुस 3:16-17",
         translation: "ESV",
         theme: "Using God's Word",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -142,17 +137,13 @@ export default function ReturnHindiText(page) {
         para7: "You know what’s right, what’s not right, how to get right and how to stay right",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you that You have breathed life into my soul and spirit. Thank " +
-        "you for the gift of the living Word that helps me to know what is right, what " +
-        "is not right, how to get right, and how to stay right. Thank you that your " +
-        "Word trains me to walk in righteousness, equipping and enabling me to do good works for You.",
+        prayer: "धन्यवाद मेरे प्राण और आत्मा में जीवन का श्वास फूंकने के लिए। जीवीत वचन के वरदान के लिए धन्यवाद जो मुझे सही और गलत की पहचान दिलाकर सही कैसे करें और सही में कैसे बने रहें इसके लिए मेरी सहायता करता है। धन्यवाद तेरा वचन मुझे धार्मिकता में चलने के लिए तैयार करता, बनाता, और तेरे सारे अच्छे कामों के लिए सक्षम करता है।",
       }
       break;
     case "day7":
       content = {
-        passage: "Be diligent to present yourself approved to God as a workman who does not " +
-        "need to be ashamed, accurately handling the word of truth.",
-        reference: "2 Timothy 2:15",
+        passage: "अपने आपको परमेश्वर का ग्रहणयोग्य और ऐसा काम करनेवाना ठहराने का प्रयत्न कर, जो लज्जीत होने न पाए, और जो सत्य के वचन को ठीक रीती से काम में लाता हो।",
+        reference: "2 तीमुथियुस 2:15",
         translation: "ESV",
         theme: "Using God's Word",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -165,17 +156,13 @@ export default function ReturnHindiText(page) {
         para7: "You bring honor to God and yourself by how you carefully use His Word",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Help my faith be authentic and dependable. May I be approved by You " +
-        "with no need to be ashamed as I learn to carefully handle your Word. Help me " +
-        "always use your Word in such a way that it accomplishes what You have  " +
-        "assigned it to do through the Holy Spirit.",
+        prayer: "मेरी सहायता कर की मेरा विश्वास सच्चा और भरोसेमंद हो। मैं तेरे व्दारा स्वीकृत हो सकुं मुझे लज्जीत होने की कोई जरूरत नही क्योंकि मैं तेरे वचनों को कैसे सही रीती से उपयोग में लाना है वह सिख चुका हूँ। मेरी सहायता कर मैं हमेशा तेरे वचनों को इस रीती से उपयोग में लाऊं की जो पवित्र आत्मा के व्दारा ठहराया है वह पुर्ण हो।",
       }
       break;
     case "day8":
       content = {
-        passage: "For no matter how many promises God has made, they are Yes " +
-        "in Christ. And so through Him the Amen is spoken by us to the glory of God.",
-        reference: "2 Corinthians 1:20",
+        passage: "क्योंकि परमेश्वर की जितनी प्रतिज्ञायें है, वे सब उसी में “हाँ” के साथ है। इसलिए उसके व्दारा आमीन भी हुई कि हमारे व्दारा परमेश्वर की महिमा हो।",
+        reference: "2 कुरिन्थीयों 1:20",
         translation: "NIV",
         theme: "Using God's Word",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -188,18 +175,13 @@ export default function ReturnHindiText(page) {
         para7: "Your confidence in Christ’s promises brings glory to the Father",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you that You have given me the inheritance of all your promises through " +
-        "Christ. Thank you for the authority those promises give me for each day’s " +
-        "living. Give me the confidence to take authority and walk in the power of " +
-        "those promises that the Father might be glorified.",
+        prayer: "धन्यवाद मसीह व्दारा आपकी सारी प्रतिज्ञाओं की विरासत के लिए जो आपने मुझे दी। आपकी प्रतिज्ञाओं के व्दारा जो अधिकार प्रती-दिन के जीवन के लिए मुझे मिला है उस के लिए धन्यवाद। आपको महिमा दे सकें ऐसी प्रतिज्ञाओं का अधिकार ले कर सामर्थ में चलने के लिए मुझे आत्मविश्वास दें ।",
       }
       break;
     case "day9":
       content = {
-        passage: "In your hearts honor Christ the Lord as holy, always being prepared to make a " +
-        "defense to anyone who asks you for a reason for the hope that is in you; yet do it with gentleness " +
-        "and respect.",
-        reference: "1 Peter 3:15",
+        passage: "मसीह को प्रभु जानकर अपने मन में पवित्र समझो। जो कोई तुम से तुम्हारी आशा के विषय में पुछे, उसे उत्तर देने के लिए सर्वदा तैयार रहो, पर नम्रता और भय के साथ।",
+        reference: "1 पतरस 3:15",
         translation: "ESV",
         theme: "Witnessing",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -212,17 +194,13 @@ export default function ReturnHindiText(page) {
         para7: "You are always respectful while helping others understand spiritual things",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Dear God, help me choose a disciplined life that I might bring honor " +
-        "to You by defending the faith You have given me. Help me be a considerate and " +
-        "patient teacher to those seeking You as I explain to them your holiness, " +
-        "your love and the hope You have placed in my heart.",
+        prayer: "प्रिय प्रभु मेरी सहायता कर की जो विश्वास आपने मुझे दिया है उस की रक्षा कर, मैं अनुशासित जीवन जी सकुं जिस से आपको आदर मिलें। आपकी पवित्रता, प्रेम, आशा जो आपने मेरे हृदय में डाली जीनको मैंने आपके खोजीयों को बताया उनके लिए मैं एक दयालु और संयंमी शिक्षक बनने के लिए मेरी सहायता कर।",
       }
       break;
     case "day10":
       content = {
-        passage: "For I am not ashamed of the gospel, for it is the power of God for salvation to " +
-        "everyone who believes, to the Jew first and also to the Greek.",
-        reference: "Romans 1:16",
+        passage: "क्योंकि मैं सुसमाचार से नही लजाता, इसलिए की वह हरएक विश्वास करनेवालों के लिए, पहले तो यहुदी फिर युनानी के लिए, उध्दार के निमित्त परमेश्वर की सामर्थ है।",
+        reference: "रोमियों 1:16",
         translation: "ESV",
         theme: "Witnessing",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -235,19 +213,13 @@ export default function ReturnHindiText(page) {
         para7: "You display the hope of eternal life in your words and life",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you that You have entrusted me with the words of eternal life. " +
-        "I am grateful that You have chosen me to lead others to You. Help me to love " +
-        "others more than I fear their rejection because it is all about eternity. " +
-        "Give me eyes and ears to recognize those who are seeking to know You and " +
-        "speak with boldness and the power of your word.",
+        prayer: "धन्यवाद अनंतकाल के जीवन के वचनों को मुझे सौंपने के लिए। मैं आपका धन्यवाद करता हॅुं की आपने मुझे चुना लोगों को आपके करिब लाने के लिए। मेरी सहायता करें लोगों के तिरस्कार से डरने के बजाय मैं उनसे प्रेम करूं क्योंकि यह अनंतकाल के बारे में है। मुझे ऐसी आँखें और कान दें जीस से मैं जान सकुं की कौन आपको जानने की खोज में है और आपके वचनों के हियाव और सामर्थ को बोलतें है।",
       }
       break;
     case "day11":
       content = {
-        passage: "And my message and my preaching were not in persuasive words of " +
-        "wisdom, but in demonstration of the Spirit and of power, so that your faith would not rest on " +
-        "the wisdom of men, but on the power of God.",
-        reference: "1 Corinthians 2:4-5",
+        passage: "और मेरे वचन, और मेरे प्रचार में ज्ञान की लुभावनेवाली बातें नही, परंतु आत्मा अैर सामर्थ का प्रमाण था। इसलिए के तुम्हारा विश्वास मनुष्य के ज्ञान पर नही, परंतु परमेश्वर की सामर्थ पर निर्भर हो।",
+        reference: "1 कुरिन्थीयों 2:4-5",
         translation: "NASB",
         theme: "Witnessing",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -260,19 +232,13 @@ export default function ReturnHindiText(page) {
         para7: "The way you live and speak encourages others to depend on God rather than men",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Dear Father, help me not depend on my own ideas or wisdom but prepare " +
-        "myself to respond to those in need by using your truth alone. Help me " +
-        "to humbly surrender to the power of your Spirit. Make me sensitive to your " +
-        "Spirit to encourage repentance, obedience and transformation in others. " +
-        "May my words be your Word through the Holy Spirit.",
+        prayer: "प्रिय पिता, मेरी सहायता करें की मैं अपने ज्ञान और कल्पनाओं पर निर्भर ना रहॅुं लेकिन जरूरत के समय प्रतिउत्तर देने के लिए सिर्फ आपके सत्यों को उपयोग कर अपने आप को तैयार करूं। मेरी सहायता करें कि मैं नम्रता से अपने आपको पवित्र आत्मा के सामर्थ को सौंप दॅुं। मुझे आपकी आत्मा के लिए संवेदनशील बनाओ ताकि मैं पच्छात्ताप, आज्ञाकारिता और परिवर्तन के लिए दुसरों को उत्तेजीत करूं। पवित्र आत्मा के व्दारा मेरा वचन आपका वचन होने दो।",
       }
       break;
     case "day12":
       content = {
-        passage: "You were taught, with regard to your former way of life, to put off your " +
-        "old self, which is being corrupted by its deceitful desires; to be made new in the spirit of your " +
-        "minds; and to put on the new self, created to be like God in true righteousness and holiness. ",
-        reference: "Ephesians 4:22-24",
+        passage: "कि तुम पिछले चालचलन के मनुष्यत्व को उतार डालो जो भरमानेवाली अभिलाषाओं के अनुसार भ्रष्ट होता जाता है। और अपने मन के आत्मिक स्वभाव में नए बनते जाओ, और नए मनुष्यत्व को पहिन लो जो परमेश्वर के अनुरूप सत्य की धार्मिकता और पवित्रता में सृजा गया है।",
+        reference: "इफिसीयों 4:22-24",
         translation: "NIV",
         theme: "Renewing our Minds",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -285,18 +251,13 @@ export default function ReturnHindiText(page) {
         para7: "God’s Spirit is helping you to walk in new levels of understanding and power",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you for sharing your righteousness and holiness with me so I " +
-        "can put aside my old sinful self. It is beyond all that I could ask or " +
-        "think that You have made me a new person inside. You said you have even given " +
-        "me a new spirit and mind and have chosen to make me like yourself in " +
-        "holiness. Thank you for the extravagance of your gifts to me.",
+        prayer: "आपकी धार्मिकता और पवित्रता मेरे साथ साझा करने के लिए धन्यवाद जीस से की मैं अपने पुराने पापमय स्वभाव को दुर कर सकुं। यह मेरे माँगने और सोचने से ज्यादा है आपने मुझे अंदर से नया व्यक्ती बनाया है। आपने कहा है कि आपने मुझे नया आत्मा और नया मन भी दिया है, और पवित्राई में आपके जैसा बनने के लिए मुझे चुना है। धन्यवाद आपके उपहारों का बहुतायत मुझे देने के लिए।",
       }
       break;
     case "day13":
       content = {
-        passage: "Do not be conformed to this age, but be transformed by the renewing of your " +
-        "mind, so that you may test and prove what is the good, pleasing, and perfect will of God.",
-        reference: "Romans 12:2",
+        passage: " इस संसार के अनुरूप न बनो, परंतु अपने मन के नये हो जाने से तुम परिवर्तित हो जाओ कि परमेश्वर की भली, ग्रहणयोग्य और सिध्द ईच्छा को तुम अनुभव से मालूम करते रहो।",
+        reference: "रोमियों 12:2",
         translation: "HCSB",
         theme: "Renewing our Minds",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -309,19 +270,13 @@ export default function ReturnHindiText(page) {
         para7: "Your life proves that living God’s way is good, pleasing and perfect",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you for providing a way to set me free from the world and its " +
-        "destructive influences. Thank you for providing a way to have the mind of " +
-        "Christ. I have tested your principles of life in contrast to the world and " +
-        "found them both true and good. With your help, I will resist conformity " +
-        "and choose to think and live differently.",
+        prayer: "मुझे संसार और उसके विचलीत करनेवाले प्रभाव से स्वतंत्र होने का मार्ग दिखने के लिए धन्यवाद। मसीह के मन को किस तरह से प्राप्त करना है उसका का मार्ग दिखने के लिए धन्यवाद। मैंने आपके जीवन के सिध्दांतों को संसार के साथ तुलना कर परखा और उसे खरा और भला दानों पाया। आपकी मदद से मै रूढीवाद का सामना करूंगा, और अलग सोचना और जीना चुनुंगा।",
       }
       break;
     case "day14":
       content = {
-        passage: "Finally, brethren, whatever is true, whatever is honorable, whatever is right, "+
-        "whatever is pure, whatever is lovely, whatever is of good repute, if there is any excellence and if "+
-        "anything worthy of praise, dwell on these things.",
-        reference: "Philippians 4:8",
+        passage: "अतः हे भाइयों जो बातें सत्य है, जो-जो आदरणीय है, जो-जो बातें न्यायसंगत है, जो-जो बातें पवित्र है, जो-जो बातें मनोहर है, जो-जो बातें मनभावनी है, अर्थात् जो-जो उत्तम तथा प्रशंसनीय गुण है, उन्ही का ध्यान किया करो।",
+        reference: "फिलिप्पीयों 4:8",
         translation: "NASB",
         theme: "Renewing our Minds",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -334,19 +289,13 @@ export default function ReturnHindiText(page) {
         para7: "Your words and actions bring deep respect for the majesty of God",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Lord, please give me courage to change my thinking and take my thoughts " +
-        "captive as I stand against a lazy, compromising mind. Help me to dwell on " +
-        "things that are equal to who I am in Christ. Help me to choose the discipline " +
-        "to wash my mind with your Word so I can begin to think and speak your thoughts. " +
-        "Help my mind choose the light and not the dark things .",
+        prayer: "प्रभु, कृपा करके मेरी सोच को बदलने और जैसे मैं आलसी और समझौता करनेवाले मन के विरोध में खडा होता हॅुं तब मेरे विचारों को बंदी बना लेने के लिए मुझे हियाव दो। मेरी मदद कर उन बातों में बने रहने जो बातें मुझे यह बताती है कि मैं मसीह में कौन हॅुं। आपके वचनों से मेरे मन को धोने के अनुशासन को चुनाव करने में मेरी सहायता कर ताकि मैं आपके विचार सोचना और बोलना आरंभ करू। मेरे मन को अंधकार की बजाय ज्योती को चुनने के लिए सहायता कर।",
       }
       break;
     case "day15":
       content = {
-        passage: "For those who live according to the flesh set their minds on the things of the " +
-        "flesh, but those who live according to the Spirit set their minds on the things of the Spirit. For " +
-        "to set the mind on the flesh is death, but to set the mind on the Spirit is life and peace.",
-        reference: "Romans 8:5-6",
+        passage: "क्योंकि वे जो शाररिक है, वह शरिर के बातों पर मन लगाते है, परंतु आध्यात्मिक तो आत्मिक बातों पर मन लगाते है। शरिर पर मन लगाना तो मृत्यु है परंतु आत्मा पर मन लगाना जीवन और शांती है।",
+        reference: "रोमियों 8:5-6",
         translation: "ESV",
         theme: "Renewing our Minds",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -359,19 +308,13 @@ export default function ReturnHindiText(page) {
         para7: "Because you have surrendered to His Spirit, you experience peace and rest",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you for giving me the power to say no to the temptations of my " +
-        "flesh. Help me not use my flesh to create an identity for myself. Help me to " +
-        "use your Word to renew my mind and replace the thoughts of fleshly desires with " +
-        "the life and peace of obedience. Let me surrender to the promptings of the " +
-        "Spirit. Empower my ability to choose righteousness.",
+        prayer: "मेरे शरिरीक परिक्षाओं को ना कहने का सामर्थ मुझे देने के लिए धन्यवाद। मेरी मदद करें की मैं मेरी पहचान बनाने के लिए मैं अपने शरिर का उपयोग ना करूं। मेरे शरिर के विचारों को जीवन और आज्ञाकारीता की शांती में बदलकर मेरे मन को नया करने के लिए मुझे आपके वचनों का उपयोग करने मेरी मदद करें। मुझे पवित्र आत्मा की सरलता में समर्पित होने दे। धार्मिकता चुनने के लिए मेरी क्षमता को बढा।",
       }
       break;
     case "day16":
       content = {
-        passage: "From now on, therefore, we regard no one according to the flesh. Even though we" +
-        "once regarded Christ according to the flesh, we regard him thus no longer. Therefore, if" +
-        "anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
-        reference: "2 Corinthians 5:16-17",
+        passage: "इसलिए अब से हम किसी मनुष्य को शरिर के अनुसार न समझेंगें। यदयपी हमने मसीह को भी शरिर के अनुसार जाना है, तथापी अब से हम उसे ऐसा नही जानते। इसलिए जो कोई मसीह में है तो वह नई सृष्टी है। पुरानी बातें बीत गई। देखो, नई बातें आ गई है।",
+        reference: "2 कुरिन्थीयों 5:16-17",
         translation: "ESV",
         theme: "Abiding in His Power",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -384,18 +327,13 @@ export default function ReturnHindiText(page) {
         para7: "You are doing a great job of letting the new life of God in you take over",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you that in Christ there is more to our identities than just our " +
-        "bodies. Thank you that you have put to death our broken and sinful past on " +
-        "the cross with Jesus. Help me to understand what it means to be a new creation " +
-        "and embrace the new person that I have become inside. Thank you that I can " +
-        "walk in newness of life each day and I do not need to let my past control me.",
+        prayer: "धन्यवाद हमारी पहचान में हमारी देह से बडकर भी और बहुत कुछ है। हमारे टुटे हुए पापमय अतीत को यीशु के साथ क्रुसपर मारने के लिए धन्यवाद। मेरी सहायता करें कि मैं नई सृष्टी का मतलब समझ सकुं और मेरे अंदर पैदा हुए नए व्यक्तीत्व को गले लगा लुं। धन्यवाद की अब, मैं प्रती-दिन जीवन के नएपन में चल सकता हॅुं और मेरा अतीत अब मुझपे हावी न होगा।",
       }
       break;
     case "day17":
       content = {
-        passage: "His divine power has granted to us all things that pertain to life and godliness, " +
-        "through the knowledge of Him who called us to his own glory and excellence.",
-        reference: "2 Peter 1:3",
+        passage: "उसकी ईश्वरीय सामर्थ ने उसी के पुर्ण ज्ञान के व्दारा जिसने हमें अपने महिमा और सद्भावना के अनुसार बुलाया है, वह सबकुछ जो जीवन और भक्ती से संबंध रखता है, हमें प्रदान किया है।",
+        reference: "2 पतरस 1:3",
         translation: "ESV",
         theme: "Abiding in His Power",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -408,18 +346,13 @@ export default function ReturnHindiText(page) {
         para7: "Because you know Him, God has granted you a life that brings Him glory",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you that You have given me everything I need to live a life of " +
-        "godliness. As I have gotten to know You, I realize your gifts have been " +
-        "complete and perfect for all my needs. Your willingness to allow me " +
-        "to share your glory and perfection is truly generous and more than I deserve " +
-        "or could have ever imagined.",
+        prayer: "मुझे ईश्वरीय जीवन जीने के लिए जो भी जरूरी है वह सब देने के लिए धन्यवाद । जैसे मैने आपको जाना मुझे पता चला की आपका उपहार मेरी सभी जरूरतों के लिए पुर्ण और सिध्द है। मुझे आपकी महिमा और पुर्णता साझा करने की अनुमती देने की आपकी इच्छा वास्तव में उदार है जो मेरी योग्यता से बढकर और मेरी सोच से परें हैं।",
       }
       break;
     case "day18":
       content = {
-        passage: "Now to Him who is able to do far more abundantly than all that we ask or think, " +
-        "according to the power at work within us.",
-        reference: "Ephesians 3:20",
+        passage: "अब जो ऐसा सामर्थी है कि हमारी विनती और समझ से कही अधिक काम कर सकता है, उस सामर्थ के अनुसार जो हम में कार्य करता है।",
+        reference: "इफिसीयों 3:20",
         translation: "ESV",
         theme: "Abiding in His Power",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -432,18 +365,13 @@ export default function ReturnHindiText(page) {
         para7: "You are chosen to do great things that will point to and glorify God",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "I praise you for calling me away from ordinary living and equipping " +
-        "me with the power to do great things for you. Help me to think big, pray big" +
-        "and by faith declare big things for your kingdom. Choose me and use me in " +
-        "powerful ways as I yield to the Holy Spirit that is working in me.",
+        prayer: "मैं आपकी स्तुती करता हॅुं की आपने मुझे एक साधारण जीवन से बुलाया और आपके लिए महान काम करने के लिए सामर्थ के साथ तैयार किया। मेरी सहायता करो कि मैं बडा सोचु, बडी प्रार्थना करूं, और विश्वास के व्दारा आपके राज्य में बडी बातों की घोषणा करूं। पवित्र आत्मा जो मेरे अंदर काम करता है, जब मैं उसे समर्पित होता हॅुं तब आप मुझे चुनकर सामर्थ रीती से उपयोग करना।",
       }
       break;
     case "day19":
       content = {
-        passage: "Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides " +
-        "in the vine, neither can you, unless you abide in me. I am the vine; you are the branches. " +
-        "Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing.",
-        reference: "John 15:4-5",
+        passage: "तुम मुझमें बने रहो, और मैं तुम मे। जैसे डाली यदि दाखलता में बनी न रहे तो अपने आप से नही फल सकती, वैसे ही तुम भी यदि मुझ में बने न रहो तो नही फल सकते। मैं दाखलता हुँ तुम डालियाँ हो । जो मुझ में बना रहता है और मैं उसमें, वह बहुत फल फलता है, क्योंकि मुझ से अलग होकर तुम कुछ भी नही कर सकते।",
+        reference: "युहन्ना 15:4-5",
         translation: "ESV",
         theme: "Abiding in His Power",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -456,17 +384,13 @@ export default function ReturnHindiText(page) {
         para7: "By choosing to abide in Him, you have connected to the true source of godliness",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you that when I am weak, You are strong,. I know that depending " +
-        "on you assures my fruitfulness. Help me understand and accept my weaknesses " +
-        "so that You can be all that You are through me. Help me to understand how to "+
-        "abide in You that I might tap into the true source of godliness. " +
-        "Protect me from the temptation of doing things in my own strength.",
+        prayer: "धन्यवाद जब मै कमजोर होता हॅुं आप सामर्थी हो, मैं जानता हॅुं आप पर निर्भर रहना मुझे विश्वासयोग्यता की निच्छीतता दिखाता है। मेरी सहायता करें की मैं अपनी कमजोरीयों को स्विकार करूं ताकि आप जो मेरे व्दारा होना चाहते हो वह हो। मेरी सहायता करें की मैं जानुं कि आप में कैसे बने रहें ताकि मैं सच्चे ईश्वरीय स्त्रोत में प्रवेश कर सकुं। मुझे अपने बल से करनेवालें सारी परिक्षाओं से सुरक्षीत रखना।",
       }
       break;
     case "day20":
       content = {
-        passage: "I can do all things through Him who strengthens me.",
-        reference: "Philippians 4:13",
+        passage: "जो मुझे सामर्थ देता है उसमें मै सब कुछ कर सकता हॅुं। परंतु इन सब बातों में रोमियों",
+        reference: "फिलिप्पीयों 4:13",
         translation: "ESV",
         theme: "Abiding in His Power",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -479,19 +403,13 @@ export default function ReturnHindiText(page) {
         para7: "Abiding in God’s love has given you power and victory over your circumstances",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "I am so grateful that your love for me and your presence in my life " +
-        "ensures that I will be an overcomer. Help me to always depend on you and not " +
-        "myself that I might walk in your power and do great things for your kingdom. " +
-        "Thank you that you have may it possible for me to be one with the your Spirit " +
-        "and a warrior who will finish the race in victory.",
+        prayer: "मैं आभारी हॅुं आपका कि मेरे लिए आपका प्रेम और मेरे जीवन में आपकी उपस्थिती मुझे विजयी होने की निच्छितता दिलाती है। मेरी सहायता करें कि मैं सदा स्वयं पर नही आप पर निर्भर रहॅुं और आपके सामर्थ में चल कर आपके राज्य के लिए महान काम करूं। धन्यवाद आपने यह संभव किया की आपकी आत्मा के साथ मुझे एक किया और ऐसा योध्दा बनाया जो विजय में अपनी दौड पुरी करता है।",
       }
       break;
     case "day21":
       content = {
-        passage: "Or do you not know that your body is a temple of the Holy Spirit " +
-        "within you, whom you have from God? You are not your own, 20 for you were " +
-        "bought with a price. So glorify God in your body.",
-        reference: "I Corinthians 6:19-20",
+        passage: "क्या तुम नही जानते कि तुम्हारी देह पवित्र आत्मा का मंदिर है, जो तुम में बसा हुआ है और तुम्हे परमेश्वर की ओर से मिला है; और तुम अपने नही हो? क्योंकि दाम देकर मोल लिए गए हो, इसलिए अपनी देह व्दारा परमेश्वर की महिमा करो।",
+        reference: "I कुरिन्थीयों 6:19-20",
         translation: "ESV",
         theme: "Abiding in His Power",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -504,21 +422,13 @@ export default function ReturnHindiText(page) {
         para7: "Since you belong to God, He will supply all your needs in Christ",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Understanding that you have purchased me by the blood " +
-        "of Christ and chose to live inside me as if I was your temple goes " +
-        "above and beyond all that I could have ever imagined. I know that you " +
-        "purchased me to bring you glory and help people understand what a person " +
-        "is like when they have become your special possession and live inside" +
-        "of them. I praise you for adopting me as your child, I know you will take " +
-        "care of what you own.",
+        prayer: "यह समझना की मुझे मसीह के रक्त से मोल लीया, मेरे अंदर रहने का ठाना, जैसे की मैं आपका मंदिर था, यह मेरे सोच के परें और मेरी सारी कल्पनाओं के उपर हैं। मैं जानता हॅुं कि आपने मुझे आपको महिमा देने मोल लिया, और लोगों को यह समझने में मदद हो कि एक व्यक्ती जब आपका विशेष उत्तराधिरी बनता है तब कैसे दिखता है और आप उसमें कैसे वास करते हो। मुझे गोद लेने के लिए मैं आपकी स्तुती करता हूँ। मैं जानता हुँ आपका जो है उसे आप संभालोगे।",
       }
       break;
     case "day22":
       content = {
-        passage: "I have been crucified with Christ. It is no longer I who live, " +
-        "but Christ who lives in me. And the life I now live in the flesh I live " +
-        "by faith in the Son of God, who loved me and gave Himself for me.",
-        reference: "Galatians 2:20",
+        passage: "मैं मसीह के साथ क्रुस पर चढाया गया हॅुं, अब मैं जीवित न रहा, पर मसीह मुझ में जीवित है; और मैं शरीर में अब जो जीवित हुँ तो केवल उस विश्वास से जीवित हूँ जो परमेश्वर के पुत्र पर है, जिसने मुझसे प्रेम किया और मेरे लिए अपने आप को दे दिया।",
+        reference: "गलातियों 2:20",
         translation: "ESV",
         theme: "Abiding in His Power",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -531,20 +441,13 @@ export default function ReturnHindiText(page) {
         para7: "You have died with Christ and now you bask in the love of His sacrifice for you",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "I know that if I want to live a new life, I first must die to the old " +
-        "one. It is so wonderful that you had a plan to set me completely free from " +
-        "my old sinful nature and replaced it with the life of your son. Thank you " +
-        "for giving me the faith to embrace the work of the cross, and dying with " +
-        "Christ give me resurrection life. I praise you for your work of love that " +
-        "sets me free from my flesh.",
+        prayer: "मैं जानता हॅुं कि अगर मुझे नया जीवन जीना है तो पुराने के लिए मरना होगा। यह बहुत अद्भुत है कि आपके पास योजना थी कि आप मेरे पुराने पापमय स्वभाव को निकालकर आपके पुत्र का जीवन मुझे दे। मुझे क्रुस के कार्य को गले लगानेवाला विश्वास देने के लिए धन्यवाद, मसीह के साथ मरना मुझे पुनुरूथ्थीत जीवन प्रदान करता है, मैं आपकी स्तुती करता हॅुं आपके प्रेम के कार्य के लिए जो मुझे मेरे देह से छुडाता है।",
       }
       break;
     case "day23":
       content = {
-        passage: "Do nothing out of selfish ambition or empty pride, but in " +
-        "humility consider others more important than yourselves. Each of you " +
-        "should look not only to your own interests, but also to the interests of others.",
-        reference: "Philippians 2:3-4",
+        passage: "विरोध या झुठी बडाई के लिये कुछ न करो, पर दीनता से एक दुसरे को अपने से अच्छा समझो। हर एक अपने ही हित की नही, वरन दुसरों के हित की भी चिंता करें।",
+        reference: "फिलिप्पीयों 2:3-4",
         translation: "BSV",
         theme: "Life of a Servant",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -557,19 +460,13 @@ export default function ReturnHindiText(page) {
         para7: "Your willingness to be treated like a servant is evidence that you truly are one",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Dear God, today’s prayer is crucial if I am to live like Christ did. " +
-        "I am requesting that you help me with things often too difficult for me. " +
-        "I know I need to be humble, to think of others as more important than myself, " +
-        "to serve with out being noticed, to place others needs above my own. Please " +
-        "transform my mind to choose sacrificial love so I willfully give away and " +
-        "pour out my life for others. I choose to be your servant to others.",
+        prayer: "प्रिय परमेश्वर, आजकी प्रार्थना महत्पुर्ण है  अगर मुझे मसीह जैसे जीवन जीना है, मैं चाहता हॅुं आप मेरी मदद करें उन बातों में जो अकसर मेरे लिए कठीन है, मैं जानता हॅुं कि मुझे बहुत नम्र होना है और स्वयं से ज्यादा औरों के बारें में सोचना है, निस्वार्थ सेवा करना है, दुसरों की जरूरतों को मेरी जरूरतों से भी उपर रखना है। बलिदानी प्रेम को चुनने के लिए मेरे मन को बदल ताकि मैं अपनी इच्छा से अपना जीवन लोगों के लिए दे सकुं। मैं दुसरों के लिए आपका सेवक बनने का चुनाव करता हॅुं।",
       }
       break;
     case "day24":
       content = {
-        passage: "He comforts us in all our affliction, so that we may be able to comfort " +
-        "those who are in any kind of affliction, through the comfort we ourselves receive from God.",
-        reference: "2 Corinthians 1:4",
+        passage: "वह हमारे सब क्लेशों में शांति देता है; ताकि हम उस शांति के कारण जो परमेश्वर हमें देता है, उन्हे भी शांति दें सकें जो किसी प्रकार के क्लेश में हो।",
+        reference: "2 कुरिन्थीयों 1:4",
         translation: "HCSB",
         theme: "Life of a Servant",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -582,21 +479,15 @@ export default function ReturnHindiText(page) {
         para7: "God has prepared you to empathize with others’ doubts, fears and brokenness",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "I do not choose suffering but I know that you have been equipping me " +
-        "to support and comfort others through my own difficulties. Help me to have " +
-        "eyes to see and discipline to listen to other’s suffering speak hope into " +
-        "their doubts, fears and brokenness as you lead me. May the strength and faith " +
-        "you have built into my life be a gift of peace and hope to others during their " +
-        "challenging times. Help me be the mouth, ears and feet of Jesus",
+        prayer: "मैं पिडाओं को नही चुनता परंतु मैं जानता हॅुं आप मुझे तैयार कर रहे हो मेरी समस्याओं के व्दारा दुसरों को सहायता और सांत्वना देने के लिए। मुझे दुसरों कि पिडा देखना और सुनना, और जैसे आप मेरी अगुवाई करते हो उनके संदेह, डर, टुटेपन में आशा, को बोलने का अनुशासन देकर मेरी सहायता कर। होने दें, जो सामर्थ और विश्वास आपने मेरे अंदर जागृत किया है वह दुसरों के लिए उनके चुनौती भरें समय में, एक शांती और आशा का उपहार बनें। मुझे यीशु का मुँह, कान, और पैर बनने के लिए मेरी सहायता कर।",
       }
       break;
     case "day25":
       content = {
-        passage: "For we are his workmanship, created in Christ Jesus for good works, " +
-        "which God prepared beforehand, that we should walk in them.",
-        passage2: "it is God who works in you, both to will and to work for his good pleasure.",
-        reference: "Ephesians 2:10",
-        reference2: "Philippians 2:13",
+        passage: "क्योंकि हम उसके हाथ कि कारीगरी है, जो मसीह यीशु मे उन भले कार्यों के लिए सृजे गये हैं जिन्हें परमेश्वर ने प्रारंभ से तैयार किया कि हम उन्हें करें।",
+        passage2: "क्योंकि स्वयं परमेश्वर परमेश्वर अपनी सुइच्छा के लिए तुम्हारी इच्छा और कार्यों को प्रोत्साहित करने के लिए तुम में सक्रीय है।",
+        reference: "इफिसीयों 2:10",
+        reference2: "फिलिप्पीयों 2:13",
         translation: "ESV",
         translation2: "ESV",
         theme: "Life of a Servant",
@@ -610,18 +501,13 @@ export default function ReturnHindiText(page) {
         para7: "Your desire to do good things for God reveals how much He rules in your heart",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "I am excited for the things you are building into my life so I can " +
-        "serve you. Thank you for giving me the desire and Holy Spirit power to do good " +
-        "things for you. Please continue to mold and shape me and give me a humble heart " +
-        "to fulfill your purpose in my life. Thank you that you not only gave me the " +
-        "gift of faith but you also help me to want to serve your kingdom.",
+        prayer: "मैं उत्तेजीत हॅुं उन बातों के लिए जो आप मेरे जीवन में बना रहो हो ताकि मैं आप की सेवा कर सकुं। धन्यवाद आपके लिए भले काम करने के लिए मुझे इच्छा और पवित्र आत्मा का सामर्थ देने के लिए। कृपा करके मुझे मोडना और आकार देने का काम मुझमें जारी रखें, और आपके उद्देश मेरे जीवन में पुर्ण होने के लिए एक नम्र हृदय दें। धन्यवाद आपने मुझे सिर्फ विश्वास का वरदान ही नही किंतु मेरे अंदर आपके राज्य की सेवा करने का उत्साह भी जागृत किया।",
       }
       break;
     case "day26":
       content = {
-        passage: "Do not let any unwholesome talk come out of your mouths, but only what is " +
-        "helpful for building others up according to their needs, that it may benefit those who listen.",
-        reference: "Ephesians 4:29",
+        passage: "कोई गंदी बात तुम्हारे मुँह से न निकलें, पर अवश्यक्ता के अनुसार वही निकलें जो उन्नती के लिए उत्तम हो, ताकि उससे सुननेवालों पर अनुग्रह हो।",
+        reference: "इफिसीयों 4:29",
         translation: "NIV",
         theme: "Life of a Servant",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -634,20 +520,13 @@ export default function ReturnHindiText(page) {
         para7: "Your words bring light into the darkness, hope into despair, peace into chaos",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "We understand that only You have the Words of life and You breathed "+
-        "that life into me. Now may the breath of my words be life giving to others. " +
-        "Thank you that by your word I can think your thoughts and declare your truths. " +
-        "Help my words represent a heart transformed by your love. May my words be " +
-        "filled with wisdom &amp; kindness and bring hope and healing. Help my speech " +
-        "always be under the control and guidance of the Holy Spirit.",
+        prayer: "हम जान चुके हैं कि सिर्फ आपके पास जीवन के वचन है, और उन्हें आप ने हमारे जीवन में फुंका है। अब होने दो की मेरे शब्दों का श्वास लोगों को जीवन प्रदान करें। धन्यवाद आप के वचने के व्दारा मैं आप के विचारों को सोचता और आप के सत्यों की घोषणा करता हॅुं। मेरे शब्द प्रेम के व्दारा परिवर्तित हुआ हृदय का प्रतिनिधित्व करें। होने दो कि मेरे शब्द ज्ञान और दया से भरे हुए हो जो आशा और चंगाई लातें हो। होने दो कि मेरा बोलना सदा पवित्र आत्मा के मार्गदर्शन और नियंत्रण में हो।",
       }
       break;
     case "day27":
       content = {
-        passage: "Through Jesus, therefore, let us continually offer to God a sacrifice " +
-        "of praise, the fruit of lips that confess His name. And do not neglect to do " +
-        "good and to share with others, for with such sacrifices God is pleased.",
-        reference: "John 12:24",
+        passage: "इसलिए हम उसके व्दारा स्तुतीरूपी बलिदान, अर्थात उन होटों का फल जो उसके नाम का अंगीकार करते है, परमेश्वर को सर्वदा चढाया करें। भलाई करना और उदरता दिखाना न भुलो, क्योंकि परमेश्वर ऐसे बलिदानें से प्रसन्न होता है।",
+        reference: "इब्रानियों 13:15-16",
         translation: "BSB ",
         theme: "Life of a Servant",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -660,20 +539,13 @@ export default function ReturnHindiText(page) {
         para7: "Your willingness to serve others is a form of true praise and respect for God",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "I choose to worship you with my mouth, my mind and my heart. " +
-        "I choose to declare your name where ever you send me. I pray you will help " +
-        "me encourage others and find your approval by my words and actions. Help me " +
-        "not be selfish but sacrificial. Change my heart so that I live in such a way " +
-        "that you are lifted up. May you increase and may I decrease.",
+        prayer: "मैं अपने मुँह, मन, और हृदय से आपकी आराधना का चुनाव करता हॅुं। आप मुझे जहाँ भी भेजें वहाँ पर आपके नाम की घोषणा करने का चुनाव मैं करता हूँ। मेरी प्रार्थना है आप मेरी मदद करें लोगों को उत्साहित करने और मेरे कृती और शब्दों के व्दारा स्विकृती पायें। मेरी मदद करें कि में स्वार्थी नही किंतु त्याग करनेवाला बनुं। मेरे हृदय को बदलें ताकि मैं ऐसा जीवन जी सकुं जिससे की आपको महिमा मिलें । आप बढें और मैं घटुं।",
       }
       break;
     case "day28":
       content = {
-        passage: "For our struggle is not against flesh and blood, but against the " +
-        "rulers, against the powers, against the world forces of this darkness, against " +
-        "the spiritual forces of wickedness in the heavenly places. Therefore, take up " +
-        "the full armor of God, so that you will be able to resist in the evil day, and having done everything, to stand firm.",
-        reference: "Ephesians 6:12-13",
+        passage: "क्योंकि हमारा यह मल्लयुध्द लहु और मांस से नही परंतु प्रधानों से, अधिकारीयों से, और इस संसार के अंधकार के हकिमों से और उस दृष्टता की आत्मिक सेनाओं से है जो आकाश में है। इसलिए परमेश्वर के सारे हतियार बांध लो कि तुम बुरे दिन में सामना कर सको, और सब कुछ पुरा करके स्थिर रह सको।",
+        reference: "इफिसीयों 6:12-13",
         translation: "NASB",
         theme: "Spiritual Warfare",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -686,21 +558,14 @@ export default function ReturnHindiText(page) {
         para7: "You are able to discern where the real battles in people’s lives are fought",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Help me Lord for I am in a battle for my life and I must recognize " +
-        "and resist the lies of my enemy. Help me use the armor of faith, your Word " +
-        "and the power of the Holy Spirit that to withstand the onslaught of temptations " +
-        "and deceptions that are part of my daily experience. Knowing how" +
-        "easy it is to sin, please help me to discipline myself to plan for righteousness.",
+        prayer: "मेरी सहायता करें कि, मेरे जीवन के लिए मैं एक लडाई में हॅुं। मैं मेरे शत्रु के झुठ को समझ सकुं और उसका सामना कर सकुं। मेरी मदद करें कि मैं विश्वास के शस्त्र का उपयोग करूं। आपका शब्द और पवित्र आत्मा का सामर्थ जो मेरे दैनिक अनुभव का हिस्सा है, जो प्रलोभनों और धोखे के विरोध में खडा है। यह जानना कि पाप करना कितना आसान है, कृपया मुझे धार्मिकता कि योजना बनाने के लिए स्वयं को अनुशासित करने में मदद करें।",
       }
       break;
     case "day29":
       content = {
-        passage: "For though we walk in the flesh, we do not war according to the flesh, " +
-        "for the weapons of our warfare are not of the flesh, but divinely powerful for " +
-        "the destruction of fortresses. 5 We are destroying speculations and every lofty " +
-        "thing raised up against the knowledge of God, and we are taking every thought " +
+        passage: "क्योंकि यदयपी हम शरीर में चलते फिरते है, तौभी शरीर के अनुसार नही लडते। क्योंकि हमारी लडाई के हथियार शरिरीक नही, पर गढों को ढा देने के लिए परमेश्वर के व्दारा सामर्थी है। इसलिए हम कल्पनाओं का और हर एक उंची बात का, जो परमेश्वर की पहिचान के विरोध में उठती है खंडन करतें है; और हर एक भावना का कैद करके मसीह का अज्ञाकारी बना देते है।" +
         "captive to the obedience of Christ,",
-        reference: "2 Corinthians 10:3-5",
+        reference: "2 कुरिन्थीयों 10:3-5",
         translation: "NASB",
         theme: "Spiritual Warfare",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -713,18 +578,13 @@ export default function ReturnHindiText(page) {
         para7: "You are a warrior fighting against darkness with the knowledge of God",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Father in heaven, remind me to not fight spiritual battles " +
-        "in my flesh but instead exercise the power of the Holy Spirit within me. " +
-        "Give me the courage to fight as a warrior against foolishness thinking " +
-        "with the authority of your Word. Remind me that I have the power to choose " +
-        "what I think, say and do. Help me to stand against those who stand against you.",
+        prayer: "स्वर्गीय पिता, मुझे याद दिलाते है कि मैं मेरे शरीर में आत्मिक युध्द न लडने के लिए बल्की मेरे भितर पवित्र आत्मा के सामर्थ का प्रयोग करूं। मुझे आपके वचन के अधिकार के साथ मुर्खतापुर्ण सोच के विरोध एक योध्दा के रूप में लडने का साहस दें। मुझे याद दिलाए कि मेरे पास यह चुनने कि शक्ति है कि मैं क्या सोचता हॅुं, क्या कहता हॅु और क्या करता हॅुं। जो आपके विरोध में खडे होते हैं उनके विरोध में खडे होने के लिए मेरी सहायता करें।",
       }
       break;
     case "day30":
       content = {
-        passage: "For God has not given us the spirit of fear; but of power, and of " +
-        "love, and of a sound mind.",
-        reference: "2 Timothy 1:7",
+        passage: "क्योंकि परमेश्वर ने हमें भय की नही पर सामर्थ और प्रेम और संयंम कि आत्मा दी है।",
+        reference: "2 तीमुथीयुस 1:7",
         translation: "NKJV",
         theme: "Spiritual Warfare",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -737,21 +597,13 @@ export default function ReturnHindiText(page) {
         para7: "You have said no to the dark deeds of the flesh by walking in His power and love",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you for all the wonderful gifts you have given me to help me " +
-        "live a victorious life over fear, anxiety and depression. You have poured " +
-        "out your live in my heart, you have given me the power of the Holy Spirit " +
-        "and most importantly, I can have the mind of Christ. Remind me that faith is " +
-        "the strength of my heart and fear is the power of satan over my mind, will " +
-        "and emotions. Help me to remember that the flesh brings death but dependency " +
-        "on the Spirit brings life and peace.",
+        prayer: "धन्यवाद आपके सारें उन अदभुत् वरदानों के लिए जो आपने मुझे दिए जो मेरी सहायता करतें है भय, चिंता, और निराशा पर एक विजयी जीवन जीने के लिए। आपने मेरे हृदय में  अपनी जान डाल दी है। आपने मुझे पवित्र आत्मा कि सामर्थ दी और सबसे महत्वपुर्ण, मेरे पास मसीह का मन है। मुझे याद दिलायें कि विश्वास मेरे हृदय का सामर्थ है, और मेरे मन, इच्छा और भावना पर डर शैतान का सामर्थ है। मुझे यह याद रखने के लिए सहायता करें कि शरीर तो मृत्यु लाता है पर आत्मा पर निर्भर रहना जीवन और शांती लाता है।",
       }
       break;
     case "day31":
       content = {
-        passage: "For the word of God is alive and active. Sharper than any " +
-        "double-edged sword, it penetrates even to dividing soul and spirit, "
-        +"joints and marrow; it judges the thoughts and attitudes of the heart.",
-        reference: "Hebrews 4:12",
+        passage: "क्योंकि परमेश्वर का वचन जीवित, और प्रबल, और हर एक दोधारी तलवार से भी बहुत चोखा है; और प्राण और आत्मा को, और गाँठ-गाँठ और गुदे-गुदे को अलग कर के आर-पार छेदता है और मन की भावनाओं और विचारों को जाँचता है।",
+        reference: "इब्रानियों  4:12",
         translation: "NIV",
         theme: "Spiritual Warfare",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -764,11 +616,7 @@ export default function ReturnHindiText(page) {
         para7: "You are a warrior; both skillful and competent in using God’s powerful words",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you that You have given us a tool to truly know the deepest parts " +
-        "of ourselves. Your truth is everlasting and powerful enough to open eyes and " +
-        "change resistant hearts. Thank you that the Word can cut deep into my heart " +
-        "with a light that pierces even the most stubborn darkness. Because your Word " +
-        "is alive, we can speak truths that help people change from the inside out for all eternity.",
+        prayer: "धन्यवाद ऐसे उपकरण हमें देने के लिए जिससे सचमुझ हम अपने आप के गहरे भागों को जान सकतें है। हमारी आँखे खोलने और प्रतिरोधक हृदय को बदलने में आपका सत्य अनंतकालीन और सामर्थी है। आपको धन्यवाद कि आपका वचन मेरे हृदय में गहरे प्रकाश को काट सकता है जो कि सबसे कठोर अंधेरे को भी छेदता है। क्योंकि आपका वचन जीवित है, हम सत्य बोल सकते है जो लोगों को अंदर से और बाहर से अनंतकाल के लिए बदलने में मदद करतें है।",
       }
       break;
     // For navigation titles in Drawer

@@ -672,7 +672,7 @@ export default function ReturnEnglishText(page) {
         passage: "Through Jesus, therefore, let us continually offer to God a sacrifice " +
         "of praise, the fruit of lips that confess His name. And do not neglect to do " +
         "good and to share with others, for with such sacrifices God is pleased.",
-        reference: "John 12:24",
+        reference: "Hebrews 13:15-16",
         translation: "BSB ",
         theme: "Life of a Servant",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
