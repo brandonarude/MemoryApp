@@ -390,8 +390,11 @@ export default function ReturnHindiText(page) {
     case "day20":
       content = {
         passage: "जो मुझे सामर्थ देता है उसमें मै सब कुछ कर सकता हॅुं। परंतु इन सब बातों में रोमियों",
+        passage2: "हम उसके व्दारा जिसने हम से प्रेम किया है, जयवंत से भी बढकर है।",
         reference: "फिलिप्पीयों 4:13",
+        reference2: "रोमियों 8:37",
         translation: "ESV",
+        translation2: "ESV",
         theme: "Abiding in His Power",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
         para1: "I am one with the Spirit, the Spirit is with me",
