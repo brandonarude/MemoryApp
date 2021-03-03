@@ -28,10 +28,8 @@ export default function ReturnHindiText(page) {
     // For daily readings
     case "day1":
       content = {
-        passage: "For you are a chosen people, a royal priesthood, a holy nation, " +
-        "God's special possesion, that you may declare the praises of Him who called " +
-        "you out of darkness into His wonderful light.",
-        reference: "1 Peter 2:9",
+        passage: "पर तुम एक चुना हुआ वंश, और राजपदधारी याजकों का समाज, और पवित्र लोग़ और परमेश्वर की निज प्रजा हो, इसलिए कि जिसने तुम्हें अंन्धकार में से अपनी अद्भुत ज्योती में बुलाया है उसके गुण प्रकट करो।",
+        reference: "1 पतरस 2:9",
         translation: "NIV",
         theme: "Kingdom Living",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -44,18 +42,13 @@ export default function ReturnHindiText(page) {
         para7: "You are a priest of the King and are equipped to glorify Him",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you for choosing me, for rescuing me from my darkness and " +
-        "bringing me into your light and truth. It is amazing that You gave me a special " +
-        "job-as a priest of the king. I am already blessed because You called me into " +
-        "your community and have been preparing me for larger Kingdom purposes. " +
-        "Thank you that you have chosen me to point to your awesomeness.",
+        prayer: "मुझे चुनने के लिए धन्यवाद, मुझे मेरे अंधकार से छुडाकर उजियाले में और सत्य में लाने के लिए धन्यवाद। राजा का याजक होना यह मेरे विषेश काम के लिए धन्यवाद। धन्यवाद मुझे आपका समुदाय बनाकर बडे राज्य के उददेश के लिए तैयार करने के लिए। आपका धन्यवाद की मुझे आपकी अद्भुतता की ओर संकेत करने के लिए चुना।",
       }
       break;
     case "day2":
       content = {
-        passage: "Therefore, we are ambassadors for Christ, God making His appeal through " +
-        "us. We implore you on behalf of Christ, be reconciled to God.",
-        reference: "2 Corinthians 5:20",
+        passage: "इसलिए, हम मसीह के राजदुत है; माने परमेश्वर हमारे व्दारा विनती कर रहा है। हम मसीह की ओर से निवेदन करतें हैं कि परमेश्वर के साथ मेल-मिलाप कर लो।",
+        reference: "2 कुरिन्थीयों 5:20",
         translation: "ESV",
         theme: "Kingdom Living",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -68,19 +61,13 @@ export default function ReturnHindiText(page) {
         para7: "Your words are timely.  They bring healing and help others turn back to God",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you for equipping me and sending me to represent You to a " +
-        "broken world. Help me to feel deeply for those who are separated from You " +
-        "and each other. Give me your words of forgiveness, hope, unity and freedom. " +
-        "Help me be courageous to bring healing into the fractured relationships of " +
-        "God and men. May they recognize You when they see me.",
+        prayer: "मुझे तैयार कर के अपना प्रतिनिधी बनाकर एक टुटे हुए संसार में भेजने के लिए धन्यवाद। जो तुझसे अलग हो गये है और एकदुसरे से अलग हो गए है उनके बारें में गहराई से सोचने के लिए मेरी सहायता कर। मुझे तेरी क्षमा, आशा, एकता, और स्वतंत्रता के शब्द दें। तेरे और मनुष्य के बीच टुटे हुए रिश्तों को बनाने के लिए मुझे साहस देकर मेरी मदद कर। जब वे मुझे देखें तब तुझे पहचानें।",
       }
       break;
     case "day3":
       content = {
-        passage: "The Spirit of the Lord GOD is upon me, because the LORD has anointed me to bring " +
-        "good news to the afflicted; He has sent me to bind up the brokenhearted, to proclaim liberty to " +
-        "captives and freedom to prisoners;",
-        reference: "Isaiah 61:1",
+        passage: "प्रभु यहोवा का आत्मा मुझपर है; क्योंकि यहोवा ने सुसमाचार सुनाने के लिए मेरा अभिषेक किया और मुझे इसलिए भेजा है कि खेदित मन के लोगों को शांती दॅुं; कि बंदियों के लिए स्वतंत्रता का और कैदियों के लिए छुटकारे का प्रचार करूं।",
+        reference: "यशायाह 61:1",
         translation: "NASB",
         theme: "Kingdom Living",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -93,19 +80,13 @@ export default function ReturnHindiText(page) {
         para7: "Your words offer liberty to those in bondage – hope to those who are hurting",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you for the power of the Holy Spirit on me and in me. May the " +
-        "power of your words spoken through me bring hope and freedom to those who are " +
-        "hurting and have become prisoners of sin. Help me to discern the roots of " +
-        "sin that I might help others step into the freedom of your light and truth.",
+        prayer: "धन्यवाद मुझपे और मुझमें पवित्र आत्मा के सामर्थ के लिए। होने दें की तेरे वचनों का सामर्थ मेरे व्दारा जब बोलें जाए उस से चोंट खाकर पाप के बंदी बने है उनके लिए आशा और स्वतंत्रता आऐं। पाप की जडें परखनें में मेरी सहायता कर ताकी, मैं ज्योती और सत्य की स्वतंत्रता में लोंगों को आने में सहायता कर सकुं।",
       }
       break;
     case "day4":
       content = {
-        passage: 'And Jesus came up and spoke to them, saying, "All authority has been ' +
-        'given to Me in heaven and on earth. Go therefore and make disciples of all the nations, ' +
-        'baptizing them in the name of the Father and the Son and the Holy Spirit, teaching them to ' +
-        'observe all that I commanded you; and lo, I am with you always, even to the end of the age."',
-        reference: "Matthew 28:18-20",
+        passage: 'यीशु ने उनके पास आकर कहा, स्वर्ग और पृथ्वी का सारा अधिकार मुझे दिया गया है। इसलिए तुम जाओ, सब जातीयों के लोगों को चेला बनाओं; और उन्हे पिता, और पुत्र, और पवित्र आत्मा के नाम से बपतिस्मा दो, और उन्हें सब बातें जो मैंने तुम्हें आज्ञा दी है, मानना सिखाओ; और देखो मैं जगत के अंत तक सदा तुम्हारे संग हॅुं ।',
+        reference: "मत्ती 28:18-20",
         translation: "NASB",
         theme: "Kingdom Living",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
@@ -118,20 +99,13 @@ export default function ReturnHindiText(page) {
         para7: "You have a heart for the lost and vision for the nations",
         para8: "",
         prayerTitle: "Today's Prayer",
-        prayer: "Thank you that you chose us to help build the kingdom one person at a " +
-        "time. Let the seriousness of heaven and hell motivate me to share the gospel. " +
-        "Give me eyes to see the lost, give me a heart to love them and make time for " +
-        "them. Help me not be ashamed of the death and resurrection of Christ. " +
-        "Choose me, use me! Thank you, Father, that you have placed the seeds of " +
-        "eternal life in us. Help me to plant and water in the lives of others for an eternal harvest.",
+        prayer: "धन्यवाद की आपने एक समय में एक व्यक्ती कर आपके राज्य को बांधने के लिए हमें चुना। होने दे की स्वर्ग और नर्क की संवेदनशीलता मुझे सुसमाचार साझा करने में प्रेरित करें। मुझे ऐसी आँखे दे की मैं खोये हुओं को देख सकुं, ऐसा हृदय दें जहाँ मैं उनको समय दॅुं और उन्हे प्रेम करूं। मेरी सहायता कर की मैं मसीह की मृत्यु और पुनुरूथान से लज्जित न हो सकुं। मुझे चुन, मेरा उपयोग कर। धन्यवाद पिता के तुने सर्वकालीन बीज हमारे अंदर बोया है। लोगों के जीवन में अनंतकाल की फसल के लिए मैं बुआई और सिंचाई करने के लिए मेरी सहायता कर। ",
       }
       break;
     case "day5":
       content = {
-        passage: "You therefore, my son, be strong in the grace that is in Christ Jesus. The " +
-        "things which you have heard from me in the presence of many witnesses, entrust these to faithful " +
-        "men who will be able to teach others also.",
-        reference: "2 Timothy 2:1-2",
+        passage: "इसलिए हे मेरे पुत्र, तु उस अनुग्रह से जो मसीह यीशु में है, बलवंत हो जा। और जो बातें तुने मुझसे बहुत से गवाहों के सामने सुनी है, उन्हें विश्वासी मनुष्य को सौप दे; जो दुसरों को भी सिखाने के योग्य है।",
+        reference: "2 तीमुथियुस 2:1-2",
         translation: "NASB",
         theme: "Kingdom Living",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",

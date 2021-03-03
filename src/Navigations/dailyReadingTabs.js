@@ -5,7 +5,6 @@ import { Image } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import DailyPassage from './Screens/dailyPassage.js';
 import DailyPrayer from './Screens/dailyPrayer.js';
-import DailyVoices from './Screens/dailyVoices.js';
 import DailyEncouragement from './Screens/dailyEncouragement.js';
 import styles from '../Styles/styles.js';
 import images from '../Assets/Images/imageLibrary.js'

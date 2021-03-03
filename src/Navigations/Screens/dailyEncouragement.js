@@ -16,6 +16,7 @@ import RetrieveStoredData from '../../Components/Atoms/retrieveStoredData.js';
 ///Navigations/dailyReadingTabs.js
 export default function DailyEncouragement({navigation}) {
 
+  //Localize content to set language based on current dayIndex
   const langContext = React.useContext(LanguageContext);
   const dayContext = React.useContext(DayContext);
   let dayIndex = dayContext.dayIndex;

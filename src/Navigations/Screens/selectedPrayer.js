@@ -21,7 +21,6 @@ export default function SelectedPrayer({navigation}) {
   const passageContext = React.useContext(PassageContext);
   let passageIndex = passageContext.selectedIndex;
   let content = LocalizeText(langContext.lang, "day" + passageIndex);
-  let font;
 
   return (
     <GestureRecognizer
