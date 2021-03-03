@@ -491,8 +491,11 @@ export default function ReturnEnglishText(page) {
     case "day20":
       content = {
         passage: "I can do all things through Him who strengthens me.",
+        passage2: "In all these things, we are more than conquerors through Him who loved us.",
         reference: "Philippians 4:13",
+        reference2: "Romans 8:37",
         translation: "ESV",
+        translation2: "ESV",
         theme: "Abiding in His Power",
         iAmTitle: "I AM AND YOU ARE STATEMENTS",
         para1: "I am one with the Spirit, the Spirit is with me",
