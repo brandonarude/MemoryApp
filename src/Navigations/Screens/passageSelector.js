@@ -10,9 +10,10 @@ import gestureRecognizerConfig from '../../Configs/gestureRecognizerConfig.js';
 import { LanguageContext } from '../../Components/Atoms/languageContext.js';
 import LocalizeText from '../../Localization/localizeText.js'
 
-//TODO customize this for the PassageSelector Context
+//This page is used to select a passage for reading, prayer, and encouragement
 
 export default function PassageSelection({navigation}) {
+  //localize content based on set language
   const selectedPassage = React.useContext(PassageContext);
   const langContext = React.useContext(LanguageContext);
   let content = LocalizeText(langContext.lang, "passageSelection");
