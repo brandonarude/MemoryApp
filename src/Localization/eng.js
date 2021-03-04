@@ -63,7 +63,7 @@ export default function ReturnEnglishText(page) {
         para3: "God reaches out to others through me",
         para4: "I am chosen to bring people back to God",
         para5: "You have been chosen by God to reach out to others.",
-        para6: "ou show the world what God is like.  The authority of God is in your words.",
+        para6: "You show the world what God is like.  The authority of God is in your words.",
         para7: "Your words are timely.  They bring healing and help others turn back to God",
         para8: "",
         prayerTitle: "Today's Prayer",
