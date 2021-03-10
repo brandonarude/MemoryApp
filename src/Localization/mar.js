@@ -643,7 +643,7 @@ export default function ReturnMarathiText(page) {
     // For when a user selects a language in languageSelect.js
     case "languageSelection":
       content = {
-        alert: "भाषा मराठीला अपडेट केली!"
+        alert: "भाषा मराठीला अपडेट केली"
       }
       break;
     // For page passageSelector.js
