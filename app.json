@@ -23,7 +23,7 @@
       "favicon": "./assets/favicon.png"
     },
     "android": {
-      "package": "com.pautz.IdentityScriptureMemorization",
+      "package": "com.yourcompany.IdentityScriptureMemorization",
       "versionCode": 4,
       "permissions": []
     }
