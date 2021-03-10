@@ -9,908 +9,705 @@ export default function ReturnMarathiText(page) {
     // From page covenant.js
     case "covenant": {
       content = {
-        title: "My Covenant To Memorize Scripture",
-        para1: "By memorizing God’s Word, I understand that I will be equipping myself " +
-        "to hear, obey and be lead by the Holy Spirit. His Word will empower me to choose " +
-        "righteousness, motivate me to love Him, depend on and abide in Him. (John 14:21, John 15:4-5)",
-        para2: "I will use Scripture to confirm my identity. Claiming that identity I will exercise my " +
-        "authority and dominion over sin, the flesh and the world. Memorized scripture will aid the " +
-        "Holy Spirit in fulfilling His intended works through me. (Romans 8:37, 2 Cor. 10:3-5, Ephesians 2:10, Phil. 2:13)",
-        para3: "Walking in the Spirit, His Word will help me to convince, rebuke and exhort - defend the hope that " +
-        "is in me. I will present doctrine, reproof, correction and instruction in righteousness, equipping" +
-        "others for good works. (2 Tim 4:2, 2 Tim. 3:16-17)",
-        para4: "I will choose to breathe out God’s Word over the lives of others. I will speak the language of the " +
-        "kingdom recognizing that the tongue has the power of life and death...(Proverbs 18:21)",
+        title: "वचन पाठ करण्या साठी माझा करार",
+        para1: "परमेश्वराचे वचन पाठ करून, मी समझलो आहे की ऐकणे, पालन करने, आणि पवित्रआत्माच्या अगुवाई मधे चलण्या साठी मला तयार केले जाईल. नितीमत्वाला निवडण्यासाठी त्याचे वचन मला सामर्थ देईल. ते मला त्या वर प्रिती करण्यास, त्या वर निर्भर राहण्यास आणि त्याच्या मधे बनुन राहण्यास प्रेरित करेल. (योहान 14:21, 15: 4-5)",
+        para2: "माझी ओळख निच्छित करण्या हेतु मी वचनाचा उपयोग करेन, त्या ओळखेला घोषीत करून मी आपल्या अधिकाराचा प्रयोग करून पाप, शरिर आणि संसारावर  प्रभुता प्राप्त करेन। माझ्या  व्दारे पवित्रआत्मा नियोजीत कार्यांनां पुर्ण करण्यासाठी  पाठ केलेले वचन वचन पवित्रआत्माची  मदत करतील. (रोमकरांस 8:37, 2 करन्थिकरांस 10: 3-5, इफिसीकरांस 2: 10, फिलमोन. 2: 13)",
+        para3: "आत्मा मधे चालणे, त्याचे वचन माझी सहायता करतील कायळ करण्यास, सुधरण्यास, प्रोत्साहीत करण्यास, माझ्या आत मधे असलेल्या आशेची सुरक्षा करण्यास. मी प्रस्तुत करेन शिक्षा, वाईटाचा निषेध, सुधार, आणि नितिमत्वाच्या प्रशिक्षणात चांगल्या कामांसाठी इतरांनां तयार करणे. (2 तिम. 4:2, 2 तिम.3:16-17)",
+        para4: "हे जाणुन की जीव्हेच्या वश मधे जीवन आणि मृत्यु चे सामर्थ आहे, मी परमेश्वरच्या वचनांना इतर लोकांच्या जीवनावर फुंकण्याची निवड करेन. मी देव राज्याची भाषा बोलेन. (नीतिसुत्रे 18: 21)",
       }
     }
     break;
     // For daily readings
     case "day1":
       content = {
-        passage: "For you are a chosen people, a royal priesthood, a holy nation, " +
-        "God's special possesion, that you may declare the praises of Him who called " +
-        "you out of darkness into His wonderful light.",
-        reference: "1 Peter 2:9",
-        translation: "NIV",
-        theme: "Kingdom Living",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am a royal priest in the service of the King",
-        para2: "I am of great value to God who owns me",
-        para3: "I am assigned to declare God's greatness",
-        para4: "I am chosen by God to walk in His light",
-        para5: "You have been chosen by God and are His special possession",
-        para6: "Your life reveals God’s goodness as you walk in His light",
-        para7: "You are a priest of the King and are equipped to glorify Him",
+        passage: "पण तुम्ही तर निवडलेला वंश, राजकिय याजकगण, पवित्र राष्ट्र, देवाचे स्वतःचे लोक असे आहात; हयासाठी की, ज्याने तुम्हाला अंधकरांतुन काडुन आपल्या अद्भुत प्रकाशात पाचारण केले त्याचे गुण तुम्ही प्रसिध्द करावे.",
+        reference: "1 पतरस 2:9",
+        translation: "",
+        theme: "परमेश्वराच्या राज्याचे जीवन",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी राजाच्या सेवेत राजकिय याजक आहे.",
+        para2: "मी परमेश्वरा साठी बहुमुल्य आहे त्याने मला विकत घेतले आहे.",
+        para3: "मला परमेश्वराच्या महानतेची घोषणा करण्यास नियुक्त केले आहे.",
+        para4: "त्याच्या प्रकाशात चालण्या करीता मला परमेश्वरा व्दारा निवडीले आहे.",
+        para5: "तुम्ही परमेश्वरा व्दारा निवडीले गेले आहात आणि त्याचे विशेष अधिकारी आहात.",
+        para6: "जसे तुम्ही प्रकाशात चालता तुमचे जीवन परमेश्वराच्या चांगुलपणाला प्रगट करते.",
+        para7: "तुम्ही राजाचे याजक आहात आणि तुम्हाला त्याला गौरव देण्यास तैयार केले आहे.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you for choosing me, for rescuing me from my darkness and " +
-        "bringing me into your light and truth. It is amazing that You gave me a special " +
-        "job-as a priest of the king. I am already blessed because You called me into " +
-        "your community and have been preparing me for larger Kingdom purposes. " +
-        "Thank you that you have chosen me to point to your awesomeness.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "मला निवडण्यासाठी धन्यवाद, मला माझ्या अंधकारातुन सोडवुन प्रकाशात आणि सत्यामधे आणण्यासाठी धन्यवाद. राजाचा याजक होण हे माझ्या विषेश कामासाठी धन्यवाद. धन्यवाद मला आपला समुदाय बनवुन महान राज्याच्या उददेशासाठी तयार करण्यासाठी. धन्यवाद मला आपल्या अद्भुतते कडे संकेत करण्यासाठी निवडले.",
       }
       break;
     case "day2":
       content = {
-        passage: "Therefore, we are ambassadors for Christ, God making His appeal through " +
-        "us. We implore you on behalf of Christ, be reconciled to God.",
-        reference: "2 Corinthians 5:20",
-        translation: "ESV",
-        theme: "Kingdom Living",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am an ambassador for God's kingdom",
-        para2: "I am God's representative to the world",
-        para3: "God reaches out to others through me",
-        para4: "I am chosen to bring people back to God",
-        para5: "You have been chosen by God to reach out to others.",
-        para6: "ou show the world what God is like.  The authority of God is in your words.",
-        para7: "Your words are timely.  They bring healing and help others turn back to God",
+        passage: "म्हणुण देव आमच्या कडुन विनवत असल्यासारखे आम्ही ख्रिस्ताच्या वतीने वकिली करतो; देवा बरोबर समेट केलेले असे तुम्ही व्हा, अशी आम्ही ख्रिस्ताच्या वतीने विनंती करतो.",
+        reference: "2 करिन्थ 5:20",
+        translation: "",
+        theme: "परमेश्वराच्या राज्याचे जीवन",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "परमेश्वराच्या राज्यासाठी मी एक राजदुत आहे.",
+        para2: "मी जगासाठी परमेश्वराचा प्रतिनिधी आहे.",
+        para3: "परमेश्वर माझ्या व्दारे इतरां कडे पहोचतो.",
+        para4: "मला लोकांना परमेश्वरा जवळ आणण्यासाठी निवडिले आहे.",
+        para5: "तुम्हाला लोकांना परमेश्वरा जवळ आणण्यासाठी निवडिले आहे.",
+        para6: "तुम्ही लोकांना परमेश्वर कसा दिसतो हे दाखवता.",
+        para7: "तुमच्या शब्दांत परमेश्वराचा अधिकार आहे तुमचे शब्द समयानुसार आहेत. तुमचे शब्द आरोग्य आणते आणि लोकांना परमेश्वरा जवळ आणतात.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you for equipping me and sending me to represent You to a " +
-        "broken world. Help me to feel deeply for those who are separated from You " +
-        "and each other. Give me your words of forgiveness, hope, unity and freedom. " +
-        "Help me be courageous to bring healing into the fractured relationships of " +
-        "God and men. May they recognize You when they see me.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "मला तयार करून अपला प्रतिनिधी बनवुन एक तुटलेल्या जगात पाठवण्यासाठी धन्यवाद. जे तुझ्या पासुन आणि एकमेंकां पासुन विभक्त झाले आहेत त्यांच्यासाठी सखोल विचार करण्यासाठी माझी सहायता कर .मला तुझी क्षमा, आशा, एकता, आणि स्वतंत्रतेचे शब्द दे. तुझ्या आणि मनुष्यामध्ये तुटलेल्या संबंधाला बनवण्यासाठी मला साहस देऊन माझी मदत कर. जेव्हा ते मला पहातील तेव्हा त्यांना तुझी ओळख होवो.",
       }
       break;
     case "day3":
       content = {
-        passage: "The Spirit of the Lord GOD is upon me, because the LORD has anointed me to bring " +
-        "good news to the afflicted; He has sent me to bind up the brokenhearted, to proclaim liberty to " +
-        "captives and freedom to prisoners;",
-        reference: "Isaiah 61:1",
-        translation: "NASB",
-        theme: "Kingdom Living",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am connected with the power of God's Spirit",
-        para2: "I am a messenger of good news to the afflicted",
-        para3: "I am sent to help comfort the broken hearted",
-        para4: "My words extend freedom to satan's prisoners",
-        para5: "You are anointed in God’s Spirit. You bring healing to the broken hearted",
-        para6: "Your words set prisoners free & shed light on the darkness of satan’s lies.",
-        para7: "Your words offer liberty to those in bondage – hope to those who are hurting",
+        passage: "प्रभु परेश्वराचा आत्मा माझ्यावर आला आहे; कारण दिनांना शुभवार्ता सांगण्यासाठी परमेश्वराने मला अभिषेक केला आहे; भग्न हृदय जनांना पटटी बांधावी धरून नेलेल्यांना स्वातंत्र व बंदिवानांना बंदमुक्त करावे म्हणुण त्याने मला पाठवले आहे.",
+        reference: "यशाया 61:1",
+        translation: "",
+        theme: "परमेश्वराच्या राज्याचे जीवन",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी परमेश्वराच्या आत्माच्या सामर्था सह जुडलो आहे.",
+        para2: "हताश लोकांसाठी मी शुभवर्तमानाचा एक संदेंशवाहक आहे.",
+        para3: "खिन्न हृदयांनां मदत करण्यासाठी आणि सांत्वना देण्यासाठी मला पाठवीले आहे.",
+        para4: "माझे शब्द सैतानाच्या कैदिंना स्वतंत्रता देतात.",
+        para5: "तुम्ही परमेश्वराच्या आत्म्याने अभिषीक्त आहात. तुम्ही खिन्न हृदयांनां आरोग्य देता. तुमचे शब्द कैदिंना स्वतंत्रता देतात.",
+        para6: "आणि सैतानाच्या खोटया अंधारावर प्रकाश टाकते.",
+        para7: "तुमचे शब्द बंधनात जे आहेत त्यांना स्वतंत्रता आणि खिन्न हृदयांनां आशा प्रदान करतात.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you for the power of the Holy Spirit on me and in me. May the " +
-        "power of your words spoken through me bring hope and freedom to those who are " +
-        "hurting and have become prisoners of sin. Help me to discern the roots of " +
-        "sin that I might help others step into the freedom of your light and truth.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "धन्यवाद माझ्यावर आणि माझ्यात पवित्र आत्म्याच्या सामर्थासाठी. होऊ दे की तुझ्या वचनांचे  सामर्थ माझ्या व्दारे जेव्हा बोलले जाईल त्याने जे भग्न होऊ पापाचे बंदी बनले आहेत त्यांच्यासाठी आशा आणि स्वतंत्रता येवो. पापांची मुळे ओळखण्यासाठी माझी सहायता कर ज्याने, मी ज्योती आणि सत्याच्या स्वतंत्रात लोकांना येण्यासाठी सहायता करू शकेन.",
       }
       break;
     case "day4":
       content = {
-        passage: 'And Jesus came up and spoke to them, saying, "All authority has been ' +
-        'given to Me in heaven and on earth. Go therefore and make disciples of all the nations, ' +
-        'baptizing them in the name of the Father and the Son and the Holy Spirit, teaching them to ' +
-        'observe all that I commanded you; and lo, I am with you always, even to the end of the age."',
-        reference: "Matthew 28:18-20",
-        translation: "NASB",
-        theme: "Kingdom Living",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am assigned to make disciple makers",
-        para2: "I am a fisher of men baptizing them in His name",
-        para3: "I am sent from God to teach others to obey Him",
-        para4: "God will always be with me as I serve Him",
-        para5: "Your life has been set apart to draw others to God",
-        para6: "Your words remind others to love and obey God.",
-        para7: "You have a heart for the lost and vision for the nations",
+        passage: 'तेव्हा येशु येऊन त्यांना म्हणाला, स्वर्गात आणि पृथ्वीवर सर्व अधिकार मला दिला आहे; यास्तव तुम्ही जाऊन सर्व राष्ट्रांना शिकवा; त्यांना शिष्य करा, त्यांना शिक्षण दया, आणि पित्याच्या, पुत्राच्या व पवित्र आत्म्याच्या नावाने बापतिस्मा दया. ज्या सर्व गोष्टी मी तुम्हाला आज्ञापील्या आहेत त्या पाळण्यास त्यांना शिकवा; आणि, पहा, युगाच्या समाप्तीपर्यंत मी सदोदित तुम्हा बरोबर आहे."',
+        reference: "मत्ती 28:18-20",
+        translation: "",
+        theme: "परमेश्वराच्या राज्याचे जीवन",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी शिष्य तयार करणारे त्यास तयार करण्यासाठी निवडला गेलो आहे.",
+        para2: "मी माणसांनां पकडणारा आणि त्यास त्याच्या नावाने बापतिस्मा देणारा आहे.",
+        para3: "लोकांना शिकवण्यास आणि आज्ञापालन करवण्यास मला परमेश्वरा व्दारे पाठवीले आहे.",
+        para4: "जसा मी परमेश्वराची सेवा करतो तो माझ्या सोबत सदा राहणार.",
+        para5: "इतरांना परमेश्वरा कडे आकर्षीत करण्यासाठी तुम्हाला विभक्त केले आहे.",
+        para6: "तुमचे शब्द परमेश्वराची आज्ञा पालन आणि त्याच्यावर प्रेम करणे स्मरूण देतात.",
+        para7: "तुमच्या कडे हरवल्याल्यां साठी हृदय आणि राष्ट्रां करिता दर्शन आहे.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you that you chose us to help build the kingdom one person at a " +
-        "time. Let the seriousness of heaven and hell motivate me to share the gospel. " +
-        "Give me eyes to see the lost, give me a heart to love them and make time for " +
-        "them. Help me not be ashamed of the death and resurrection of Christ. " +
-        "Choose me, use me! Thank you, Father, that you have placed the seeds of " +
-        "eternal life in us. Help me to plant and water in the lives of others for an eternal harvest.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "धन्यवाद की तु एका वेळी एक व्यक्ती करून तुझ्या राज्याच्या बांधणीसाठी आम्हाला निवडले. होऊ दे की स्वर्ग आणि नर्काची संवेदनशीलता मला सुवार्ता सांगण्यासाठी प्रेरित करो. मला असे डोळे दे की मी हरवलेल्यांना पाहु शकु, असे हृदय दे की मी त्यांना वेळ देऊन त्यांच्यावर प्रिती करावी. माझी सहायता कर की मी ख्रिस्ताची मृत्यु आणि पुनुरूथानास लज्जित होऊ नये. माझी निवड कर, माझा उपयोग कर. धन्यवाद पिता की तु सर्वकालीन बीज आमच्यात पेरीले आहे. लोकांच्या जीवनात अनंतकालच्या कापणी साठी मी पेरणी आणि सिंचन करण्यासाठी माझी सहायता कर.",
       }
       break;
     case "day5":
       content = {
-        passage: "You therefore, my son, be strong in the grace that is in Christ Jesus. The " +
-        "things which you have heard from me in the presence of many witnesses, entrust these to faithful " +
-        "men who will be able to teach others also.",
-        reference: "2 Timothy 2:1-2",
-        translation: "NASB",
-        theme: "Kingdom Living",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "Jesus has made me strong in the Father's grace",
-        para2: "I give to others what God has given me",
-        para3: "I am called to be a maker of disciple makers",
-        para4: "I am committed to men who will teach others",
-        para5: "Because you are teachable, you are a leader of men/women",
-        para6: "You give your life away to others and are an example of faithfulness",
-        para7: "You are dedicated to advancing the kingdom by planting and watering",
+        passage: "माझ्या मुला, ख्रिस्त येशुच्या ठायी असलेल्या कृपेत बलवंत होत जा. ज्या गोष्टी पुष्कळ साक्षीदारांसमेत माझ्या पासुन ऐकल्या, त्या इतरांना शिकवण्यास योग्य अशा विश्वासु माणसांना सोपवुन दे.",
+        reference: "2 तीमुथियुस 2:1-2",
+        translation: "",
+        theme: "परमेश्वराच्या राज्याचे जीवन",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "येशू ने पित्याच्या कृपेत मला मजबुत केले आहे.",
+        para2: "जे काही मला दिले आहे ते मी इतरांना देतो.",
+        para3: "शिष्य तयार करणारे त्यास तयार करण्यासाठी माझे पाचारण आहे.",
+        para4: "जो व्यक्ती इतरांना शिकवतो मी त्याच्या साठी समर्पित आहे.",
+        para5: "तुम्ही शिकवण्या साठी तत्पर आहात, तुम्ही पुरूष-स्त्री चे पुढारी",
+        para6: "आहात तुम्ही तुमचे जीवन इतरां साठी दिले हे एक विश्वासयोग्यतेच उदाहरण",
+        para7: "आहे पेरणी आणि त्यास पाणी देऊन तुम्ही परमेश्वराच्या राज्याला वेगळया स्थरा वर घेऊन जाण्यास समर्पित आहात.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you for sending people into our lives to help us grow in Christ. " +
-        "As You have leaned into me to give Yourself away to me, help me to lean into " +
-        "others and give my life away to them. Show me how to teach them to do the same. " +
-        "Help me to be faithful that I might teach others to be faithful to the next generation of believers.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "आमच्या जीवनात त्या लोकांना पाठवण्यासाठी धन्यवाद जे ख्रिस्तात वाढण्यास मदत करतात. जसे तुम्ही आमच्या जीवनात आलात स्वतःला आमच्यासाठी दिले तशीच माझी सहायता कर की मी ही इतरांच्या जीवनात डोकावुन त्यांच्यासाठी माझे जीवन देवो. त्यांना कसे शिकवु हे मला दाखव की ते तसेच करतील. मला विश्वासयोग्य बनव जेणे करून मी ही आगामी नवी पीडीच्या विश्वासी लोकांस विश्वासयोग्य राहणं शिकवेन.",
       }
       break;
     case "day6":
       content = {
-        passage: "All Scripture is breathed out by God and profitable for teaching, for reproof, " +
-        "for correction, and for training in righteousness, that the man of God may be complete, equipped " +
-        "for every good work.",
-        reference: "2 Timothy 3:16-17",
-        translation: "ESV",
-        theme: "Using God's Word",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am a guide and shepherd to others",
-        para2: "I use God's Word to motivate others",
-        para3: "I help others walk maturely and righteously",
-        para4: "I am equipped for every good work",
-        para5: "Your words are filled with righteousness. Your words are the breath of God",
-        para6: "You motivate others to walk in obedience. You guide others into His truth.",
-        para7: "You know what’s right, what’s not right, how to get right and how to stay right",
+        passage: "संपुर्ण पवित्रशास्त्र परमेश्वराच्या प्रेरणेने रचाले आहे. आणि सद्बोध, दोष दाखवणे, सुधारणुक, नितीशिक्षण हयाकरिता लाभदायक आहे, हयासाठी कि देवाचा भक्त पुर्ण हाऊन सर्व चांगल्या कामांसाठी सज्ज व्हावा.",
+        reference: "2 तीमुथियुस 3:16-17",
+        translation: "",
+        theme: "परमेश्वराच्या वचनांचा उपयोग करणं.",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी इतरांसाठी एक मार्गदर्शक आणि एक मेंढपाळ आहे.",
+        para2: "इतरांना प्रेरित करण्यासाठी मी परमेश्वराच्या वचनांचा उपयोग करतो.",
+        para3: "शहाणपण आणि नितीमत्वात चालण्यासाठी मी इतरांची मदत करतो.",
+        para4: "मला सर्व चांगले काम करण्यासाठी तैयार केले आहे.",
+        para5: "तुमचे शब्द नितीमत्तेने भरलेले आहे. तुमचे शब्द परमेश्वराचा श्वास आहेत.",
+        para6: "तुम्ही इतरांनां आज्ञापालन करण्यास प्रेरित करता. परमेश्वराच्या सत्या मधे चलण्यासाठी तुम्ही इतरांनां मार्गदर्शन करता.",
+        para7: "तुम्हाला बरे आणि वाईट याची जाण आहे. चांगले कसे प्राप्त करायचे आणि चांगल्यामधे टिकुन कसे रहायचे हे तुम्हाला माहीत आहे.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you that You have breathed life into my soul and spirit. Thank " +
-        "you for the gift of the living Word that helps me to know what is right, what " +
-        "is not right, how to get right, and how to stay right. Thank you that your " +
-        "Word trains me to walk in righteousness, equipping and enabling me to do good works for You.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "माझ्या जीवा वर आणि आत्म्यावर जीवनाचा श्वास फुंकण्या साठी धन्यवाद. जीवंत वचनांच्या वरदाना बद्दल धन्यवाद जे मला योग्य आणि अयोग्य याची ओळख पटवुन चांगले कसे करायचे आणी चांगल्यात बनुन कसे राहायचे ह्यसाठी सहायता करते. धन्यवाद तुझी वचनं मला नितिमत्वात चालण्यासाठी तयार करतात, बनवतात, आणि तुझी सगळी चांगली कामं करण्यास मला सक्षम करतात.",
       }
       break;
     case "day7":
       content = {
-        passage: "Be diligent to present yourself approved to God as a workman who does not " +
-        "need to be ashamed, accurately handling the word of truth.",
-        reference: "2 Timothy 2:15",
-        translation: "ESV",
-        theme: "Using God's Word",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am actively preparing to be useful to God",
-        para2: "I am a workman approved by God",
-        para3: "I am committed to protecting God's truth",
-        para4: "I have been responsible in how I use God's Word",
-        para5: "You have been diligent in preparing yourself to be useful to God",
-        para6: "You have been a faithful steward of God’s Word without apology",
-        para7: "You bring honor to God and yourself by how you carefully use His Word",
+        passage: "तु सत्याने वचन नीट सांगणारा, लाज वाटण्यास कसलेही कारण नसलेला, देवाच्या पसंतीस उतरलेला कामकरी, असा स्वतःला सादर करण्यास होईल तितके कर.",
+        reference: "2 तीमुथियुस 2:15",
+        translation: "",
+        theme: "परमेश्वराच्या वचनांचा उपयोग करणं.",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी परमेश्वरा साठी उपयोगी होण्या करिता आक्रमक तैयारी करित आहे.",
+        para2: "मला परमेश्वराने स्विकारले आहे.",
+        para3: "मी परमेश्वराच्या सत्यास सुरक्षीत ठेवण्यासाठी समर्पित आहे.",
+        para4: "परमेश्वराच्या वचनांना कसे उपयोगात आणायचे त्या साठी मी जीम्मेदार आहे.",
+        para5: "परमेश्वरा साठी कसे उपयोगी व्हाल या साठी तुम्ही खचुन तयारी करत आहात.",
+        para6: "कोणता ही बहाणा न करता तुम्ही परमेश्वराचे वचन संभाळण्यास विश्वासयोग्य राहीलात.",
+        para7: "संवेदनशीलतेने परमेश्वराच्या वचनांचा उपयोग करून तुम्ही परमेश्वराला आणि स्वतःला आदर मिळवुन दिलात.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Help my faith be authentic and dependable. May I be approved by You " +
-        "with no need to be ashamed as I learn to carefully handle your Word. Help me " +
-        "always use your Word in such a way that it accomplishes what You have  " +
-        "assigned it to do through the Holy Spirit.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "माझी सहायता कर की माझा विश्वास खरा आणि भरोसेमंद असो. मी तुझ्या व्दारे स्विकृत हो मला लज्जित होण्याची काही गरज नाही कारण मी तुझ्या वचनांना कसे योग्य रीती ने उपयोगात आणण हे शिकलो आहे. माझी सहायता कर मी सर्वदा तुझ्या वचनांना या रीतीने उपयोगात आणावं की जे पवित्र आत्म्या व्दारा नेमलीले आहे ते पुर्ण व्हावे.",
       }
       break;
     case "day8":
       content = {
-        passage: "For no matter how many promises God has made, they are Yes " +
-        "in Christ. And so through Him the Amen is spoken by us to the glory of God.",
-        reference: "2 Corinthians 1:20",
-        translation: "NIV",
-        theme: "Using God's Word",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I glorify God by trusting in His promises",
-        para2: "Christ's promises give me authority and power",
-        para3: "Christ's Words are confirmed by my words",
-        para4: "I can do & be what God's word says I can do & be",
-        para5: "Because of Christ in you, your words carry the weight of heaven’s authority",
-        para6: "Your life is evidence of God’s promises working in and through you",
-        para7: "Your confidence in Christ’s promises brings glory to the Father",
+        passage: "कारण आमच्याकडुन देवाचे वैभव प्रकट व्हावे म्हणुण देवाची सर्व अभिवचने त्याच्यामध्ये होय अशी आणि त्याच्यामध्ये आमेन अशी आहेत.",
+        reference: "2 करिन्थी 1:20",
+        translation: "",
+        theme: "परमेश्वराच्या वचनांचा उपयोग करणं.",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "परमेश्वराच्या प्रतिज्ञा वर भरोसा करून मी परमेश्वराला गौरव देतो.",
+        para2: "ख्रिस्ताच्या प्रतिज्ञा मला अधिकार आणि सामर्थ प्रदान करतात.",
+        para3: "माझ्या शब्दां व्दारे ख्रिस्ताचे वचन निच्छित होते.",
+        para4: "जे परमेश्वराचे वचन म्हणते ते मी करू शकतो आणि बनु शकतो.",
+        para5: "तुमच्या शब्दांत स्वर्गीय अधिकाराचा रूबाब आहे, कारण ख्रिस्त तुम्हा मध्ये आहे.",
+        para6: "परमेश्वराची प्रतिज्ञा तुम्हा मध्ये आणि तुम्हा व्दारे काम करत आहे, तुमचे जीवन त्याचे एक प्रमाण आहे.",
+        para7: "ख्रिस्ताच्या प्रतिज्ञात तुमचा आत्मविश्वास पित्याला गौरव देत आहे.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you that You have given me the inheritance of all your promises through " +
-        "Christ. Thank you for the authority those promises give me for each day’s " +
-        "living. Give me the confidence to take authority and walk in the power of " +
-        "those promises that the Father might be glorified.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "धन्यवाद ख्रिस्ता व्दारे सर्व अभिवचनांचा वारसा तुम्ही मला दिला. तुमच्या अभिवचनांतुन दैनंदिन जीवनासाठी मला मिळालेल्या अधिकाराबद्दल धन्यवाद. तुम्हाला गौरव देर्इ्ल अशा अभिवचनांचा अधिकार घेऊन मला सामर्थाने चालण्याचा आत्मविश्वास दया.",
       }
       break;
     case "day9":
       content = {
-        passage: "In your hearts honor Christ the Lord as holy, always being prepared to make a " +
-        "defense to anyone who asks you for a reason for the hope that is in you; yet do it with gentleness " +
-        "and respect.",
-        reference: "1 Peter 3:15",
-        translation: "ESV",
-        theme: "Witnessing",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I honor the Lord by defending my faith in Him",
-        para2: "I am prepared to help those seeking after God",
-        para3: "My confidence in Him brings hope to others",
-        para4: "I am a respectful and patient teacher",
-        para5: "Your life brings honor to the Holy God who lives in your heart",
-        para6: "You have done a good job of preparing yourself to defend the truths of God.",
-        para7: "You are always respectful while helping others understand spiritual things",
+        passage: "तर ख्रिस्त प्रभु याला आपल्या अंतःकरनात पवित्र माना; आणि तुम्हामध्ये जी आशा आहे तीची विचारपुस करणारया प्रत्येक इसमाला उत्तर देण्यास नेहमी सिध्द असा; तरी ते सौम्यतेने व भिडस्तपणाने घ्या.",
+        reference: "1 पेत्र 3:15",
+        translation: "",
+        theme: "साक्ष देण",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "माझ्या विश्वासाची रक्षा करून मी परमेश्वराला आदर देतो.",
+        para2: "जे परमेश्वराला शोधतात त्यांची मदत करण्यास मी तयार आहे.",
+        para3: "माझा त्याच्यावरचा आत्मविश्वास इतरां मधे आशा उत्पन्न करतो.",
+        para4: "मी दयालु आणि धिरजवंत शिक्षक आहे.",
+        para5: "तुमचे जीवन पवित्र परमेश्वराला आदर देते जो तुमच्या हृदयात जीवित आहे.",
+        para6: "स्वतःला परमेश्वराच्या सत्याची रक्षा करण्यास तयार करून तुम्ही भले काम केले आहे.",
+        para7: "तुम्ही सदा आदरपुर्ण आहात जेव्हा तुम्ही एखादयाला आत्मिक गोष्टींची समझ देता.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Dear God, help me choose a disciplined life that I might bring honor " +
-        "to You by defending the faith You have given me. Help me be a considerate and " +
-        "patient teacher to those seeking You as I explain to them your holiness, " +
-        "your love and the hope You have placed in my heart.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "प्रिय प्रभु माझी सहायता कर की जो विश्वास तु मला दिला आहेस त्याची रक्षा मी करू शकु, मी अनुशासित जीवन जगु शकु ज्याने तुला गौरव मिळो, तुझी पवित्रता, प्रेम, आशा जे तु माझ्या हृदयात टाकली जी मी तुझ्या शोधकांना सांगीतली त्यांच्यासाठी मी एक दयालु आणि संयंमी शिक्षक बनण्यासाठी माझी मदत कर.",
       }
       break;
     case "day10":
       content = {
-        passage: "For I am not ashamed of the gospel, for it is the power of God for salvation to " +
-        "everyone who believes, to the Jew first and also to the Greek.",
-        reference: "Romans 1:16",
-        translation: "ESV",
-        theme: "Witnessing",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "God has chosen me to lead others to Himself ",
-        para2: "I am not ashamed of sharing God's Word",
-        para3: "I eagerly tell others about God's love for them",
-        para4: "His words are the power of eternal life through me",
-        para5: "You are never ashamed to invite others to know God",
-        para6: "You share God’s truth with others with great boldness",
-        para7: "You display the hope of eternal life in your words and life",
+        passage: "मला ख्रिस्ताच्या सुवार्तातेची लाज वाटत नाही; कारण प्रत्येक विश्वास ठेवणारयाला ती तारण प्राप्त्यर्थ देवाचे सामर्थ असे आहे; प्रथम यहुदयानां आणि मग मुर्तिपुजकांना.",
+        reference: "रोमकरांस 1:16",
+        translation: "",
+        theme: "साक्ष देण",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "परमेश्वराने मला निवडले आहे इतरांना त्याच्याकडे आणण्यासाठी.",
+        para2: "मी परमेश्वराचे वचन इतरांना देण्यासाठी लाजत नाही.",
+        para3: "मी उत्सुकतेने इतरांना परमेश्वराच्या प्रेमा विषयी सांगतो.",
+        para4: "माझ्यात त्याचे वचन अनंतकालीन जीवनाचे सामर्थ आहे.",
+        para5: "इतरांना परमेश्वराला जाणण्याच आमंत्रण देण्यास तुम्ही कधी लाजत नाही.",
+        para6: "तुम्ही मोठया साहसाने परमेश्वराचे सत्य इतरांना ऐकवता.",
+        para7: "तुमच्या जीवनदायी शब्दांने तुम्ही आशा आणि अनंत जीवनाला प्रदर्शीत करता.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you that You have entrusted me with the words of eternal life. " +
-        "I am grateful that You have chosen me to lead others to You. Help me to love " +
-        "others more than I fear their rejection because it is all about eternity. " +
-        "Give me eyes and ears to recognize those who are seeking to know You and " +
-        "speak with boldness and the power of your word.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "धन्यवाद सर्वकालिन जीवनाचे वचनांना मला सोपण्यासाठी. मी आभारी आहे की इतरांना जवळ आणण्यासाठी मला निवडले. माझी मदत कर की लोकांच्या व्देषाची भिती बाळगण्याऐवजी लोकांवर प्रेम करावं कारण ते अनंतकाळा विषयी आहे. मला असे नेत्र दे कि जुणेकरून मी हे जाणावं की कोण तुझा शोधक आहे आणि कोण तुझ्या वचनांना साहस आणि सामर्थाने सांगतात.",
       }
       break;
     case "day11":
       content = {
-        passage: "And my message and my preaching were not in persuasive words of " +
-        "wisdom, but in demonstration of the Spirit and of power, so that your faith would not rest on " +
-        "the wisdom of men, but on the power of God.",
-        reference: "1 Corinthians 2:4-5",
-        translation: "NASB",
-        theme: "Witnessing",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am not boastful or proud when I speak",
-        para2: "I do not depend on my own wisdom when I speak",
-        para3: "My words are sourced in His Spirit and power",
-        para4: "My words cause others to trust in God’s Words",
-        para5: "Your words show that you do not lean on your own understanding ",
-        para6: "Your words demonstrate the power of the Holy Spirit speaking through you.",
-        para7: "The way you live and speak encourages others to depend on God rather than men",
+        passage: "माझे भाषण व माझी घोषणा ज्ञानयुक्त अशा मन वळविणारया शब्दांची नव्हती तर आत्मा व सामर्थ यांची निदर्शक होती, यासाठी की तुमचा विश्वास मानवी ज्ञानाने नव्हे तर देवाच्या सामर्थाने असावा.",
+        reference: "1 करिन्थ 2:4-5",
+        translation: "",
+        theme: "साक्ष देण",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "जेव्हा मी इतरांशी बोलतो, तेव्हा मी बढाई अथवा घमंड करत नाही.",
+        para2: "जेव्हा मी बोलतो मी स्वतःच्या बुध्दीवर निर्भर राहत नाही.",
+        para3: "माझे शब्द त्याच्या आत्म्या आणि सामर्था पासुन आहेत.",
+        para4: "माझे शब्द इतरांना परमेश्वराच्या वचनांवर भरोसा करण्यास प्रेरित करतात.",
+        para5: "तुमचे शब्द, तुम्ही स्वतःच्या बुध्दीवर निर्भर नाही हे दर्शवतात.",
+        para6: "तुमचे शब्द प्रस्तुत करतात कि पवित्र आत्म्याचे सामर्थ तुमच्या व्दारे बोलते.",
+        para7: "जसे जीवन तुम्ही जगता आणि ज्या प्रकारे तुम्ही बोलता ते इतरांना मनुष्यांवर नव्हे तर परमेश्वरा वर भरोसा करण्यास उत्तेजीत करते.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Dear Father, help me not depend on my own ideas or wisdom but prepare " +
-        "myself to respond to those in need by using your truth alone. Help me " +
-        "to humbly surrender to the power of your Spirit. Make me sensitive to your " +
-        "Spirit to encourage repentance, obedience and transformation in others. " +
-        "May my words be your Word through the Holy Spirit.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "प्रिय पिता, माझी सहायता कर की मी माझ्या ज्ञानावर आणि कल्पनांवर निर्भर न राहावं, परंतु योग्य समयी प्रतिउत्तर देण्यास केवळ तुझ्या सत्यांचा उपयोग करून स्वतःला तयार करावं. माझी सहायता कर कि मी नम्रताने  स्वतःला पवित्र आत्म्याच्या सामर्थाला अर्पाव. मला तुझ्या आत्म्यासाठी संवेदनशील बनावं जेणेकरून मी पच्छात्ताप, आज्ञाकारिता आणि परिवर्तनासाठी इतरांना उत्तेजीत कराव. पवित्र आत्म्या व्दारे माझे वचन तुझे वचन व्हाव.",
       }
       break;
     case "day12":
       content = {
-        passage: "You were taught, with regard to your former way of life, to put off your " +
-        "old self, which is being corrupted by its deceitful desires; to be made new in the spirit of your " +
-        "minds; and to put on the new self, created to be like God in true righteousness and holiness. ",
-        reference: "Ephesians 4:22-24",
-        translation: "NIV",
-        theme: "Renewing our Minds",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am able to say no to my former way of living",
-        para2: "I choose to say no to deception and corrupt ideas",
-        para3: "I have been made new in both my mind & spirit",
-        para4: "God shares His righteousness & holiness with me",
-        para5: "The you that you made is dead; the you that God made is free and powerful",
-        para6: "Your mind is set free by His Spirit and you can have the mind of Christ.",
-        para7: "God’s Spirit is helping you to walk in new levels of understanding and power",
+        passage: "ते असे की, तुमच्या पुर्वीच्या आचरणासंबंधी जो जुना मनुष्य त्याचा तुम्ही त्याग करावा, तो कपटाच्या वासनांनी युक्त असुन नाशवंत आहे. तर तुम्ही आपल्या मनोवृत्तीत नवे व्हावे; आणि देवाने धार्मिकतेत आणि पवित्र सत्यात निर्माण केलेला नवा मनुष्य परिधान करावा.",
+        reference: "इफिसीकरांस 4:22-24",
+        translation: "",
+        theme: "आपल्या मनाला नविन करणं",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "माझ्या पुर्व जीवनाला ना म्हणण्यास मी सक्षम आहे.",
+        para2: "धोखेबाजी आणि भ्रष्ट कल्पनांना ना म्हणण्यास मी निवडले आहे.",
+        para3: "मी माझ्या मनात आणि आत्म्यात नविन बनवलो गेलो आहे.",
+        para4: "परमेश्वर त्याची नितिमत्ता आणि पवित्रता मज सोबत वाटतो.",
+        para5: "तुम्ही जे स्वतःस बनवले ते मृत आहे, तुम्ही जे परमेश्वराने बनवले ते स्वतंत्र आणि सामर्थी आहे.",
+        para6: "तुमच्या मनाला त्याच्या आत्म्या व्दारे स्वतंत्र केल गेलं आहे, आणि तुम्ही ख्रिस्ताच्या मनाला मिळवु शकता.",
+        para7: "परमेश्वराची आत्मा तुम्हाला मदत करत आहे की तुम्ही समझदारी आणि सामर्थाच्या नव्या स्तराला प्राप्त कराल.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you for sharing your righteousness and holiness with me so I " +
-        "can put aside my old sinful self. It is beyond all that I could ask or " +
-        "think that You have made me a new person inside. You said you have even given " +
-        "me a new spirit and mind and have chosen to make me like yourself in " +
-        "holiness. Thank you for the extravagance of your gifts to me.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "तुझी नितीमत्ता आणि पवित्रता माझ्याशी वाटण्यासाठी धन्यवाद ज्याने मी माझ्या जुन्या पापमय स्वभावाला दुर करू शकु. हे माझ्या कल्पनेच्या बाहेर आणि मागण्यापेक्षा जास्त आहे तु मला आतुन नविन व्यक्ती बनवलं आहे. तु म्हणालास कि तु मला नविन आत्मा आणि नविन मन पण दिले आहेस, पवित्राई मध्ये तुझ्या समान बनवण्यासाठी माझी निवड केलीस. धन्यवाद तुझ्या उपहारांची भरपुरी मला देण्यासाठी.",
       }
       break;
     case "day13":
       content = {
-        passage: "Do not be conformed to this age, but be transformed by the renewing of your " +
-        "mind, so that you may test and prove what is the good, pleasing, and perfect will of God.",
-        reference: "Romans 12:2",
-        translation: "HCSB",
-        theme: "Renewing our Minds",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I have chosen not to conform to this world",
-        para2: "I am transformed by the renewal of my mind",
-        para3: "I live in the good and acceptable will of God",
-        para4: "I have tested God will & found it to be perfect",
-        para5: "Your life represents a mind that is now under the control of the Holy Spirit",
-        para6: "Your transformation in Christ has led you to live without compromise",
-        para7: "Your life proves that living God’s way is good, pleasing and perfect",
+        passage: "या युगाबरोबर समरस होऊ नका; तर आपल्या मनाच्या नविकरणाने स्वतःचे रूपांतर होऊ दया, यासाठी की देवाची जी उत्तम, ग्रहणीय व परिपुर्ण इच्छा, ती काय आहे हे तुम्ही समजुन घ्यावे.",
+        reference: "रोमकरांस 12:2",
+        translation: "",
+        theme: "आपल्या मनाला नविन करणं",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मला जगाचे अनुकरण न करण्यासाठी निवडले आहे.",
+        para2: "मनाच्या नविनीकरनाने मी परिवर्तीत झालो आहे.",
+        para3: "मी परमेश्वराच्या चांगल्या आणि स्विकृत ईच्छेत जगत आहे.",
+        para4: "मी परमेश्वराच्या इच्छेला पारखले आणि सिध्द असे अढळले आहे.",
+        para5: "तुमचे जीवन तुमचे मन पवित्र आत्म्याच्या नियंत्रणात आहे हे दर्शवीते.",
+        para6: "ख्रिस्तात तुमच्या परिवर्तनाने तुम्हाला समझोत्या शिवाय जगण्यास प्रेरित केले आहे.",
+        para7: "तुमच जीवन सिध्द करते कि परमेश्वराच्या पध्दतीने जगणे चांगले, उत्कृष्ट आणि सिध्द आहे.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you for providing a way to set me free from the world and its " +
-        "destructive influences. Thank you for providing a way to have the mind of " +
-        "Christ. I have tested your principles of life in contrast to the world and " +
-        "found them both true and good. With your help, I will resist conformity " +
-        "and choose to think and live differently.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "मला जग आणि त्याच्या विचलीत करण्यारया प्रभावापासुन स्वतंत्र होण्याचा मार्ग दिखवल्या बद्दल धन्यवाद. मी तुझ्या जीवनाच्या सिध्दांतांची जगाबरोबर तुलना करून पारखल आणि त्यास खरं आणि योग्य असे जाणीले. तुझ्या मदतीने मी रूढीवादाचा सामना करेन, आणि वेगळा विचार करणं आणि जगणं निवडेन.",
       }
       break;
     case "day14":
       content = {
-        passage: "Finally, brethren, whatever is true, whatever is honorable, whatever is right, "+
-        "whatever is pure, whatever is lovely, whatever is of good repute, if there is any excellence and if "+
-        "anything worthy of praise, dwell on these things.",
-        reference: "Philippians 4:8",
-        translation: "NASB",
-        theme: "Renewing our Minds",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I have purposed my mind to dwell on the truth",
-        para2: "I live in a manner that brings praises to God",
-        para3: "I am committed to pure & honorable thoughts",
-        para4: "I am careful to honor God in my living and thinking",
-        para5: "Your life evidences a mind committed to purity, truth and excellence",
-        para6: "Your spirit of kindness helps others embrace what is truly valuable.",
-        para7: "Your words and actions bring deep respect for the majesty of God",
+        passage: "शेवटी बंधुजनहो, ज्या गोष्टी सत्य आहेत, ज्या गोष्टी प्रामाणीक आहेत, ज्या गोष्टी न्याय आहेत, ज्या गोष्टी अनंददायक, प्रशंसनीय आहेत, जो काही सद्गुण आहे, जी कही स्तुती आहे अशा गोष्टी विषयी मनन करा.",
+        reference: "फिलैप्पेकरांस 4:8",
+        translation: "",
+        theme: "आपल्या मनाला नविन करणं",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी माझ्या मनाला सत्यात वास करण्यास कार्यशील केले आहे.",
+        para2: "मी असे जीवन जगतो ज्याने परमेश्वराला गौरव मिळतो.",
+        para3: "मी शुध्द आणि आदरनीय विचारानां समर्पित आहे.",
+        para4: "परमेश्वराला आदर देण्यास मी अपल्या जीवनात आणि विचारांत संवेदनशील आहे.",
+        para5: "तुमचे जीवन शुध्दता, सत्य आणि अप्रतीमतेचे प्रमाण देते.",
+        para6: "तुमच्या दयायेची आत्मा लोकांना प्रेरित करते कि त्यांनी मौल्यवान सत्यास धरून रहावे.",
+        para7: "तुमचे शब्द आणि कृती परमेश्वराच्या वैभवतेच्या खेलीचा आदर उत्पन्न करते.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Lord, please give me courage to change my thinking and take my thoughts " +
-        "captive as I stand against a lazy, compromising mind. Help me to dwell on " +
-        "things that are equal to who I am in Christ. Help me to choose the discipline " +
-        "to wash my mind with your Word so I can begin to think and speak your thoughts. " +
-        "Help my mind choose the light and not the dark things .",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "प्रभु, कृपा करून माझे विचार बदलण्यास आणि जसे मी आळस आणि तडजोड करणरया मना  विरोध्द उभा राहीन तेव्हा माझ्या विचारांस बंदी बनवण्यास मला साहस दे. माझी मदत कर त्या गोष्टी मध्ये बनुन राहण्यासाठी ज्या गोष्टी मला मी ख्रिस्तात कोण आहे ते सांगतात. तुझ्या वचनांनी माझ्या मनाला धुण्याच्या अनुशासनाची निवड करण्यास माझी सहायता कर जेणेकरून मी तुझे विचार विचार करणे आणि बोलणे आरंभ करावे. माझ्या मनाला अंधःकारा ऐवजी प्रकाशाची निवड करण्यास माझी सहायता कर.",
       }
       break;
     case "day15":
       content = {
-        passage: "For those who live according to the flesh set their minds on the things of the " +
-        "flesh, but those who live according to the Spirit set their minds on the things of the Spirit. For " +
-        "to set the mind on the flesh is death, but to set the mind on the Spirit is life and peace.",
-        reference: "Romans 8:5-6",
-        translation: "ESV",
-        theme: "Renewing our Minds",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I have said yes to His Spirit and no to the world",
-        para2: "I have set my mind on His presence and power",
-        para3: "I am choosing to let His Spirit live through me",
-        para4: "I am filled with His life, peace and rest",
-        para5: "Your life is evidence of choosing to live by the influence of the Holy Spirit",
-        para6: "Your dependency on the Spirit has equipped you to serve and walk in power.",
-        para7: "Because you have surrendered to His Spirit, you experience peace and rest",
+        passage: "जे देहस्वभावाचे आहेत ते दैहिक गोष्टी कडे चित्त लावतात आणि जे अध्यात्मिक मार्गानुसारी आहेत ते आत्मिक गोष्टी कडे चित्त लावतात. देहाचे चिंतन हे मरण; आत्म्याचे चिंतन हे जीवन व शांती आहे.",
+        reference: "रोमकरांस 8:5-6",
+        translation: "",
+        theme: "आपल्या मनाला नविन करणं",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी त्याच्या आत्म्यास हो आणि जगास ना म्हटलं आहे.",
+        para2: "मी माझे मन त्याच्या उपस्थीत आणि सामर्थात लावले आहे.",
+        para3: "मी हे निवडले कि त्याची आत्मा माझ्या आत जगो.",
+        para4: "मी त्याच्या जीवनाने, शांतीने आणि विश्रामाने भरलो आहे.",
+        para5: "तुमचे जीवन या गोष्टींचे प्रमाण आहे कि तुम्ही पवित्र आत्म्याच्या प्रभावात जगणं निवडले आहे.",
+        para6: "तुमच्या पवित्र आत्म्यावर निर्भरतेने तुम्हाला सेवा करण्यास आणि सामर्थात चलण्यास तयार केले आहे.",
+        para7: "कारण की तुम्ही त्याच्या आत्म्यास समर्पित आहात, तुम्ही शांती आणि विश्रामाचा अनुभव करत आहात.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you for giving me the power to say no to the temptations of my " +
-        "flesh. Help me not use my flesh to create an identity for myself. Help me to " +
-        "use your Word to renew my mind and replace the thoughts of fleshly desires with " +
-        "the life and peace of obedience. Let me surrender to the promptings of the " +
-        "Spirit. Empower my ability to choose righteousness.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "माझ्या शरिरीक प्रलोभनांना नकारण्याचे सामर्थ मला देण्याकरिता धन्यवाद. माझी ओळख बनवीण्यासाठी मी माझ्या शरिराचा उपयोग करू नये त्यासाठी माझी मदत कर . माझ्या शरिराच्या विचारांना जीवन आणि आज्ञाकारीतेच्या शांतीत बदलुन माझ्या मनाला नवं करण्यास तुझ्या वचनांचा उपयोग करण्यास माझी मदत कर. मला पवित्र आत्म्याच्या साधेपणात  समर्पित होऊ दे। नितीमत्ता निवडण्यास माझी सहायता कर.",
       }
       break;
     case "day16":
       content = {
-        passage: "From now on, therefore, we regard no one according to the flesh. Even though we" +
-        "once regarded Christ according to the flesh, we regard him thus no longer. Therefore, if" +
-        "anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
-        reference: "2 Corinthians 5:16-17",
-        translation: "ESV",
-        theme: "Abiding in His Power",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am free from my past, the old me is crucified",
-        para2: "The real me is unseen, beautiful, powerful & free",
-        para3: "I am one with His Spirit, my flesh does not define me",
-        para4: "I look past my flesh - I can see God’s glory in me",
-        para5: "The you that God has made is becoming more and more obvious each day",
-        para6: "You have the ability to see past the outward appearance into a person’s heart.",
-        para7: "You are doing a great job of letting the new life of God in you take over",
+        passage: "आतापासुन आम्ही कोणाला देहावरून ओळखत नाही; आणि जरी आम्ही ख्रिस्ताला देहावरून ओळखले होते तरी आता यापुढे त्याला तसे ओळखत नाही. म्हणुन जर कोणी ख्रिस्ताच्या ठायी आहे तर तो नवी उत्पती आहे; जुन्या गोष्टी होऊन गेल्या, पहा, त्या नव्या झाल्या आहेत.",
+        reference: "2 करिन्थी 5:16-17",
+        translation: "",
+        theme: "त्याच्या सामर्थात बनुन राहणं",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी माझ्या भुतकाळापासुन स्वतंत्र आहे, जुना मी क्रुसीत झालो आहे.",
+        para2: "वास्तवीक मी अदृश्य, सुंदर, सामर्थी आणि स्वतंत्र आहे.",
+        para3: "मी त्याच्या आत्म्यात एक आहे, माझे शरिर मला परिभाषीत करत नाही.",
+        para4: "माझ्या शरीराला जेव्हा मी भुतकाळात पाहतो- मी परमेश्वराचा गौरव माझ्या आत पाहु शकतो.",
+        para5: "जे तुम्ही जे परमेश्वराने बनवले आहे ते प्रति-दिन जास्तीत जास्त स्पष्ट होत राहीले आहे.",
+        para6: "तुम्ही अतीत पाहण्याची क्षमता राखता जे व्यक्तीच्या हृदयात बाहरी रूपाने आहे.",
+        para7: "परमेश्वरीय नव्या जीवनाला तुमच्या आत विकसीत होऊ देत आहात हे चांगलं काम तुम्ही करत आहात.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you that in Christ there is more to our identities than just our " +
-        "bodies. Thank you that you have put to death our broken and sinful past on " +
-        "the cross with Jesus. Help me to understand what it means to be a new creation " +
-        "and embrace the new person that I have become inside. Thank you that I can " +
-        "walk in newness of life each day and I do not need to let my past control me.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "धन्यवाद आमच्या ओळखेत आमच्या देहापेक्षा अधिक खुप काही आहे. आमच्या तुटलेल्या पापमय भुतकाळाला येशु बरोबर क्रुसावर मारण्यासाठी धन्यवाद. माझी सहायता कर कि मी नवी सृष्टीचा अर्थ समजु शकु, आणि माझ्या आत उत्पन्न झालेल्या नवीन व्यक्तीमत्वाला अलींगन करो. धन्यवाद की आता मी प्रती-दिन जीवनाच्या नवेपणात चालु शकतो, आणि माझा भुतकाळ माझ्यावर हावी नाही होणार.",
       }
       break;
     case "day17":
       content = {
-        passage: "His divine power has granted to us all things that pertain to life and godliness, " +
-        "through the knowledge of Him who called us to his own glory and excellence.",
-        reference: "2 Peter 1:3",
-        translation: "ESV",
-        theme: "Abiding in His Power",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am filled with His divine nature and power",
-        para2: "I have everything I need to live a life of Godliness",
-        para3: "I have been called into His glory and excellence",
-        para4: "I have escaped destruction by knowing Him",
-        para5: "Your walk with the Lord has let you partake in His life, glory and excellence",
-        para6: "God’s promises and power has granted you to be like Him and live like Him.",
-        para7: "Because you know Him, God has granted you a life that brings Him glory",
+        passage: "ज्याने तुम्हाआम्हाला आपल्या वैभवासाठी व सात्विकतेसाठी पाचारण केले त्याच्या वशिल्याच्या व्दारे, त्याच्या दैवी सामर्थाने, जीवनास व सुभक्तीस जे सर्व काही आवश्यक ते आपल्याला दिले आहे.",
+        reference: "2 पेत्र 1:3",
+        translation: "",
+        theme: "त्याच्या सामर्थात बनुन राहणं",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी त्याच्या अलौकिक स्वभावाने आणि सामर्थाने भरलो आहे.",
+        para2: "मजकडे सर्वकाही आहे मला परमेश्वरिय जीवन जगण्याची गरज आहे.",
+        para3: "मी त्याच्या गौरवात आणि अप्रतिमतेत बोलावलो आहे.",
+        para4: "त्याला ओळखुन मी विचलीत होण्यापासुन बचावलो आहे.",
+        para5: "तुमचे परमेश्वरा बरोबर चालणे तुम्हाला त्याच्या जीवनात, गौरवात आणि अप्रतिमतेत सहभाग करते.",
+        para6: "परमेश्वराच्या प्रतिज्ञा आणि सामर्था ने तुम्हाला त्याच्या समान होण्यास आणि त्याच्या समान जगण्यास स्विकृती दिली आहे.",
+        para7: "तुम्ही त्याला जाणता हयासाठी परमेश्वरा ने त्याला गौरव देणारे जीवन तुम्हाला दिले आहे.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you that You have given me everything I need to live a life of " +
-        "godliness. As I have gotten to know You, I realize your gifts have been " +
-        "complete and perfect for all my needs. Your willingness to allow me " +
-        "to share your glory and perfection is truly generous and more than I deserve " +
-        "or could have ever imagined.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "मला ईश्वरीय जीवन जगण्यास जे जरूरी आहे ते सर्व देण्यासाठी धन्यवाद. जसे मी तुला ओळखले मी जाणीले की तुझे उपहार माझ्या सर्व गरजांसाठी पुर्ण आणि सिध्द आहे. मला तुझ्या गौरवात पुर्णपणे वाटेकरी होण्याची अनुमती देण्याची तुझी इच्छा खरोखर उदार आहे जी माझ्या योग्यतेपेक्षा जास्त आणि विचारांच्या पलीकडे आहे.",
       }
       break;
     case "day18":
       content = {
-        passage: "Now to Him who is able to do far more abundantly than all that we ask or think, " +
-        "according to the power at work within us.",
-        reference: "Ephesians 3:20",
-        translation: "ESV",
-        theme: "Abiding in His Power",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am called to live above and beyond the ordinary",
-        para2: "I am equipped with His Power to do great things",
-        para3: "I am empowered to think big, ask big, proclaim big",
-        para4: "God chooses to do great works in me & through me",
-        para5: "God intends to use you in powerful ways beyond anything you have imagined",
-        para6: "God is going to take your ideas and prayers and make eternal things happen.",
-        para7: "You are chosen to do great things that will point to and glorify God",
+        passage: "आमच्यामध्ये कार्यरत असलेल्या शक्तीप्रमाणे आम्ही जे काही मागतो किंवा कल्पीतो त्यापेक्षा पुष्कळच अधिक करण्यास जो समर्थ आहे.",
+        reference: "इफिसीकरांस 3:20",
+        translation: "",
+        theme: "त्याच्या सामर्थात बनुन राहणं",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी उच्च आणि असाधारण जीवन जगण्यास बोलावला गेलो आहे.",
+        para2: "महान काम करण्यास मी त्याच्या सामर्था व्दारे तयार केला गेलो आहे.",
+        para3: "मोठा विचार करणं, मोठा मागणं, आणि मोठी घोषणा करण्यास माझ्यात सुधार आला आहे.",
+        para4: "परमेश्वर माझ्यात आणि माझ्या व्दारे महान काम करण्याची निवड करतो.",
+        para5: "परमेश्वराने तुम्हाला तुमच्या कल्पनांच्या पलीकडे सामर्थी रूपाने उपयोग करण्यास योजीले आहे.",
+        para6: "परमेश्वर तुमची कल्पना आणि प्रार्थना घेऊन सर्वकालीन गोष्टींना करणार आहे.",
+        para7: "तुम्हाला महान गोष्टी करण्यास बोलावले आहे ज्या परमेश्वरा कडे संकेत करतील आणि त्याला गौरव देतील.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "I praise you for calling me away from ordinary living and equipping " +
-        "me with the power to do great things for you. Help me to think big, pray big" +
-        "and by faith declare big things for your kingdom. Choose me and use me in " +
-        "powerful ways as I yield to the Holy Spirit that is working in me.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "मी तुझी स्तुती करतो की तु मला एका साधारण जीवनातुन पाचरण केले आणि तुझ्यासाठी महान काम करण्यासाठी सामर्थाने तयार केले. माझी सहायता कर की मी मोठा विचार करावा, मोठी प्रार्थना करावी, आणि विश्वासा व्दारे तुझ्या राज्यात महान गोष्टींची घोषणा करावी. पवित्र आत्मा जो माझ्या आत काम करतो, जेव्हा मी त्याला समर्पित होतो तेव्हा तु निवडुन सामर्थ रीती ने उपयोग कर.",
       }
       break;
     case "day19":
       content = {
-        passage: "Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides " +
-        "in the vine, neither can you, unless you abide in me. I am the vine; you are the branches. " +
-        "Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing.",
-        reference: "John 15:4-5",
-        translation: "ESV",
-        theme: "Abiding in His Power",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "My dependency on Him assures my usefulness",
-        para2: "I am intimately connected to His love and power",
-        para3: "I am weak, He is strong - together we bear much fruit",
-        para4: "I must abide in Him, for without Him I can do nothing",
-        para5: "Accepting your weaknesses, you have let Him be all that He is through you",
-        para6: "Depending on the power of God that is in you has made you strong and fruitful",
-        para7: "By choosing to abide in Him, you have connected to the true source of godliness",
+        passage: "तुम्ही माझ्यामध्ये रहा आणि मी तुमच्यामध्ये राहीन. जसे फाटा वेलात रहिल्यावाचुन त्याला आपल्याआपण फळ देता येत नाही तसे माझ्यामध्ये राहिल्यावाचुन तुम्हालाही देता येणार नाही. मीच वेल आहे, तुम्ही फाटे आहात, जो माझ्यामध्ये राहतो आणि मी ज्याच्यामध्ये राहतो तो पुष्कळ फळ देतो, कारण माझ्यापासुन वेगळे असल्यास तुम्हाला काही करता येत नाही.",
+        reference: "योहान 15:4-5",
+        translation: "",
+        theme: "त्याच्या सामर्थात बनुन राहणं",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "त्यावर निर्भर राहण माझ्या उपयोगी होण्यास निच्छितता देते.",
+        para2: "मी घनिष्ठतेने त्याच्या प्रेमाशी आणि सामर्थाशी जुडलो आहे.",
+        para3: "मी कमजोर आणि तो बलवान आहे आम्ही एकत्र भरपुर फळे आणणार.",
+        para4: "मी त्यावर निर्भर आहे, त्याच्या शीवाय मी काही करू शकत नाही.",
+        para5: "तुमच्या कमजोरीला स्विकारून तुम्ही हे दर्शवले कि परमेश्वर जो ही आहे तुमच्या व्दारे असो.",
+        para6: "परमेश्वराचे सामर्थ जे तुमच्या आत आहे त्यावर निर्भर राहण्याने तुम्हाला बलवंत आणि फलदायी बनवलं आहे.",
+        para7: "त्याच्यात बनुन राहण निवडुन तुम्ही सत्य परमेश्वरिय स्त्रोताशी जुडला आहात.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you that when I am weak, You are strong,. I know that depending " +
-        "on you assures my fruitfulness. Help me understand and accept my weaknesses " +
-        "so that You can be all that You are through me. Help me to understand how to "+
-        "abide in You that I might tap into the true source of godliness. " +
-        "Protect me from the temptation of doing things in my own strength.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "धन्यवाद जेव्हा बलहीन असतो तु सामर्थी आहेस, मी जाणतो की तुझ्यावर निर्भर राहणं माझी विश्वासयोग्यतेची निच्छीतता दाखवते. माझी सहायता कर की मी माझ्या कमजोरींना स्विकार करावं जेणेकरून तु जो माझ्या व्दारे होऊ पहातोस ते हो. माझी सहायता कर की मी जाणावं कि तुझ्यात कसं टिकाव जेणेकरून मी सत्य ईश्वरीय स्त्रोतात प्रवेश करू शकेन. मला माझा बळाने करणारया सर्व प्रलोभनांपासुन वाचव.",
       }
       break;
     case "day20":
       content = {
-        passage: "I can do all things through Him who strengthens me.",
-        reference: "Philippians 4:13",
-        translation: "ESV",
-        theme: "Abiding in His Power",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am one with the Spirit, the Spirit is with me",
-        para2: "I am in Him and He is in me, I am an overcomer",
-        para3: "I am fully dependent on Him to give me the victory",
-        para4: "In Him, I am a conqueror, a finisher, I am victorious",
-        para5: "Your dependence on Him has set you free to do great things for the kingdom",
-        para6: "Your choice to abide and remain in Him has made you an effective warrior",
-        para7: "Abiding in God’s love has given you power and victory over your circumstances",
+        passage: "जो ख्रिस्त मला सामर्थ पुरवतो त्याच्या व्दारे मी सर्व काही करू शकतो सकता.",
+        passage2: "उलट पक्षी ज्याने आपल्यावर प्रिती केली त्याच्या योगे या सर्व गोष्टीत आपण विशेष विजयी आहोत.",
+        reference: "फिलैप्पैकरांस 4:13",
+        reference2: "रोमियो 8:37",
+        translation: "",
+        translation2: "",
+        theme: "त्याच्या सामर्थात बनुन राहणं",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी आत्म्या बरोबर एक आहे, आत्मा मज सोबत आहे.",
+        para2: "मी त्यामधे आणि तो माझ्यामधे आहे, मी एक विजेता आहे.",
+        para3: "माझ्या विजया साठी मी पुर्णपणे त्यावर निर्भर आहे.",
+        para4: "त्याच्यात मी जयवंत, दौड पुर्ण करणारा विजेता आहे.",
+        para5: "तुमच्या परमेश्वरावर निर्भरतेने त्याच्या राज्यासाठी महान कार्य करण्यास तुम्हाला स्वातंत्र केले आहे.",
+        para6: "तुमच्या त्याच्यात बनुन राहण आणि त्याच्याशी जुडुन राहण्याच्या पसंतीने तुम्हाला एक प्रभावशाली योध्दा बनवले आहे.",
+        para7: "परमेश्वराच्या प्रेमात बनुन रहण्यामुळे तुम्हाला तुमच्या समस्यांवर सामर्थ आणि विजय प्राप्त झाला आहे.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "I am so grateful that your love for me and your presence in my life " +
-        "ensures that I will be an overcomer. Help me to always depend on you and not " +
-        "myself that I might walk in your power and do great things for your kingdom. " +
-        "Thank you that you have may it possible for me to be one with the your Spirit " +
-        "and a warrior who will finish the race in victory.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "मी आभारी आहे कि माझ्यासाठी तुझे प्रेम आणि माझ्या जीवनात तुझे सानिध्य मला विजयी होण्याची निच्छितता देते. माझी सहायता कर कि मी सर्वदा स्वतः वर नाही तुझ्यावर निर्भर रहावं आणि तुझ्या सामर्थात चालुन तुझ्या राज्यासाठी महान काम करावं. धन्यवाद तु हे संभव केले की तुझ्या आत्म्या बरोबर मला एक केले आणि असा योध्दा बनवीले जो विजयात आपली शर्यत पुर्ण करतो.",
       }
       break;
     case "day21":
       content = {
-        passage: "Or do you not know that your body is a temple of the Holy Spirit " +
-        "within you, whom you have from God? You are not your own, 20 for you were " +
-        "bought with a price. So glorify God in your body.",
-        reference: "I Corinthians 6:19-20",
-        translation: "ESV",
-        theme: "Abiding in His Power",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am God's temple and His Spirit dwells within me",
-        para2: "I am God's possession, I no longer belong to myself",
-        para3: "I have been purchased by God to bring Him glory",
-        para4: "I am what a person is like when God lives inside them",
-        para5: "God has made you His temple and His Holy Spirit lives within you",
-        para6: "You have been purchased by the blood of His son to glorify God.",
-        para7: "Since you belong to God, He will supply all your needs in Christ",
+        passage: "तर काय? तुमचे शरीर, तुमच्यामध्ये वसणारा जो पवित्र आत्मा देवापासुन तुम्हाला मिळाला आहे त्याचे मंदिर आहे हे तुम्हाला माहित नाही काय? आणि तुम्ही स्वतःचे मालक नाही; कारण तुम्ही मोलाने विकत घेतलेले आहात; यास्तव तुम्ही देवाने दिलेल्या आपल्या शरीराने व आत्म्याने देवाचे गौरव करा.",
+        reference: "I करिन्थी 6:19-20",
+        translation: "",
+        theme: "त्याच्या सामर्थात बनुन राहणं",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी परमेश्वराचे मंदिर आहे आणि परमेश्वराचा आत्मा माझ्यामधे वास करतो.",
+        para2: "माझ्यावर परमेश्वराचा अधिकार आहे, मी स्वतःचा नाही.",
+        para3: "मला परमेश्वराला गौरव देण्यासाठी विकत घेतले आहे.",
+        para4: "मी असा व्यक्ती आहे ज्यामधे परमेश्वर वास करितो.",
+        para5: "परमेश्वरने तुम्हाला त्याचे मंदिर बनवले आहे आणि परमेश्वराची की आत्मा तुम्हा मधे वास करते.",
+        para6: "परमेश्वराला गौरव देण्या साठी तुम्हाला त्याच्या पुत्राच्या रक्ताने विकत घेतले आहे.",
+        para7: "कारण तुम्ही परमेश्वराचे आहात, परमेश्वर ख्रिस्ता मधे तुमच्या सर्व गरजा पुर्ण करता कारण तुम्ही परमेश्वराचे आहात.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Understanding that you have purchased me by the blood " +
-        "of Christ and chose to live inside me as if I was your temple goes " +
-        "above and beyond all that I could have ever imagined. I know that you " +
-        "purchased me to bring you glory and help people understand what a person " +
-        "is like when they have become your special possession and live inside" +
-        "of them. I praise you for adopting me as your child, I know you will take " +
-        "care of what you own.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "हे समझण की मला ख्रिस्ताच्या रक्ताने विकत घेतले, माझ्यात वस्ती करण्याचे ठरवीले, जसे की मी त्याचे मंदिर होते, हे माझ्या विचारांच्या पलीकडे आणि माझ्या सर्व कल्पनांच्या वर आहे. मी जाणतो कि तु मला तुला गौरव देण्यासाठी विकत घेतले आहेस, जेणेकरून लोकांची हे समझण्यास मदत हो कि एक व्यक्ती जेव्व्हा तुझा विशेष उत्तराधिरी बनतो तेव्हा कसा दिसतो आणि तु त्याच्यात कसा वास करतोस. मला दत्तक घेण्यासाठी मी तुझी स्तुती करितो. मी जाणतो मी तुझा आहे आणि तु माझा सांभळ करशील.",
       }
       break;
     case "day22":
       content = {
-        passage: "I have been crucified with Christ. It is no longer I who live, " +
-        "but Christ who lives in me. And the life I now live in the flesh I live " +
-        "by faith in the Son of God, who loved me and gave Himself for me.",
-        reference: "Galatians 2:20",
-        translation: "ESV",
-        theme: "Abiding in His Power",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I have died with Christ, my old man is gone for good",
-        para2: "In my flesh I am required to live by faith in the Son",
-        para3: "I am of such great value that He lives through me",
-        para4: "I am the heir of God's sacrificial and faithful love",
-        para5: "Since Christ died, I must crucify myself. As Christ lived by faith so must I",
-        para6: "In His death, God has given you His life and the old you is completely gone.",
-        para7: "You have died with Christ and now you bask in the love of His sacrifice for you",
+        passage: "मी ख्रिस्ताबरोबर वधस्तंभावर खिळलेला आहे; तरीही मी जगतो, आणि मी नव्हे तर ख्रिस्त माझ्या ठायी जगतो; आणि आता देहामध्ये जे माझे जीवन आहे, ते ज्याने माझ्यावर प्रिती केली आणि माझ्यासाठी स्वतःला दिले त्या देवाच्या पुत्रावरिल विश्वासाच्या योगे आहे.",
+        reference: "गलातीकरांस 2:20",
+        translation: "",
+        theme: "त्याच्या सामर्थात बनुन राहणं",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी ख्रिस्ता बरोबर मेलो आहे, माझा जुना मनुष्य चांगल्या साठी मेला आहे.",
+        para2: "माझ्या देहात मला पुत्रावर विश्वास करून जगण्याची अवश्वकता आहे.",
+        para3: "मी किती बहुमुल्य आहे कि तो माझ्यातुन जगतो.",
+        para4: "मी परमेश्वराच्या बलीदानी आणि विश्वासयोग्य प्रेमाचा वारस आहे.",
+        para5: "जसा ख्रिस्त मारला गेला तसेच तुम्हाला वधस्तंभी जायचं आहे, जसा ख्रिस्त विश्वसा व्दारे जगला तसेच तुम्हाला विश्वसा व्दारे जगायच आहे.",
+        para6: "त्याच्या मृत्युने परमेश्वराने त्याचे जीवन तुम्हाला दिले आहे आणि जुने मनुष्यत्व पुर्णतः गेले आहे.",
+        para7: "तुम्ही ख्रिस्तासह मेले आहात आणि आता त्याच्या तुमच्यासाठी केलेल्या बलीदानाच्या प्रेमात तुम्ही विश्राम करित आहात.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "I know that if I want to live a new life, I first must die to the old " +
-        "one. It is so wonderful that you had a plan to set me completely free from " +
-        "my old sinful nature and replaced it with the life of your son. Thank you " +
-        "for giving me the faith to embrace the work of the cross, and dying with " +
-        "Christ give me resurrection life. I praise you for your work of love that " +
-        "sets me free from my flesh.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "मी जाणतो कि जर मला नविन जीवन जगायचं आहे तर जुन्यासाठी मरायला हवं. हे खुप अद्भुत आहे कि तुजकडे योजना होती कि तु माझा जुना पापमय स्वभाव काढुन तुझ्या पुत्राचे  जीवन मला देशील. मला वधस्तंभाच्या कार्यास  अलीगंण करणारा विश्वास देण्यासाठी धन्यवाद, ख्रिस्तासह मरण मला पुनुरूथ्थीत जीवन प्रदान करते, मी तुझी स्तुती करतो तुझ्या प्रेमाच्या कार्यासाठी जे मला माझ्या देहापासुन सोडवीते.",
       }
       break;
     case "day23":
       content = {
-        passage: "Do nothing out of selfish ambition or empty pride, but in " +
-        "humility consider others more important than yourselves. Each of you " +
-        "should look not only to your own interests, but also to the interests of others.",
-        reference: "Philippians 2:3-4",
-        translation: "BSV",
-        theme: "Life of a Servant",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am humble and ready to give myself away to others",
-        para2: "I am quick to consider other’s needs above my own",
-        para3: "I am willing to serve whether I am noticed or not",
-        para4: "I am created to bring glory to Him, not myself",
-        para5: "Christ’s sacrificial love has transformed your heart to live in the same manner",
-        para6: "You are a humble servant always considering others’ needs before your own.",
-        para7: "Your willingness to be treated like a servant is evidence that you truly are one",
+        passage: "संघर्षाव्दारे किंवा मिथ्या डामडौलासाठी काहीही करू नये. तर मनाच्या लीनतेने प्रत्येकाने इतरांना आपणापेक्षा अधिक श्रेष्ठ मानावे; तुम्हातील प्रत्येकाने आपलेच हित पाहु नये. तर इतरांचेही हित पहावे.",
+        reference: "फिलैप्पैकरांस 2:3-4",
+        translation: "",
+        theme: "एका सेवकाचे जीवन",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी नम्र आहे आणि स्वतःला इतरांस देण्यासाठी तयार आहे.",
+        para2: "मी स्वतःपेक्षा जास्त इतरांच्या गरजांबद्दल विचार करण्यास तत्पर आहे.",
+        para3: "माझ्यावर कोणाचे ध्यान येवो न येवो मी इच्छुकतेने सेवा करितो.",
+        para4: "मला नाही परंतु परमेश्वराला गौरव देण्यासाठी मला नवं जीवन दिले आहे.",
+        para5: "ख्रिस्ताच्या बलीदानी प्रेमाने तुमचे हृदय परिवर्तित केले आहे जेणेकरून तुम्ही ही तसेच जगाव.",
+        para6: "तुम्ही एक नम्र सेवक आहात आणि स्वतःपेक्षा जास्त इतरांच्या गरजांबद्दल विचार करता.",
+        para7: "तुमची सेवकवृत्तीची ईच्छुकता खरोखरच तुम्ही त्या सेवकांपैकी एक आहात हे प्रमाणीत करते.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Dear God, today’s prayer is crucial if I am to live like Christ did. " +
-        "I am requesting that you help me with things often too difficult for me. " +
-        "I know I need to be humble, to think of others as more important than myself, " +
-        "to serve with out being noticed, to place others needs above my own. Please " +
-        "transform my mind to choose sacrificial love so I willfully give away and " +
-        "pour out my life for others. I choose to be your servant to others.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "प्रिय परमेश्वर, आजची प्रार्थना महत्पुर्ण आहे जर मला ख्रिस्ता समान जीवन जगायच आहे, माझी इच्छा आहे की तु माझी मदत करावी त्या गोष्टींना करण्यासाठी ज्या प्रत्येक वेळेस माझ्यासाठी कठीण आहेत, मी जाणतो कि मला खुप नम्र व्हाव लागेल आणि स्वतः पेक्षा जास्त इतरांचा विचार करावा लागेल, निस्वार्थ सेवा करणं, इतरांच्या गरजेला स्वतःच्या गरजेपेक्षा जास्त प्राथमिकता देणं. बलिदानी प्रेमाची निवड करण्यासाठी माझ्या मनाला बदल जेणेकरून मी स्वइच्छेने माझे जीवन इतरांसाठी देऊ शकु. मी इतरांसाठी तुझा सेवक होण्याची निवड करितो.",
       }
       break;
     case "day24":
       content = {
-        passage: "He comforts us in all our affliction, so that we may be able to comfort " +
-        "those who are in any kind of affliction, through the comfort we ourselves receive from God.",
-        reference: "2 Corinthians 1:4",
-        translation: "HCSB",
-        theme: "Life of a Servant",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am a regular recipient of God's care and comfort",
-        para2: "My suffering helps me support others  in their pain",
-        para3: "I am able to serve others with the comfort God gives",
-        para4: "God's purpose in my suffering is His glory & my reward",
-        para5: "Your strength and faith during your suffering has been a great comfort to others",
-        para6: "Your reliance on God during your trials shows you understand His love for you.",
-        para7: "God has prepared you to empathize with others’ doubts, fears and brokenness",
+        passage: "तो आमच्यावरिल सर्व संकटात आमचे सांत्वन करतो, असे की ज्या सांत्वनांने आम्हाला स्वतः देवाकडुन सांत्वन मिळाले, त्या सांत्वनाने आम्ही आणि जे कोणी कोणत्याही संकटात आहेत त्यांचे सांत्वन करण्यास समर्थ व्हावे.",
+        reference: "2 करिन्थी 1:4",
+        translation: "",
+        theme: "एका सेवकाचे जीवन",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी परमेश्वराच्या सुखांचा आणि संभाळ करणाचा नियमीत प्राप्तकर्ता आहे",
+        para2: "इतरांच्या वेदनेत त्यांची मदत करण्यास माझे दुःख मला सहायता करतात.",
+        para3: "जे समाधान परमेश्वर देतो त्याबरोबर मी इतरांची सहायता करण्यास तत्पर आहे.",
+        para4: "माझ्या दुःखात त्याला गौरव आणि मला पारितोषीक हा परमेश्वराचा उद्देश आहे.",
+        para5: "तुमच्या दुःखात तुमचे सामर्थ आणि तुमचा विश्वास इतरांना हिम्मत देतात.",
+        para6: "तुमच्या परिक्षेत तुमचा परमेश्वरावरचा विश्वास हे दर्शवीतो की तुम्ही परमेश्वराच्या प्रितीला समझला आहात.",
+        para7: "परमेश्वराने तुम्हाला तयार केले आहे कि तुम्ही इतरांच्या संदेहात, भयात आणि खिन्नतेत त्यांचे मार्गदर्शन करावे.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "I do not choose suffering but I know that you have been equipping me " +
-        "to support and comfort others through my own difficulties. Help me to have " +
-        "eyes to see and discipline to listen to other’s suffering speak hope into " +
-        "their doubts, fears and brokenness as you lead me. May the strength and faith " +
-        "you have built into my life be a gift of peace and hope to others during their " +
-        "challenging times. Help me be the mouth, ears and feet of Jesus",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "मी दुःखांना निवडत नाही परंतु मला जाणीव आहे की माझ्या समस्यांव्दारे इतरांना सहायता आणि सांत्वना देण्याकरिता तु मला तयार करत आहेस. मला इतरांचे दुःख पाहण, आणि ऐकणं, आणि जसे तु माझे मार्गदर्शन करतोस तसेच त्यांच्या संदेहात, भितीत, तुटण्यात आशेला, बोलण्याचे अनुशासन देऊन माझी सहायता कर. होऊ दे, जे सामर्थ आणि विश्वास  माझ्यात जागृत केलेस ते इतरांच्या संकटी समयी, एक शांती आणि आशेची भेट बनो. मला येशुचे मुख, कान, आणि पाय बनण्यास माझी सहायता कर.",
       }
       break;
     case "day25":
       content = {
-        passage: "For we are his workmanship, created in Christ Jesus for good works, " +
-        "which God prepared beforehand, that we should walk in them.",
-        passage2: "it is God who works in you, both to will and to work for his good pleasure.",
-        reference: "Ephesians 2:10",
-        reference2: "Philippians 2:13",
-        translation: "ESV",
-        translation2: "ESV",
-        theme: "Life of a Servant",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am an example of God changing a life to do His will",
-        para2: "I have been created to do great things for God",
-        para3: "God does His best work in & through me",
-        para4: "I am filled with His desires & power to do His work",
-        para5: "God’s plan from the beginning was to do His best work in and through you",
-        para6: "You have been created and fully equipped to do great things for God.",
-        para7: "Your desire to do good things for God reveals how much He rules in your heart",
+        passage: "आपण चांगली कामे करावी म्हणुन ख्रिस्त येशुमध्ये निर्माण केलेले असे आपण त्याचे हातचे काम आहो; ती सत्कृत्ये आचरित आपण आपला आयुष्यक्रम चालवावा म्हणुन देवाने ती पुर्वी योजुन ठेवली.",
+        passage2: "कारण इच्छा करणे व कृती करणे की तुमच्या ठायी आपल्या सत्ससंकल्पासाठी साधुन देणारा तो देव आहे.",
+        reference: "इफिसीकरांस 2:10",
+        reference2: "फिलिप्पैकरांस 2:13",
+        translation: "",
+        translation2: "",
+        theme: "एका सेवकाचे जीवन",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "परमेश्वराची इच्छा पुर्ण करण्यासाठी जीवनाला परिवर्तीत करून मी परमेश्वराचे एक उदाहरण आहे.",
+        para2: "मी परमेश्वराचे महान काम करण्यासाठी रचला गेलो आहे.",
+        para3: "परमेश्वर त्याचे उत्तम काम माझ्या व्दारे करतो.",
+        para4: "त्याचे काम करणसाठी मी त्याच्या सामर्थाने आणि ईच्छांनी भरलेलो आहे.",
+        para5: "आरंभापासुन परमेश्वराने योजीले आहे की तो त्याचे उत्तम काम माझ्यात आणि माझ्याव्दारे करणार आहे.",
+        para6: "परमेश्वराचे महान काम करण्याकरिता तुम्हाला रचलं आणि पुर्णपणे तयार केले गेले आहे.",
+        para7: "परमेश्वरासाठी उत्तम काम करण्याची तुमची ईच्छा हे प्रगट करते की परमेश्वर तुमच्या हृदयात किती राज्य करतो.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "I am excited for the things you are building into my life so I can " +
-        "serve you. Thank you for giving me the desire and Holy Spirit power to do good " +
-        "things for you. Please continue to mold and shape me and give me a humble heart " +
-        "to fulfill your purpose in my life. Thank you that you not only gave me the " +
-        "gift of faith but you also help me to want to serve your kingdom.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "मी उत्तेजीत आहे त्या गोष्टींसाठी ज्या तु माझ्या जीवनात बनवत आहेस जेणेकरून मी तुझी सेवा करावी. धन्यवाद तुझ्यासाठी काम करण्याची इच्छा आणि पवित्र आत्म्याचे सामर्थ देण्यासाठी. कृपाकरून मला तोडणं आणि आकार देण्याचे काम माझ्यात चालु ठेव, आणि तुझे उद्देश माझ्या जीवनात पुर्ण होण्यासाठीएक नम्र हृदय दे. धन्यवाद तु मला केवळ विश्वासाचे वरदानच नाही परंतु माझ्यात तुझ्या राज्याची सेवा करण्याचा उत्साहही जागृत केलास.",
       }
       break;
     case "day26":
       content = {
-        passage: "Do not let any unwholesome talk come out of your mouths, but only what is " +
-        "helpful for building others up according to their needs, that it may benefit those who listen.",
-        reference: "Ephesians 4:29",
-        translation: "NIV",
-        theme: "Life of a Servant",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "My words reveal who is in charge of my mind & heart",
-        para2: "I am one whose speech is wholesome and helpful",
-        para3: "My words build others up, not tear them down",
-        para4: "His Spirit speaks through me so that my words heal",
-        para5: "Your words reveal that you care for the emotional and spiritual well being of others",
-        para6: "Your words are evidence that Jesus lives in you and you are under the Spirit’s control.",
-        para7: "Your words bring light into the darkness, hope into despair, peace into chaos",
+        passage: "तुमच्या मुखावाटे कोणतेही अमंगळ भाषण न निघो, तर गरजेप्रमाणे अध्यात्मिक उन्नतीकरता जे काही उपयुक्त तेच मात्र निघो, यासाठी की जेणेकरून ऐकणारयानां कृपादान प्राप्त व्हावे.",
+        reference: "इफिसीकरांस 4:29",
+        translation: "",
+        theme: "एका सेवकाचे जीवन",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "माझे शब्द प्रगट करतात की माझ्या मनाला आणि हृदयाला कोण चालवत आहे.",
+        para2: "मी असा आहे ज्याचा उपदेश स्वास्थ आणि मदतगार आहे",
+        para3: "माझे शब्द इतरांना उत्त्तेजीत करतात त्यांना निराश करत नाहीत.",
+        para4: "त्याची आत्मा माझ्या व्दारे बोलते जेणेकरून माझ्या शब्दांने आरोग्य मिळावे.",
+        para5: "तुमच्या शब्दांतुन हे प्रगट होते की तुम्ही इतरांच्या भावनीक आणि आत्मिक भलाईचा विचार करता.",
+        para6: "तुमचे शब्द या गोष्टींचे प्रमाण देते की तुमच्यात येशु जीवंत आहे आणि तुम्ही त्याच्या आत्म्याच्या  नियंत्रणात आहात.",
+        para7: "तुमचे शब्द अंधारात प्रकाश, निराशेत आशा आणि गडबडी मध्ये शांती घेऊन येतात.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "We understand that only You have the Words of life and You breathed "+
-        "that life into me. Now may the breath of my words be life giving to others. " +
-        "Thank you that by your word I can think your thoughts and declare your truths. " +
-        "Help my words represent a heart transformed by your love. May my words be " +
-        "filled with wisdom &amp; kindness and bring hope and healing. Help my speech " +
-        "always be under the control and guidance of the Holy Spirit.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "आम्ही जाणीले आहे की केवळ तुजकडे जीवनाचे वचन आहे, आणि त्यास तु आमच्या जीवनात फुंकले आहे. आता होऊ दे की माझ्या शब्दांचा श्वास इतरांना जीवन प्रदान करो. धन्यवाद तुझ्या वचनांव्दारे तुझ्या विचारांचा विचार करतो आणि तुझ्या सत्यांची घोषणा करतो. माझे शब्द प्रेमा व्दारे परिवर्तित झालेल्या हृदयाचे प्रतिनिधित्व करते. होऊ दे कि माझे शब्द ज्ञान आणि दयायेने भरलेले आणि, आशा आणि आरोग्य आणणारे असावेत. होऊ दे कि माझे बोलणे सदा पवित्र आत्म्याच्या मार्गदर्शनात आणि नियंत्रणात असो.",
       }
       break;
     case "day27":
       content = {
-        passage: "Through Jesus, therefore, let us continually offer to God a sacrifice " +
-        "of praise, the fruit of lips that confess His name. And do not neglect to do " +
-        "good and to share with others, for with such sacrifices God is pleased.",
-        reference: "John 12:24",
-        translation: "BSB ",
-        theme: "Life of a Servant",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I live to worship Him, reveal Him and serve Him",
-        para2: "I am an encourager & giver of good gifts to others",
-        para3: "I am created to offer Him my heart & lift up His name",
-        para4: "I daily use my words to declare the goodness of God",
-        para5: "Your words and service to others are well pleasing to God",
-        para6: "You understand that the best way to serve God is to give your life to others.",
-        para7: "Your willingness to serve others is a form of true praise and respect for God",
+        passage: "यावरून आपण त्याच्याच व्दारे देवाला उपकारस्मरणरूपी यज्ञ निरंतर अर्पावा; हा यज्ञ त्याचे नाव स्वीकारणारया ओठांचे फळ असा आहे. परोपकार व दानधर्म करणे विसरू नका; कारण अशा यज्ञांनी देव सुंतुष्ट होतो.",
+        reference: "इब्री 13:15-16",
+        translation: "",
+        theme: "एका सेवकाचे जीवन",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी त्याची आराधना करण्यास, त्यास प्रगट करण्यास, आणि त्याची सेवा करण्यास जीवित आहे.",
+        para2: "मी लोकांना उत्साहित करणारा आणि त्यांना उत्तम उपहार देणारा आहे.",
+        para3: "माझे हृदय परमेश्वराला देण्यास आणि त्याला उंचावण्यास मला रचले गेले आहे.",
+        para4: "मी दिन-प्रतीदिन परमेश्वराच्या चांगुपणाची घोषणा करण्यासाठी माझ्या शब्दांचा उपयोग करतो.",
+        para5: "तुमचे शब्द आणि इतरां-प्रती तुमची सेवकाई व्दारा परमेश्वर प्रसन्न आहे.",
+        para6: "तुम्ही समझला आहात कि परमेश्वराच्या सेवेचा सर्वात उत्तम मार्ग स्वतःला इतरांसाठी देणं हाच आहे.",
+        para7: "तुमची इतरां-प्रती सेवेची ईच्छुकता परमेश्वरा प्रती खरी प्रशंसा आणि आदराचे रूप आहे.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "I choose to worship you with my mouth, my mind and my heart. " +
-        "I choose to declare your name where ever you send me. I pray you will help " +
-        "me encourage others and find your approval by my words and actions. Help me " +
-        "not be selfish but sacrificial. Change my heart so that I live in such a way " +
-        "that you are lifted up. May you increase and may I decrease.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "मी माझ्या मुख्याने, मनाने, आणि हृदयाने तुझी आराधना करण्याची निवड करितो. तु मला जीथे कोठे पाठवीतो तिथे मी तुझ्या नावाची घोषणा करण्याची निवड करितो. माझी प्रार्थना आहे तु माझी मदत कर लोकांना उत्साहित करण्यासाठी आणि माझ्या कृती आणि शब्दां व्दारे स्विकृती लाभो. माझी मदत कर कि मी स्वार्थी नव्हे तर त्याग करणारा बनाव. माझ्या हृदयाला बदल जेणेकरून मी असे जीवन जगु शकु ज्याने तुला गौरव मिळेल. तु वाढत जावो आणि मी घटत जावो.",
       }
       break;
     case "day28":
       content = {
-        passage: "For our struggle is not against flesh and blood, but against the " +
-        "rulers, against the powers, against the world forces of this darkness, against " +
-        "the spiritual forces of wickedness in the heavenly places. Therefore, take up " +
-        "the full armor of God, so that you will be able to resist in the evil day, and having done everything, to stand firm.",
-        reference: "Ephesians 6:12-13",
-        translation: "NASB",
-        theme: "Spiritual Warfare",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am a warrior battling wickedness and darkness",
-        para2: "I am able to resist the powers of the dark world ",
-        para3: "I am a conqueror taking authority over satan",
-        para4: "My struggle is not just my flesh but dark powers",
-        para5: "Your calling is to victoriously fight against unseen forces of rebellion and darkness",
-        para6: "You are able to resist, stand firm, take authority and effectively fight for dominion.",
-        para7: "You are able to discern where the real battles in people’s lives are fought",
+        passage: "कारण आम्ही मांस व रक्ताविरूध्द नव्हे तर ह्या जगाच्या राज्यांविरूध्द, दुष्ट शक्तिंच्या विरूध्द, ह्या जगातील अंधाराच्या अधिपतींच्या विरूध्द आणि उच्च स्थनातील आध्यात्मिक दुष्टतेच्या विरूध्द मलयुध्द करतो. कारण वाईट दिवसात तोंड देण्यासाठी तुम्ही सज्ज असावे म्हणुन, आणि ह्या सर्वांवर मात केल्यानंतर स्थिर राहण्यासाठी देवाची संपुर्ण शस्त्रसामग्री घ्या.",
+        reference: "इफिसीकरांस 6:12-13",
+        translation: "",
+        theme: "आत्मिक मल्लयुध्द",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी एक योध्दा आहे जो दुष्टता आणि अंधःकाराशी से लढत आहे.",
+        para2: "मी अंधःकाराच्या सामर्थाशी लढण्यास सक्षम आहे.",
+        para3: "मी विजेता आहे. मी सैतानावर अधिकार घेतो.",
+        para4: "माझा संघर्ष माझे देह हे नाही परंतु अंधःकाराचे सामर्थ आहे.",
+        para5: "तुमचे पाचारण अदृश्य विद्रोही सेना आणि अंधःकाराशी विजयी युध्द करणं हे आहे.",
+        para6: "तुम्ही सामना करण्यास, खंबिर राहण्यास, अधिकार घेण्यास, आणि अधिकाराची प्रभावशाली लढाई लढण्यास सक्षम आहात.",
+        para7: "लोकांच्या जीवनात वास्तविक लढाई कोठे लढली जात आहे हे जाणण्यास सक्षम आहात.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Help me Lord for I am in a battle for my life and I must recognize " +
-        "and resist the lies of my enemy. Help me use the armor of faith, your Word " +
-        "and the power of the Holy Spirit that to withstand the onslaught of temptations " +
-        "and deceptions that are part of my daily experience. Knowing how" +
-        "easy it is to sin, please help me to discipline myself to plan for righteousness.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "माझी सहायता कर कि, माझ्या जीवनसाठी मी एक लढाईत आहे. मी माझ्या शत्रुच्या खोटयाला  समझुन त्याचा सामना करू शकु. माझी सहायता कर कि, मी विश्वासाच्या शस्त्राचा वापर करावे. तुझे शब्द आणि पवित्र आत्म्याचे सामर्थ जे माझ्या दैनिक अनुभवाचा भाग आहे, जे मोह आणि धोक्याच्या विरोधात उभे आहे. हे जाणण कि पाप किती सोप आहे, कृपा करून तुझ्या नित्तीमत्तेची योजना बनवीण्यास स्वतःला अनुशासित करण्यासाठी माझी मदत कर.",
       }
       break;
     case "day29":
       content = {
-        passage: "For though we walk in the flesh, we do not war according to the flesh, " +
-        "for the weapons of our warfare are not of the flesh, but divinely powerful for " +
-        "the destruction of fortresses. 5 We are destroying speculations and every lofty " +
-        "thing raised up against the knowledge of God, and we are taking every thought " +
-        "captive to the obedience of Christ,",
-        reference: "2 Corinthians 10:3-5",
-        translation: "NASB",
-        theme: "Spiritual Warfare",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am a warrior who fights against the darkness",
-        para2: "I do not depend on my flesh but His divine power",
-        para3: "I am able to destroy arrogant speculations ",
-        para4: "I can take thoughts captive in order to obey Christ",
-        para5: "You have been equipped to stand against those who stand against God",
-        para6: "Your words are weapons of truth dismantling the opposition of the deceived.",
-        para7: "You are a warrior fighting against darkness with the knowledge of God",
+        passage: "आमची वस्ती देहात असुनही आम्ही देहस्वभवाने युध्द करित नाही. कारण आमच्या युध्दाची शस्त्रे दैहिक नाहीत, तर तटबंदी जमिनदोस्त करण्यास ती देवाच्याव्दारे सामर्थशाली आहेत; तर्क-वितर्क हाणुन पाडुन व देवज्ञानाविरूध्द स्वतःला उंच करणरी प्रत्येक गोष्ट आणि प्रत्येक कल्पना ख्रिस्ताधिन रहावी म्हणुन आम्ही तीला बंदीवान करतो.",
+        reference: "2 करिन्थी 10:3-5",
+        translation: "",
+        theme: "आत्मिक मल्लयुध्द",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी एक योध्दा आहे जो अंधःकाराशी लढत आहे.",
+        para2: "मी माझ्या देहावर निर्भर नाही परंतु परमेश्वराच्या आत्म्यावर निर्भर आहे.",
+        para3: "गर्विष्ठ विचारांना नष्ट करण्यासाठी मी सक्षम आहे.",
+        para4: "मी माझ्या विचारांना बंदी बनवुन ख्रिस्ताच्या अधीनतेत घेऊन येतो.",
+        para5: "जे परमेश्वराच्या विरोधात उभे आहेत त्यांच्या विरोधात उभे राहण्यासाठी तुम्हाला तयार केले गेले आहे.",
+        para6: "धोखेबाजाच्या विरोधाला मोडुन पाडण्यासाठी तुमचे शब्द सत्याचे शस्त्र आहे.",
+        para7: "तू देवाच्या ज्ञानाने अंधाराविरुद्ध लढणारा योद्धा आहेस.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Father in heaven, remind me to not fight spiritual battles " +
-        "in my flesh but instead exercise the power of the Holy Spirit within me. " +
-        "Give me the courage to fight as a warrior against foolishness thinking " +
-        "with the authority of your Word. Remind me that I have the power to choose " +
-        "what I think, say and do. Help me to stand against those who stand against you.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "स्वर्गीय पिता, मला स्मरण देतो की मी शरीरात आत्मिक युध्द न लढावं परंतु माझ्यात पवित्र आत्म्याचे सामर्थ प्रयोग करावे. मला तुझ्या वचनांच्या अधिकारासह मुर्खतापुर्ण विचारांचा विरोध करून एक योध्दयाच्या रूपात लढण्यास साहस दे. मला आठवण दे कि मजकडे हे निवडण्याची शक्ति आहे, कि मी काय विचार करतो, काय बोलतो आणि काय करतो. जो तुझ्या विरोधात उभे असतात त्यांच्या विरोधात उभं राहण्यासाठी माझी सहायता कर.",
       }
       break;
     case "day30":
       content = {
-        passage: "For God has not given us the spirit of fear; but of power, and of " +
-        "love, and of a sound mind.",
-        reference: "2 Timothy 1:7",
-        translation: "NKJV",
-        theme: "Spiritual Warfare",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am filled with His power and love at all times",
-        para2: "I am a man/woman of courage and boldness",
-        para3: "I am empowered with a mind of order & discipline",
-        para4: "I have put aside darkness & am clothed in light",
-        para5: "There is no fear in you; you know that you are covered in His armor of light",
-        para6: "You are filled with His power and He pours out His love through your life.",
-        para7: "You have said no to the dark deeds of the flesh by walking in His power and love",
+        passage: "कारण देवाने आपल्याला भित्रेपणचा नव्हे, तर सामर्थाचा, प्रीतीचा व स्थिर मनाचा आत्मा दिला आहे.",
+        reference: "2 तीमथी 1:7",
+        translation: "",
+        theme: "आत्मिक मल्लयुध्द",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी सदैव परमेश्वराच्या सामर्थाने आणि प्रेमाने भरून राहतो.",
+        para2: "मी हिम्मत आणि साहस धरणारा व्यक्ती आहे.",
+        para3: "मला क्रमबध्द आणि अनुशासीत मनाचे वरदान दिले गेले आहे.",
+        para4: "मी अंधःकारास हटवले आहे आणि प्रकाशास परिधान केले आहे.",
+        para5: "तुम्हाला कोणती भिती नाही, तुम्हास माहित आहे की त्याच्या प्रकाशाच्या शस्त्रांनी तुम्हाला झाकले आहे.",
+        para6: "तुम्ही त्याच्या सामर्थाने भरलेले आहात आणि तो तुमच्या जीवनाव्दारे त्याच्या प्रेमास ओततो.",
+        para7: "त्याच्या सामथ्यार्त आणि प्रितीत राहुन तुम्ही अंधःकाराच्या कामास नाकारले आहे.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you for all the wonderful gifts you have given me to help me " +
-        "live a victorious life over fear, anxiety and depression. You have poured " +
-        "out your live in my heart, you have given me the power of the Holy Spirit " +
-        "and most importantly, I can have the mind of Christ. Remind me that faith is " +
-        "the strength of my heart and fear is the power of satan over my mind, will " +
-        "and emotions. Help me to remember that the flesh brings death but dependency " +
-        "on the Spirit brings life and peace.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "धन्यवाद तुझ्या त्या सर्व अदभुत् वरदानांसाठी जी तु मला दिली आहेत, जी माझी सहायता करतात भय, चिंता, आणि निराशेवर एक विजयी जीवन जगण्यासाठी. तु माझ्या हृदयात तुझा  जीव टाकला आहे. तु मला पवित्र आत्म्याचे सामर्थ दिलेस आणि सर्वात महत्वपुर्ण, मजकडे ख्रिस्ताचे मन आहे. मला आठवुन दे कि विश्वास माझ्या हृदयाचे का सामर्थ आहे, आणि माझ्या मनावर, इच्छेंवर आणि भावनांवर भिती सैतानाचे सामर्थ आहे. मला हे आठवण ठेवण्यासाठी सहायता कर कि शरीराव्दारे मृत्यु आहे परंतु आत्म्यावर निर्भरता जीवन आणि शांती आहे. ",
       }
       break;
     case "day31":
       content = {
-        passage: "For the word of God is alive and active. Sharper than any " +
-        "double-edged sword, it penetrates even to dividing soul and spirit, "
-        +"joints and marrow; it judges the thoughts and attitudes of the heart.",
-        reference: "Hebrews 4:12",
-        translation: "NIV",
-        theme: "Spiritual Warfare",
-        iAmTitle: "I AM AND YOU ARE STATEMENTS",
-        para1: "I am being transformed by the truth of His word",
-        para2: "I am equipped with the authority of His word",
-        para3: "I effectively employ the power of His word",
-        para4: "I am a practiced weapon in the hand of God",
-        para5: "The Word of God is alive in your life. You are a living expression of its power",
-        para6: "Your thoughts and intentions have been transformed by the Word of God.",
-        para7: "You are a warrior; both skillful and competent in using God’s powerful words",
+        passage: "देवाचे वचन सजीव, समर्थ कोणत्याही दुधारी तरवारी पेक्षा तिक्ष्ण, जिव व आत्मा, सांधे व मज्जा यांना भेदुन आरपार जाणारे आणि मनाच्या भावना व कल्पना यांचे प्ररिक्षक असे आहे.",
+        reference: "इब्री 4:12",
+        translation: "",
+        theme: "आत्मिक मल्लयुध्द",
+        iAmTitle: "मी आहे आणि तुम्ही आहात विधान",
+        para1: "मी त्याच्या वचनांच्या सत्यांव्दारे परिवर्तीत झालो आहे.",
+        para2: "मी त्याच्या वचनांच्या अधिकारा व्दारे तयार केला गेलो आहे.",
+        para3: "मी प्रभावशाली रितीने त्याच्या वचनांच्या सामर्थास उपयोग करतो.",
+        para4: "मी परमेश्वराच्या हातातले आभ्यासु शस्त्र आहे.",
+        para5: "परमेश्वराचे वचन तुम्हामध्ये जीवीत आहे, तुम्ही त्याच्या सामर्थाचे जीवंत रूप आहात.",
+        para6: "तुमचे विचार आणि तुमची मनसा परमेश्वराच्या वचनांव्दारे परिवर्तीत झाले आहे.",
+        para7: "तुम्ही योध्दा आहात, परमेश्वराच्या सामर्थी वचनांचा उपयोग करण्यास तुम्ही क्षमता आणि कौषल्य दोघांत निपुण आहात.",
         para8: "",
-        prayerTitle: "Today's Prayer",
-        prayer: "Thank you that You have given us a tool to truly know the deepest parts " +
-        "of ourselves. Your truth is everlasting and powerful enough to open eyes and " +
-        "change resistant hearts. Thank you that the Word can cut deep into my heart " +
-        "with a light that pierces even the most stubborn darkness. Because your Word " +
-        "is alive, we can speak truths that help people change from the inside out for all eternity.",
+        prayerTitle: "आजची प्रार्थना",
+        prayer: "धन्यवाद अशी उपकरणं आम्हाला देण्यासाठी ज्याने खरोखर आम्ही स्वतःच्या खोल भागांना ओळखु शकतो. आमची नेत्रे उघडण्यास आणि प्रतिरोधक हृदयास बदलण्यास तुझे सत्य अनंतकालीन आणि सामर्थी आहे. तुला धन्यवाद कि तुझे वचन माझ्या हृदयात सखोल प्रकाशाला कापु शकते, जे कि सर्वात कठोर अंधेरालाही छेदु शकत. कारण की तुझे वचन जीवंत आहे. आम्ही सत्य बोलु शकतो जे लोकांना आतुन आणि बाहेरून अनंतकाळासाठी बदलण्यास मदत करते.",
       }
       break;
     // For navigation titles in Drawer
     case "drawer":
       content = {
-        dailyReadingTitle: "Today's Reading!",
-        selectedReadingTitle: "Select a Passage",
-        languageSelectionTitle: "Language Selection",
-        powerOfGodsWordTitle: "Power of God's Word",
-        fiveVoicesInfoTitle: 'What are the Five Voices?',
-        covenantTitle: "Memory Covenant",
-        keyWordInfoTitle: "Glossary",
-        translationsUsedTitle: "Translations Used"
+        dailyReadingTitle: "आजचे वाचन",
+        selectedReadingTitle: "वाचन निवडा",
+        languageSelectionTitle: "भाषा निवड",
+        powerOfGodsWordTitle: "देवाच्या वचनाची शक्ती",
+        fiveVoicesInfoTitle: 'पाच आवाज काय आहेत?',
+        covenantTitle: "स्मृती करार",
+        keyWordInfoTitle: "शब्दकोष",
+        translationsUsedTitle: "भाषांतर वापरले"
       }
       break;
     // for page keyWordDescription.js
     case "keyWords":
       content = {
-        title: "The Meanings of Key Words",
-        para1: "Grace, mercy, and peace will be with us, from God the Father and from Jesus Christ the Father’s " +
-        "Son, in truth and love. 2 John 1:3",
-        para2: "GRACE: Charis - Without merit, we experience the fullness of God as He leans in to favor us, He gives " +
-        "Himself away to us, blessing us with His presence, being all that He is to us. Divine enablement.",
-        para3: "JOY: Kara - 'joy because of grace' Grace recognized. Joy results from relationship- abiding in Him. It " +
-        "is leaning back towards God motivating us to lean into others through service as did Christ. The fruit " +
-        "of joy is to rejoice, a grateful heart. Joy is sourced in the Holy Spirit in us and through us.",
-        para4: "REJOICING: Chair - leaning towards grace and rejoicing in it. the awareness and experience of God’s " +
-        "grace causing delight. Praise that lifts the heart and mind into intimate fellowship with God",
-        para5: "FAITH: Pistis - divine persuasion, leading to obedience, love fruitful works.",
-        para6: "MERCY: Oleos - God’s covenant-loyalty, covered in the blood.",
-        para7: "PEACE: Eiréné - to join all essential parts together into a whole (God's gift of wholeness).",
-        para8: "RIGHTEOUSNESS: Dikaiosýnē - divine approval. Separated unto good works.",
+        title: "प्रमुख शब्दांचा अर्थ",
+        para1: "अनुग्रह: दया और शांती आम्हा सोबत असणार, परमेश्वर पिता कडुन आणि येशू ख्रिस्ता कडुन जो पित्याचा पुत्र आहे सत्यात आणि प्रितीत. 2 योहान 1:3",
+        para2: "अनुग्रहः केरिस- बिना योग्यतेचे परमेश्वराच्या परिपुर्णतेचा अनुभव करणं जसा तो कृपा देण्यासाठी आपल्या अंतरी झुकतो तो स्वतःला आमच्यासाठी देतो त्याचे सानीध्याने आम्हाला आशिर्वादित करितो तो जो काही आहे तो आमच्या साठी आहे.",
+        para3: "आनंदः कारा- कृपे कारणी, नात्यांनी आनंद येतो, त्या मधे बनुन राहणं, परमेश्वार कडे आमचं झुकण आम्हाला प्रेरित करते की आम्ही पण इतरांकडे झुकुन त्यांची सेवा करावी उल्हासित होण आनंदाच फळ आहे. आनंदाचे स्त्रोत पवित्रआत्मा आहे जो आम्हांमधे वास करतो आणि आम्हातुन वास करितो.",
+        para4: "हर्षीत होणः परमेश्वराच्या कृपे प्रती जागरूकता आणि अनुभव हर्षाचे कारण आहे, अशी स्तुती जी हृदयाला आणि मनाला परमेश्वराच्या घनिष्ठ सहभागीते साठी उत्तेजीत करते.",
+        para5: "विश्वासः पिसटिस- दिव्य प्रोत्साहन ",
+        para6: "दयाः एलेओस- करार इमानदारी, प्रिति",
+        para7: "शांतीः ऐअरन- संपुर्णतेत सर्व अवश्यक भागां मधे सहभागी होण (परमेश्वराच्या पुर्णतेचा उपहार)",
+        para8: "नितीमत्वः डिकाइओसीन- अलौकिक संम्मती",
       }
       break;
     // For when a user selects a language in languageSelect.js
     case "languageSelection":
       content = {
-        alert: "Language Updated to English!"
+        alert: "भाषा मराठीला अपडेट केली!"
       }
       break;
     // For page passageSelector.js
     case "passageSelection":
       content = {
-        passageSelectionTitle: "Select a Passage",
-        theme1: "Kingdom Living",
-        theme2: "Using God's Word",
-        theme3: "Witnessing",
-        theme4: "Renewing Our Minds",
-        theme5: "Abiding in His Power",
-        theme6: "Life of a Servant",
-        theme7: "Spiritual Warfare",
-        verse1: "1 Peter 2:9",
-        verse2: "2 Corinthians 5:20",
-        verse3: "Isaiah 61:1",
-        verse4: "Matthew 28:18-20",
-        verse5: "2 Timothy 2:1-2",
-        verse6: "2 Timothy 3:16-17",
-        verse7: "2 Timothy 2:15",
-        verse8: "2 Corinthians 1:20",
-        verse9: "1 Peter 3:15",
-        verse10: "Romans 1:16",
-        verse11: "1 Corinthians 2:4-5",
-        verse12: "Ephesians 4:22-24",
-        verse13: "Romans 12:2",
-        verse14: "Philippians 4:8",
-        verse15: "Romans 8:5-6",
-        verse16: "2 Corinthians 5:16-17",
-        verse17: "2 Peter 1:3-4",
-        verse18: "Ephesians 3:20",
-        verse19: "John 15:4-5",
-        verse20: "Philippians 4:13",
-        verse21: "1 Corinthians 6:19-20",
-        verse22: "Galatians 2:20",
-        verse23: "Philippians 2:3-4",
-        verse24: "2 Corinthians 1:4",
-        verse25: "Ephesians 2:10 and \n Philippians 2:13",
-        verse26: "Ephesians 4:29",
-        verse27: "Hebrews 13:15-16",
-        verse28: "Ephesians 6:12-13",
-        verse29: "2 Corinthians 10:3-5",
-        verse30: "2 Timothy 1:7",
-        verse31: "Hebrews 4:12"
+        passageSelectionTitle: "वाचन निवडा",
+        theme1: "परमेश्वराच्या राज्याचे जीवन",
+        theme2: "परमेश्वराच्या वचनांचा उपयोग करणं.",
+        theme3: "साक्ष देण",
+        theme4: "आपल्या मनाला नविन करणं",
+        theme5: "त्याच्या सामर्थात बनुन राहणं",
+        theme6: "एका सेवकाचे जीवन",
+        theme7: "आत्मिक मल्लयुध्द",
+        verse1: "1 पेत्र 2:9",
+        verse2: "2 करिन्थ 5:20",
+        verse3: "यशाया 61:1",
+        verse4: "मत्तय 28:18-20",
+        verse5: "2 तीमथी 2:1-2",
+        verse6: "2 तीमथी 3:16-17",
+        verse7: "2 तीमथी 2:15",
+        verse8: "2 करिंथ  1:20",
+        verse9: "1 पेत्र 3:15",
+        verse10: "रोमकरांस 1:16",
+        verse11: "1 करिन्थ 2:4-5",
+        verse12: "इफिस 4:22-24",
+        verse13: "रोमकरांस 12:2",
+        verse14: "फिलैप्पीकरांस 4:8",
+        verse15: "रोमकरांस 8:5-6",
+        verse16: "2 करिन्थ 5:16-17",
+        verse17: "2 पेत्र 1:3-4",
+        verse18: "इफिसीकरांस 3:20",
+        verse19: "योहान 15:4-5",
+        verse20: "फिलैप्पैकरांस 4:13 \n रोमकरांस 8:37",
+        verse21: "1 करिन्थी 6:19-20",
+        verse22: "गलातीकरांस 2:20",
+        verse23: "फिलिप्पैकरांस 2:3-4",
+        verse24: "2 करिन्थ 1:4",
+        verse25: "इफिसी 2:10 \n फिलिप्पैकरांस 2:13",
+        verse26: "इफिसी 4:29",
+        verse27: "इब्री 13:15-16",
+        verse28: "इफिसी 6:12-13",
+        verse29: "2 करिन्थी 10:3-5",
+        verse30: "2 तीमथी 1:7",
+        verse31: "इब्री 4:12"
       }
       break;
     // For page powerOfGodsWord.js
     case "powerOfGodsWord":
       content = {
-        title: "THE POWER OF GOD’S WORD IN US",
-        para1: "Scripture Memory S/M will help me renew my mind by changing how I view God and God’s Word. " +
-        "(Romans 12:2) S/M will create new pathways of thought, building a disciplined and orderly mind. It " +
-        "will help me to set my mind on things above and not on things that are on earth. (Col 3:1-3, Phil. 4:8) " +
-        "I will develop the mind of Christ.",
-        para2: "The thoughts of God become your thoughts, His Words become your words. You will learn to talk " +
-        "with Kingdom authority, think big and pray big with authority and accuracy.",
-        para3: "You will speak out the very breath of God (His Word) to encourage, admonish, train others, " +
-        "comfort the afflicted. 2 Tim. 3:16, Isa. 61:1.",
-        para4: "S/M gives me the ability to establish a defensive shield, . S/M will help me discern good from evil, " +
-        "alert me to satan’s schemes and lies guarding my heart and my mind (2 Tim. 4:2)",
-        para5: "It will help me see my sin as God sees it, understand His unfailing love and forgiveness.",
-        para6: "It will enable me to understand and live out my new identity in Christ and reveal my value and " +
-        "purpose in His Kingdom (2 Cor. 5:16, 17,20)",
-        para7: "It will remind me to give my life away to others by sacrificially loving and serving them. It will show " +
-        "me what is actually valuable and lasts for eternity.",
-        para8: "Scripture memory enhances the Spirit’s persuasion to believe who I am, what I have, what I can do, " +
-        "what I will do and what we can do together. 2 Pet.1:3, Phil.2:13, Eph.2:10, Heb. 12:21",
-        para9: "S/M will improve your ability to choose the indwelling Spirit over the flesh, S/M counteracts the " +
-        "false promises of the material world (2 Cor 5:16.)",
-        para10: "It will motivate me to control my thinking and my speech, choose kindness, patience and " +
-        "self-control. (Ephesians 4:29, 5;4, Gal. 5:22)",
-        para11: "It will equip me to say no to fear, anxiety, anger and un-forgiveness. It will teach me to take my " +
-        "thoughts captive and control my emotions and speech. (2 Cor. 10-3-5)",
-        para12: "Scripture memory will motivate and prepare us to correctly handle God’s Word. (2 Timothy 2:15) " +
-        "We will gain spiritual eyes, able to discern and unlock the secrets of God’s divine will and nature.",
-        para13: "It will equip us to share the gospel and defend our confidence in God. (1 Pet. 3:15, Rom. 1:16) You " +
-        "will be a ready warrior with wisdom to understand the intentions of the hearts/minds of ourselves and others. (Heb. 4:12)",
-        para14: "It will help us develop an eternal perspective. What is seen is temporary, but what is unseen is " +
-        "eternal. (2 Cor. 4:18)",
+        title: "आम्हा मध्ये परमेश्वराच्या वचनांचे सामर्थ",
+        para1: "वचनांना पाठ करणे, परमेश्वर आणि परमेश्वराच्या वचनांना पाहण्याच्या दष्टीकोणास बदलुन माझ्या मनाचे नविनीकरण होण्यास सहायता करते (रोमकरांस12:2) वचनांना पाठ करणे अनुशासीत और क्रमबद्ध मनाला बनवुन विचारांच्या नविन मार्गाला तयार करते. वचनांना पाठ करणे माझ्या मनाला स्वर्गातील गोष्टीकडें लक्ष लावण्यास मदत करते पृथ्वीवरील नाही (कलैसेकरांस 3: 1-3, फिलीप्पैकरांस 4:8) मी ख्रिस्ताच्या मनाला विकसीत करेन.",
+        para2: "परमेश्वराचे विचार तुमचे विचार बनतात, त्याचे शब्द तुमचे शब्द बनतात, तुम्ही राज्याच्या अधिकारा सह बोलायला शिकता. सिध्दता आणि अधिकारा सह मोठा विचार करा आणि मोठी प्रार्थना करा.",
+        para3: "प्रोत्साहित करण्यास, वाईटाचा निषेध करण्यास, तयार करण्यास आणि पीड़ीतांना सांत्वना देण्यास तुम्ही परमेश्वरचा श्वास (त्याचे वचन) बोलाल. (2 तिम. 3:16, यशया. 61:1)",
+        para4: "वचनांना पाठ करणे माझ्या बचावाच्या ढालेला स्थापीत करण्याची क्षमता मला देते, वचनांना पाठ करणे चांगले आणि वाईट परखण्यास माझी सहायता करते, माझ्या हृदयाची आणि मनाची रक्षा करून सैतानाच्या योजना आणि लबाडी पासुन सावधान करते. (2 तिम. 4:2)",
+        para5: "वचनांना पाठ करणे जसा परमेश्वर माझ्या पापां कडे पाहतो तसे पाहण्यास माझी सहायता करते, परमेश्वरची कधी न हारणारी प्रिती आणि क्षमा समझण्यास माझे सहाय करते.",
+        para6: "वचनांना पाठ करणे ख्रिस्तात माझी नवी ओळख जगण्यास आणि त्याच्या राज्यात माझे मुल्य और उद्देश समझण्यास मला सक्षम करते.",
+        para7: "वचनांना पाठ करणे मला त्यागमय प्रेम और सेवा करून इतरांसाठी माझे जीवन देणे याचे स्मरण देते.",
+        para8: "वचनांना पाठ करणे मी कोण आहे, माझ्या जवळ काय आहे, मी काय करू शकतो, मी काय करणार आणि आम्ही एकत्र मिळुन काय करू शकतो या वर विश्वास करण्यास आत्माचे प्रोत्साहन वाढवते.",
+        para9: "वचनांना पाठ करणे शरिरा वर हावी होणारा आत्मा निवडण्याच्या तुमच्या क्षमतेत सुधार करेल, वचनांना पाठ करणे भौतिक जगाच्या खोटया वायदयांचा प्रतिकार करते. (2 करन्थिकरांस. 5:16)",
+        para10: "वचनांना पाठ करणे माझे विचार आणि माझे बोलणे नियंत्रीत करण्यास प्रेरित करते, दया, धीरज आणि आत्म-संयंमाची निवड करते. (इफिसीकरांस 4:29, 5:4, गलातीकरांस 5:22)",
+        para11: "वचनांना पाठ करणे मला भय, चिंता, क्रोध, आणि अक्षमेला नाही म्हणावयास शिकवेल, मला माझ्या विचारांना बंदी बनवुन व माझ्या भावना आणि बोलचाल नियंत्रीत करण्यास शिकवेल. (2 करन्थिकरांस 10:3-5)",
+        para12: "वचनांना पाठ करणे आम्हाला परमेश्वराचे वचन योग्य रितीने हताळण्यास प्रेरित आणि तयार करेल. (2 तिम. 2:15) आपण आत्मिक दृष्टी प्राप्त करणार, परमेश्वराची दिव्य ईच्छा आणि स्वभाव जाणण्यास सक्षम होऊ",
+        para13: "वचनांना पाठ करणे आम्हास सुवार्ता गाजवण्यास आणि परमेश्वरा मधे आपल्या विश्वासाची रक्षा करण्यास आम्हास सुसज्जीत करेल. (1 पेत्र 3:15, रोमकरांस 1:16) तुम्ही तुमचे आणि इतरांच्या मनाचे विचार समझण्यास ज्ञाना सह एक तयार योद्धा होणार (इब्री. 4:12)",
+        para14: "वचनांना पाठ करणे आम्हास एक सर्वकालीन परिपेक्ष्य विकसित करण्यास मदत करेल. जे दिसते ते अस्थयी आहे, किंतु जे नाही दिसत ते सर्वकालीन आहे (2 करन्थिकरांस 4:18)",
       }
       break;
     // For page translationsUsed.js
@@ -938,20 +735,20 @@ export default function ReturnMarathiText(page) {
       // for page fiveVoicesInfo.js
       case "voices":
         content = {
-          title: "5 Voices in Our Lives",
-          para1: "God's",
-          para2: "Satan's",
-          para3: "Other's",
-          para4: "Yourself",
-          para5: "Encouragement of Believers",
-          para6: "The power of death and life are in the tongue... Proverbs 18:21",
-          para7: "Who have you been listening to today?",
-          para8: "Faith comes by hearing and hearing by the Word of God,",
+          title: "आपल्या जीवनातील 5 आवाज",
+          para1: "परमेश्वर",
+          para2: "सैतान",
+          para3: "अन्य",
+          para4: "तुम्ही",
+          para5: "विश्वासी लोकांचे प्रोत्साहन",
+          para6: "जीवन और मृत्यु चे सामर्थ जीभेत आहे...नीतिसुत्रे 18: 21",
+          para7: "आज आपण कोणाचे ऐकत आहात ॽ",
+          para8: "विश्वास ऐकण्याने येतो आणि ऐकणे परमेश्वाराच्या वचनातुन असते",
         }
         break;
     //Default text in case of no translations
     default:
-      content = "No Translations found for this page.";
+      content = "या पृष्ठासाठी कोणतीही भाषांतरे आढळली नाहीत.";
       break;
   }
 
