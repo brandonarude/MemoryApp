@@ -30,7 +30,7 @@ let title = LocalizeText(langContext.lang, "drawer")
         <Drawer.Screen name="Today's Reading" component={DailyReadingTabs}
           options={{title:  title.dailyReadingTitle}} />
         <Drawer.Screen name="Select a Reading" component={SelectedReadingTabs}
-          options={{title:  title.selectdReadingTitle}} />
+          options={{title:  title.selectedReadingTitle}} />
         <Drawer.Screen name="Language Selection" component={LanguageSelection}
           options={{title:  title.languageSelectionTitle}} />
         <Drawer.Screen name="Power of God's Word" component={PowerOfGodsWord}
