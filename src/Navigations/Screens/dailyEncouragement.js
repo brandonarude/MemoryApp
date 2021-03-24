@@ -47,7 +47,6 @@ export default function DailyEncouragement({navigation}) {
       <Text style={[styles.passageText, langContext.fontBold(),{textAlign: 'center'}]}>
         { content.iAmTitle }
       </Text>
-      <View style={styles.horizontalBar} />
       <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
         {content.para1}
       </Text>
@@ -60,6 +59,7 @@ export default function DailyEncouragement({navigation}) {
       <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
         {content.para4}
       </Text>
+      <View style={styles.horizontalBar} />
       <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
         {content.para5}
       </Text>
