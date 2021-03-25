@@ -65,6 +65,12 @@ export default function DailyPassage({navigation}) {
         </Text>
         { conditionalSecondPassage }
         { conditionalSecondReference }
+        <TouchableOpacity onPress={()=>{navigation.navigate('Daily Prayer') }}
+                style={styles.button}>
+                <Text style={[styles.buttonText]}>
+                {content.buttonPrayer}
+                </Text>
+        </TouchableOpacity>
       </ScrollView>
     </GestureRecognizer>
   )

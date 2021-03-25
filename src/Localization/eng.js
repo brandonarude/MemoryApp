@@ -48,6 +48,9 @@ export default function ReturnEnglishText(page) {
         "job-as a priest of the king. I am already blessed because You called me into " +
         "your community and have been preparing me for larger Kingdom purposes. " +
         "Thank you that you have chosen me to point to your awesomeness.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day2":
@@ -72,6 +75,9 @@ export default function ReturnEnglishText(page) {
         "and each other. Give me your words of forgiveness, hope, unity and freedom. " +
         "Help me be courageous to bring healing into the fractured relationships of " +
         "God and men. May they recognize You when they see me.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day3":
@@ -96,6 +102,9 @@ export default function ReturnEnglishText(page) {
         "power of your words spoken through me bring hope and freedom to those who are " +
         "hurting and have become prisoners of sin. Help me to discern the roots of " +
         "sin that I might help others step into the freedom of your light and truth.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day4":
@@ -123,6 +132,9 @@ export default function ReturnEnglishText(page) {
         "them. Help me not be ashamed of the death and resurrection of Christ. " +
         "Choose me, use me! Thank you, Father, that you have placed the seeds of " +
         "eternal life in us. Help me to plant and water in the lives of others for an eternal harvest.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day5":
@@ -147,6 +159,9 @@ export default function ReturnEnglishText(page) {
         "As You have leaned into me to give Yourself away to me, help me to lean into " +
         "others and give my life away to them. Show me how to teach them to do the same. " +
         "Help me to be faithful that I might teach others to be faithful to the next generation of believers.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day6":
@@ -171,6 +186,9 @@ export default function ReturnEnglishText(page) {
         "you for the gift of the living Word that helps me to know what is right, what " +
         "is not right, how to get right, and how to stay right. Thank you that your " +
         "Word trains me to walk in righteousness, equipping and enabling me to do good works for You.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day7":
@@ -194,6 +212,9 @@ export default function ReturnEnglishText(page) {
         "with no need to be ashamed as I learn to carefully handle your Word. Help me " +
         "always use your Word in such a way that it accomplishes what You have  " +
         "assigned it to do through the Holy Spirit.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day8":
@@ -217,6 +238,9 @@ export default function ReturnEnglishText(page) {
         "Christ. Thank you for the authority those promises give me for each day’s " +
         "living. Give me the confidence to take authority and walk in the power of " +
         "those promises that the Father might be glorified.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day9":
@@ -241,6 +265,9 @@ export default function ReturnEnglishText(page) {
         "to You by defending the faith You have given me. Help me be a considerate and " +
         "patient teacher to those seeking You as I explain to them your holiness, " +
         "your love and the hope You have placed in my heart.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day10":
@@ -265,6 +292,9 @@ export default function ReturnEnglishText(page) {
         "others more than I fear their rejection because it is all about eternity. " +
         "Give me eyes and ears to recognize those who are seeking to know You and " +
         "speak with boldness and the power of your word.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day11":
@@ -290,6 +320,9 @@ export default function ReturnEnglishText(page) {
         "to humbly surrender to the power of your Spirit. Make me sensitive to your " +
         "Spirit to encourage repentance, obedience and transformation in others. " +
         "May my words be your Word through the Holy Spirit.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day12":
@@ -315,6 +348,9 @@ export default function ReturnEnglishText(page) {
         "think that You have made me a new person inside. You said you have even given " +
         "me a new spirit and mind and have chosen to make me like yourself in " +
         "holiness. Thank you for the extravagance of your gifts to me.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day13":
@@ -339,6 +375,9 @@ export default function ReturnEnglishText(page) {
         "Christ. I have tested your principles of life in contrast to the world and " +
         "found them both true and good. With your help, I will resist conformity " +
         "and choose to think and live differently.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day14":
@@ -364,6 +403,9 @@ export default function ReturnEnglishText(page) {
         "things that are equal to who I am in Christ. Help me to choose the discipline " +
         "to wash my mind with your Word so I can begin to think and speak your thoughts. " +
         "Help my mind choose the light and not the dark things .",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day15":
@@ -389,6 +431,9 @@ export default function ReturnEnglishText(page) {
         "use your Word to renew my mind and replace the thoughts of fleshly desires with " +
         "the life and peace of obedience. Let me surrender to the promptings of the " +
         "Spirit. Empower my ability to choose righteousness.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day16":
@@ -414,6 +459,9 @@ export default function ReturnEnglishText(page) {
         "the cross with Jesus. Help me to understand what it means to be a new creation " +
         "and embrace the new person that I have become inside. Thank you that I can " +
         "walk in newness of life each day and I do not need to let my past control me.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day17":
@@ -438,6 +486,9 @@ export default function ReturnEnglishText(page) {
         "complete and perfect for all my needs. Your willingness to allow me " +
         "to share your glory and perfection is truly generous and more than I deserve " +
         "or could have ever imagined.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day18":
@@ -461,6 +512,9 @@ export default function ReturnEnglishText(page) {
         "me with the power to do great things for you. Help me to think big, pray big" +
         "and by faith declare big things for your kingdom. Choose me and use me in " +
         "powerful ways as I yield to the Holy Spirit that is working in me.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day19":
@@ -486,6 +540,9 @@ export default function ReturnEnglishText(page) {
         "so that You can be all that You are through me. Help me to understand how to "+
         "abide in You that I might tap into the true source of godliness. " +
         "Protect me from the temptation of doing things in my own strength.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day20":
@@ -512,6 +569,9 @@ export default function ReturnEnglishText(page) {
         "myself that I might walk in your power and do great things for your kingdom. " +
         "Thank you that you have may it possible for me to be one with the your Spirit " +
         "and a warrior who will finish the race in victory.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day21":
@@ -539,6 +599,9 @@ export default function ReturnEnglishText(page) {
         "is like when they have become your special possession and live inside" +
         "of them. I praise you for adopting me as your child, I know you will take " +
         "care of what you own.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day22":
@@ -565,6 +628,9 @@ export default function ReturnEnglishText(page) {
         "for giving me the faith to embrace the work of the cross, and dying with " +
         "Christ give me resurrection life. I praise you for your work of love that " +
         "sets me free from my flesh.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day23":
@@ -591,6 +657,9 @@ export default function ReturnEnglishText(page) {
         "to serve with out being noticed, to place others needs above my own. Please " +
         "transform my mind to choose sacrificial love so I willfully give away and " +
         "pour out my life for others. I choose to be your servant to others.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day24":
@@ -616,6 +685,9 @@ export default function ReturnEnglishText(page) {
         "their doubts, fears and brokenness as you lead me. May the strength and faith " +
         "you have built into my life be a gift of peace and hope to others during their " +
         "challenging times. Help me be the mouth, ears and feet of Jesus",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day25":
@@ -643,6 +715,9 @@ export default function ReturnEnglishText(page) {
         "things for you. Please continue to mold and shape me and give me a humble heart " +
         "to fulfill your purpose in my life. Thank you that you not only gave me the " +
         "gift of faith but you also help me to want to serve your kingdom.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day26":
@@ -668,6 +743,9 @@ export default function ReturnEnglishText(page) {
         "Help my words represent a heart transformed by your love. May my words be " +
         "filled with wisdom &amp; kindness and bring hope and healing. Help my speech " +
         "always be under the control and guidance of the Holy Spirit.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day27":
@@ -693,6 +771,9 @@ export default function ReturnEnglishText(page) {
         "me encourage others and find your approval by my words and actions. Help me " +
         "not be selfish but sacrificial. Change my heart so that I live in such a way " +
         "that you are lifted up. May you increase and may I decrease.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day28":
@@ -719,6 +800,9 @@ export default function ReturnEnglishText(page) {
         "and the power of the Holy Spirit that to withstand the onslaught of temptations " +
         "and deceptions that are part of my daily experience. Knowing how" +
         "easy it is to sin, please help me to discipline myself to plan for righteousness.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day29":
@@ -746,6 +830,9 @@ export default function ReturnEnglishText(page) {
         "Give me the courage to fight as a warrior against foolishness thinking " +
         "with the authority of your Word. Remind me that I have the power to choose " +
         "what I think, say and do. Help me to stand against those who stand against you.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day30":
@@ -772,6 +859,9 @@ export default function ReturnEnglishText(page) {
         "the strength of my heart and fear is the power of satan over my mind, will " +
         "and emotions. Help me to remember that the flesh brings death but dependency " +
         "on the Spirit brings life and peace.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     case "day31":
@@ -797,6 +887,9 @@ export default function ReturnEnglishText(page) {
         "change resistant hearts. Thank you that the Word can cut deep into my heart " +
         "with a light that pierces even the most stubborn darkness. Because your Word " +
         "is alive, we can speak truths that help people change from the inside out for all eternity.",
+        buttonPrayer: "Prayer",
+        buttonEncouragement: "Encouragement",
+        buttonHome: "Home",
       }
       break;
     // For navigation titles in Drawer

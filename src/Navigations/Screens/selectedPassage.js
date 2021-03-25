@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useContext } from 'react';
-import {  View, Text, Easing, Image,TouchableOpacity, ScrollView } from 'react-native';
+import {  View, Text, Easing, Image,TouchableOpacity, ScrollView, Button } from 'react-native';
 import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 import { useState, Component } from 'react';
 import styles from '../../Styles/styles.js';
@@ -56,6 +56,12 @@ export default function SelectedPassage({navigation}) {
         </Text>
         { conditionalSecondPassage }
         { conditionalSecondReference }
+        <TouchableOpacity onPress={()=>{navigation.navigate('Selected Prayer') }}
+                style={styles.button}>
+                <Text style={[styles.buttonText]}>
+                {content.buttonPrayer}
+                </Text>
+        </TouchableOpacity>
       </ScrollView>
     </GestureRecognizer>
   )

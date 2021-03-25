@@ -70,6 +70,12 @@ export default function DailyEncouragement({navigation}) {
         {content.para7}
       </Text>
       {conditionalFinalEncouragement}
+      <TouchableOpacity onPress={()=>{navigation.navigate('Daily Passage') }}
+              style={styles.button}>
+              <Text style={[styles.buttonText]}>
+              {content.buttonHome}
+              </Text>
+      </TouchableOpacity>
     </ScrollView>
     </GestureRecognizer>
   )

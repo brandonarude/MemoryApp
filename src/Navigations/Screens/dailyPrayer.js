@@ -39,6 +39,12 @@ export default function DailyPrayer({navigation}) {
         <Text style={[styles.baseText, langContext.fontLight(), { width: '100%' }]}>
           {content.prayer}
         </Text>
+        <TouchableOpacity onPress={()=>{navigation.navigate('Daily Encouragement') }}
+                style={styles.button}>
+                <Text style={[styles.buttonText]}>
+                {content.buttonEncouragement}
+                </Text>
+        </TouchableOpacity>
       </ScrollView>
     </GestureRecognizer>
   )

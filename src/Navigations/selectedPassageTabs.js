@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Component } from 'react';
 import PassageContextProvider from '../Components/Atoms/passageContext.js';
-import { Image } from 'react-native';
+import { Image, Button } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import PassageSelector from './Screens/passageSelector.js'
 import SelectedPassage from './Screens/selectedPassage.js';
@@ -16,7 +16,9 @@ import images from '../Assets/Images/imageLibrary.js'
 const Tab = createBottomTabNavigator();
 
 export default function SelectedReadingTabs() {
+
   return(
+
     <PassageContextProvider>
       <Tab.Navigator
       screenOptions={({ route }) => ({

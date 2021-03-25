@@ -44,7 +44,6 @@ export default function SelectedEncouragement({navigation}) {
       <Text style={[styles.passageText, langContext.fontBold(),{textAlign: 'center'}]}>
         { content.iAmTitle }
       </Text>
-      <View style={styles.horizontalBar} />
       <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
         {content.para1}
       </Text>
@@ -57,6 +56,7 @@ export default function SelectedEncouragement({navigation}) {
       <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
         {content.para4}
       </Text>
+      <View style={styles.horizontalBar} />
       <Text style={[styles.baseText, styles.baseTextMargin, langContext.fontLight()]}>
         {content.para5}
       </Text>
@@ -67,6 +67,12 @@ export default function SelectedEncouragement({navigation}) {
         {content.para7}
       </Text>
       {conditionalFinalEncouragement}
+      <TouchableOpacity onPress={()=>{navigation.navigate('Passage Selection') }}
+              style={styles.button}>
+              <Text style={[styles.buttonText]}>
+              {content.buttonHome}
+              </Text>
+      </TouchableOpacity>
     </ScrollView>
     </GestureRecognizer>
   )

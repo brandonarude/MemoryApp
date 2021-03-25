@@ -39,6 +39,12 @@ export default function SelectedPrayer({navigation}) {
         <Text style={[styles.baseText, langContext.fontLight(), { width: '100%' }]}>
           {content.prayer}
         </Text>
+        <TouchableOpacity onPress={()=>{navigation.navigate('Selected Encouragement') }}
+                style={styles.button}>
+                <Text style={[styles.buttonText]}>
+                {content.buttonEncouragement}
+                </Text>
+        </TouchableOpacity>
       </ScrollView>
     </GestureRecognizer>
   )
